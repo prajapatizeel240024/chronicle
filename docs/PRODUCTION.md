@@ -6,7 +6,7 @@ The goal: real patients send daily check-ins, typed or voice, and clinicians rea
 
 ![Production architecture in four stages: a check-in arrives and meets the safety gate, extraction and code checks run in the background, clinicians read checked summaries, and releases are gated without patient data](images/architecture-production.png)
 
-*Green: runs the demo's code unchanged. Dashed: an outside vendor, used only under a business associate agreement (BAA, HIPAA) or a data processing agreement (DPA, GDPR). PHI: protected health information. Diagram source: [diagrams/architecture-production.mmd](diagrams/architecture-production.mmd).*
+*Green: runs the demo's code unchanged. Dashed outline: an outside vendor, used only under a business associate agreement (BAA, HIPAA) or a data processing agreement (DPA, GDPR). PHI: protected health information. Diagram source: [diagrams/architecture-production.mmd](diagrams/architecture-production.mmd).*
 
 ## How one check-in would flow
 1. **Send.** The patient signs in and sends a typed check-in or a voice note; speech-to-text, under a business associate agreement (BAA) or data processing agreement (DPA), turns the note into the message text, and the audio is not kept by default.

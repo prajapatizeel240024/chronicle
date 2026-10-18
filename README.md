@@ -10,8 +10,8 @@ accurate and how safe it is.
 
 ![Chronicle demo: Ava's 45-day symptom timeline, with one check-in open in the source panel and its exact words highlighted](docs/images/timeline.png)
 
-*The demo's timeline for Ava (POTS + EDS + migraine). Click any dot and the side panel shows the check-in it came from,
-with the exact words highlighted and every extracted field underneath. This one message produced two events: Ava's own
+*The demo's timeline for Ava (POTS + EDS + migraine), from the offline rules-baseline run, not a model. Click any dot and
+the side panel shows the check-in it came from, with the exact words highlighted and every extracted field underneath. This one message produced two events: Ava's own
 brain fog (4/10) and her mum's exhaustion, which is logged as someone else's symptom (the grey square) and kept out of
 Ava's profile.*
 
@@ -64,11 +64,12 @@ Then open http://127.0.0.1:8000. None of these commands needs an API key.
 
 ### Settings (`.env`)
 
-`make setup` copies [`.env.example`](.env.example) to `.env`. Git ignores `.env`, so your key stays on your machine.
+`make setup` copies [`.env.example`](.env.example) to `.env` if you don't have one yet (it never overwrites yours). Git
+ignores `.env`, so your key stays on your machine.
 
 | variable | default | used by |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | blank | `make eval-live` only; every other command runs offline |
+| `ANTHROPIC_API_KEY` | blank | `make eval-live` only; `make test`, `make eval` and `make demo` run offline |
 | `CHRONICLE_HOST` | `127.0.0.1` | `make demo`. Localhost only; use `0.0.0.0` only if you mean to expose the demo to your network |
 | `CHRONICLE_PORT` | `8000` | `make demo` |
 
@@ -97,7 +98,7 @@ source check-in for anything you click.
 | Safety check: a red flag | Safety check: a dose question |
 |---|---|
 | ![Safety check: "I fainted and have chest pain" is flagged faint_chest and answered with fixed emergency text](docs/images/safety-gate.png) | ![Safety check: "Should I double my propranolol?" is answered without agreeing and pointed to the prescriber](docs/images/safety-guard.png) |
-| Red-flag language never reaches a model: the gate returns fixed escalation text. | No red flag, so a responder answers (a template offline, Sonnet in live mode), and the guard replaces any reply that endorses a dose change. |
+| Red-flag language never reaches a model: the gate returns fixed escalation text. | No red flag, so the offline template answers, and the guard replaces any reply that endorses a dose change. The demo never calls a model; `make eval-live` scores Sonnet behind the same gate and guard. |
 
 ## Results (offline run, rules-baseline extractor)
 
@@ -236,31 +237,34 @@ the graders check form (escalation present, no endorsement) rather than clinical
 
 ## Production architecture (future)
 
-> **Status:** a plan, not built. Everything above describes the offline demo that exists today. The full plan, with the
+> **Status:** a plan, not built. Every other section of this README describes what exists today. No certification is
+> claimed; legal and clinical points need confirming by counsel and a clinical safety lead. The full plan, with the
 > reasoning behind each step, is in [docs/PRODUCTION.md](docs/PRODUCTION.md).
 
 The goal: real patients send daily check-ins, typed or voice, and clinicians read summaries where every line cites the
 patient's own words. Three principles carry over from the demo: **safety is code, not a model** (the safety gate runs
 before any model call and the guard checks every reply), **the model proposes and code decides** (schema, quote,
 vocabulary and date checks in code, an append-only event log, summaries that must pass `check_summary`), and **nothing
-ships unmeasured** (the eval harness and regression gate decide every release).
+ships unmeasured** (the eval harness and regression gate check every release).
 
 ![Production architecture in four stages: a check-in arrives and meets the safety gate, extraction and code checks run in the background, clinicians read checked summaries, and releases are gated without patient data](docs/images/architecture-production.png)
 
-*Green: runs the demo's code unchanged. Dashed: an outside vendor, used only under a business associate agreement (BAA,
-HIPAA) or a data processing agreement (DPA, GDPR). PHI: protected health information.*
+*Green: runs the demo's code unchanged. Dashed outline: an outside vendor, used only under a business associate agreement
+(BAA, HIPAA) or a data processing agreement (DPA, GDPR). PHI: protected health information.*
 
 ### How one check-in would flow
 
 1. **Arrive.** The patient signs in and sends a typed check-in or a voice note; speech-to-text turns a voice note into
-   text, and the audio is not kept.
+   text, and the audio is not kept by default.
 2. **Gate first.** The API runs `detect_flags` on every check-in before any model call (today it runs only in the demo's
    safety box and the evals). A red flag gets the fixed escalation text at once and an item in the care-team inbox;
    otherwise the reply goes through `GatedResponder`, so the guard still checks it.
-3. **Log, then queue.** The message is written to the append-only log on arrival, so every check-in reaches the timeline
-   before extraction runs. A client-made `msg_id` makes a retried send a no-op, as `INSERT OR IGNORE` does today.
-4. **Extract in the background.** A worker sends Haiku what `AnthropicExtractor` sends today (condition ids, channel and
-   text, never the patient's name or id), with explicit timeouts and retries. When retries run out, the check-in shows
+3. **Log and queue together.** The message, its flags and its queue job are written in one transaction on arrival, so
+   every check-in reaches the timeline before extraction runs. A client-made `msg_id` makes a retried send a no-op, as
+   `INSERT OR IGNORE` does today.
+4. **Extract in the background.** A worker sends the extraction model (Haiku, if `make eval-live` confirms it) what
+   `AnthropicExtractor` sends today (condition ids, channel and text, never the patient's name or id), with explicit
+   timeouts and retries. When retries run out, the check-in shows
    as *pending*; today a failed call simply leaves no events, which looks like "nothing reported".
 5. **Check in code, then append.** `validate_extraction` runs exactly as today. Each run is stored with its model id,
    prompt hash, vocabulary version and git SHA, so every event traces back to the code that accepted it.
@@ -294,8 +298,8 @@ HIPAA) or a data processing agreement (DPA, GDPR). PHI: protected health informa
 
 ### Risks and open questions
 
-- **Synthetic scores will not transfer.** The same author wrote the messages and the rules baseline, so nothing is known
-  about real patients until Phase 3 labels exist.
+- **Synthetic scores will not transfer.** The same author wrote the messages and the rules baseline, so no accuracy claim
+  about real patients holds until Phase 3 labels exist.
 - **The safety gate is regex.** Misspellings, unusual phrasing and other languages slip past, and someone has to own the
   escalation inbox.
 - **Voice errors happen before every check.** A misheard drug name or red-flag phrase passes both the quote check and the
@@ -322,7 +326,7 @@ Python 3.12, Anthropic SDK, Pydantic, SQLite, FastAPI, pytest. Models: `claude-h
 <details>
 <summary><b>2-minute screen recording: shot list</b> (not recorded yet)</summary>
 
-A script you can record in two minutes:
+I could not record one from this environment, so here is a script you can record in two minutes:
 
 1. 0:00 `make eval` finishes; show the strict F1 and per-trap table (20 s).
 2. 0:20 `make demo`; pick Ava (POTS + EDS + migraine); show the timeline with wearable lines (25 s).
