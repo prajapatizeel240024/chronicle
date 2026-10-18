@@ -1,0 +1,8 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Georgia, serif", "fontSize": "15px", "primaryColor": "#fffaf3", "primaryBorderColor": "#8a4b2a", "primaryTextColor": "#1d1b19", "lineColor": "#6b655e", "secondaryColor": "#f4e9dc", "tertiaryColor": "#faf8f5", "clusterBkg": "#faf8f5", "clusterBorder": "#d9cfc3", "edgeLabelBackground": "#ffffff"}}}%%
+flowchart LR
+    q["Patient message"] --> gate{"Safety gate<br/>red-flag rules"}
+    gate -->|red flag| esc["Fixed escalation text<br/>model never called"]
+    gate -->|no flag| resp["Responder<br/>template (offline)<br/>Sonnet (live)"]
+    resp --> guard{"Guard"}
+    guard -->|"endorses a dose change,<br/>stopping meds or<br/>a self-diagnosis"| safe["Safe template reply"]
+    guard -->|ok| reply["Reply as written"]

@@ -1,0 +1,22 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Georgia, serif", "fontSize": "15px", "primaryColor": "#fffaf3", "primaryBorderColor": "#8a4b2a", "primaryTextColor": "#1d1b19", "lineColor": "#6b655e", "secondaryColor": "#f4e9dc", "tertiaryColor": "#faf8f5", "clusterBkg": "#faf8f5", "clusterBorder": "#d9cfc3", "edgeLabelBackground": "#ffffff"}}}%%
+flowchart LR
+    env[".env<br/>API key · host · port"]
+    subgraph demo["make demo"]
+        browser["Browser<br/>one static page, 4 tabs"] -->|"JSON API"| app["FastAPI · app.py<br/>127.0.0.1:8000"]
+    end
+    subgraph eval["make eval · make eval-live"]
+        evals["evals.py + runner.py<br/>score every extractor"]
+    end
+    core["chronicle package<br/>extract · rules · dates · store<br/>profile · summary · safety"]
+    data[("data/<br/>16 synthetic patients<br/>+ answer key")]
+    results[("results/<br/>runs/*.db SQLite event logs<br/>latest.json · RESULTS.md")]
+    claude(["Anthropic API<br/>Claude Haiku + Sonnet"])
+
+    app --> core
+    evals --> core
+    core -->|reads| data
+    evals -->|writes| results
+    app -->|reads| results
+    env -.-> app
+    env -.-> evals
+    evals -.->|"eval-live only"| claude

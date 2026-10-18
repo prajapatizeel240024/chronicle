@@ -1,0 +1,35 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Georgia, serif", "fontSize": "15px", "primaryColor": "#fffaf3", "primaryBorderColor": "#8a4b2a", "primaryTextColor": "#1d1b19", "lineColor": "#6b655e", "secondaryColor": "#f4e9dc", "tertiaryColor": "#faf8f5", "clusterBkg": "#faf8f5", "clusterBorder": "#d9cfc3", "edgeLabelBackground": "#ffffff"}}}%%
+flowchart TB
+    subgraph A["1 · A check-in arrives"]
+        direction LR
+        P("Patient app<br/>typed or voice") -->|voice| STT["Speech-to-text<br/>vendor, audio not kept"]
+        STT -->|transcript| API["Stateless API<br/>login · consent"]
+        P -->|typed| API
+        API --> GATE{"Safety gate<br/>regex, no model"}
+        GATE -->|red flag| ESC["Escalation text<br/>+ care-team inbox"]
+        GATE -->|no flag| REPLY["Reply behind the guard<br/>template or Sonnet"]
+    end
+    subgraph B["2 · Extract and verify, async"]
+        direction LR
+        Q[("Queue<br/>ids only")] --> WRK["Extraction worker<br/>timeouts · retries"]
+        WRK -->|"text, no name or id"| LLM["Claude API · Haiku<br/>vendor, pinned id"]
+        LLM -->|proposed events| CHK{{"Code checks<br/>schema · quote<br/>vocab · dates"}}
+        CHK --> LOG[("Append-only log<br/>Postgres<br/>per-patient keys")]
+        WRK -.->|retries used up| DLQ[("Dead letters<br/>shown as pending")]
+    end
+    subgraph C["3 · Clinicians read"]
+        direction LR
+        SUM{{"check_summary<br/>0 unsupported?"}} -->|passes| DOC("Clinician portal<br/>SSO · audited reads")
+        DOC -->|flag a wrong entry| LAB[("Label queue<br/>stays in region")]
+    end
+    subgraph D["4 · Release and ops, no PHI"]
+        direction LR
+        CI{{"Regression gate<br/>make eval · eval-live"}} ~~~ OBS["Metrics + alerts<br/>ids and counts only"]
+    end
+    A -->|"logged on arrival, then queued"| B
+    B -->|"latest accepted events"| C
+    C -->|"scores only, no text"| D
+    classDef same fill:#e6f2e1,stroke:#4f7a43,color:#22361c
+    classDef vendor stroke-dasharray:5 4
+    class GATE,REPLY,CHK,SUM same
+    class STT,LLM vendor

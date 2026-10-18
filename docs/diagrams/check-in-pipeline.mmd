@@ -1,0 +1,13 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Georgia, serif", "fontSize": "15px", "primaryColor": "#fffaf3", "primaryBorderColor": "#8a4b2a", "primaryTextColor": "#1d1b19", "lineColor": "#6b655e", "secondaryColor": "#f4e9dc", "tertiaryColor": "#faf8f5", "clusterBkg": "#faf8f5", "clusterBorder": "#d9cfc3", "edgeLabelBackground": "#ffffff"}}}%%
+flowchart LR
+    gen["gen.py<br/>synthetic check-ins<br/>typed + voice"] --> ext["Extractor<br/>Claude Haiku (live)<br/>rules baseline (offline)"]
+    ext --> checks{{"Code checks<br/>schema · verbatim quote<br/>names · dates"}}
+    checks -->|passes| log[("Append-only<br/>event log")]
+    checks -.->|fails| rej["Rejected,<br/>reason logged"]
+    log --> tl["Timeline + profile<br/>each dot → its quote"]
+    log --> sum["Doctor summary<br/>each line cites check-ins"]
+    sum --> chk{{"check_summary<br/>claim → log"}}
+    gen --> key[("Answer key<br/>facts.json")]
+    log --> ev["make eval<br/>score vs answer key"]
+    key --> ev
+    ev --> gate{{"Regression gate<br/>safety + strict F1"}}
