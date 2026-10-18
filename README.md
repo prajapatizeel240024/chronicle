@@ -27,13 +27,13 @@ accurate and how safe it is.
 ## Quick start
 
 ```bash
-make setup          # python3.12 venv + deps
+make setup          # python3.12 venv + deps, and .env from .env.example (local settings, git-ignored)
 make data           # 16 synthetic patients -> ./data   (make eval does this if missing)
-make test           # 47 pytest tests
+make test           # 51 pytest tests
 make eval           # every eval + regression gate (offline)
 make baseline       # save results/latest.json as the baseline the gate compares against
-make demo           # http://127.0.0.1:8000
-make eval-live      # adds Haiku vs Sonnet extraction, Sonnet responder/judge/summary (ANTHROPIC_API_KEY)
+make demo           # http://127.0.0.1:8000   (CHRONICLE_HOST / CHRONICLE_PORT in .env)
+make eval-live      # adds Haiku vs Sonnet extraction, Sonnet responder/judge/summary (ANTHROPIC_API_KEY in .env)
 ```
 
 ## Results (offline run, rules-baseline extractor)
@@ -157,8 +157,9 @@ the graders check form (escalation present, no endorsement) rather than clinical
 
 ```
 chronicle/  vocab dates schema gen dataset extract rules store profile summary safety safety_labels metrics runner evals app static/
-tests/      47 tests (dates, validation, log, profile, metrics, summary mutations, safety, gate, API)
+tests/      51 tests (dates, validation, log, profile, metrics, summary mutations, safety, gate, API, .env)
 pricing.json  fill from Anthropic's pricing page; cost stays n/a until then
+.env.example  local settings (API key, demo host/port); copy to .env, which git ignores
 ```
 
 Python 3.12, Anthropic SDK, Pydantic, SQLite, FastAPI, pytest. Models: `claude-haiku-5-5` (extraction),

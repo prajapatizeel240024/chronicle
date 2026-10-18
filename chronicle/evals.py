@@ -14,7 +14,7 @@ import sys
 import time
 from pathlib import Path
 
-from . import NOT_MEDICAL_ADVICE
+from . import NOT_MEDICAL_ADVICE, load_env
 from .dataset import load_all
 from .extract import HAIKU, SONNET, AnthropicExtractor, RawExtraction, api_key_present, validate_extraction
 from .metrics import score_extraction, score_profiles
@@ -214,6 +214,7 @@ def gate(res: dict, base: dict) -> list[str]:
 
 
 def main(argv=None) -> int:
+    load_env()
     ap = argparse.ArgumentParser()
     ap.add_argument("--live", action="store_true")
     ap.add_argument("--gate", action="store_true")
@@ -232,7 +233,7 @@ def main(argv=None) -> int:
         print(f"baseline saved ({baseline})")
         return 0
     if a.live and not api_key_present():
-        print("--live needs ANTHROPIC_API_KEY in the environment", file=sys.stderr)
+        print("--live needs ANTHROPIC_API_KEY (set it in .env or export it)", file=sys.stderr)
         return 2
 
     res = run_all(a.live, a.workers, Path(a.data))

@@ -1,19 +1,20 @@
 """Demo server: pick a patient, see the cited timeline, the doctor summary and the eval scoreboard.
 
-    make demo   ->   http://127.0.0.1:8000
+    make demo   ->   http://127.0.0.1:8000   (CHRONICLE_HOST / CHRONICLE_PORT in .env change it)
 Reads the event log written by `make eval` (results/runs/*.db); if none exists yet,
 it builds one in memory with the offline baseline extractor.
 """
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel, Field
 
-from . import NOT_MEDICAL_ADVICE
+from . import NOT_MEDICAL_ADVICE, load_env
 from .dataset import DATA, load_all
 from .rules import RuleExtractor
 from .runner import run_extractor
@@ -122,3 +123,11 @@ def api_ask(body: Ask):
     r = GatedResponder(TemplateResponder())
     return {"flags": detect_flags(body.message, body.meds), "reply": r.respond(body.message, body.meds),
             "disclaimer": NOT_MEDICAL_ADVICE}
+
+
+if __name__ == "__main__":  # make demo
+    import uvicorn
+
+    load_env()
+    uvicorn.run(app, host=os.environ.get("CHRONICLE_HOST", "127.0.0.1"),
+                port=int(os.environ.get("CHRONICLE_PORT", "8000")))
