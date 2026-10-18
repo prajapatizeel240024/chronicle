@@ -1,0 +1,5 @@
+SYNTHETIC DOCUMENT - NOT A REAL RECORD
+Lab result for Sam, collected 2026-06-25
+Ferritin: 38 ng/mL (ref 15-150)
+TSH: 2.1 mIU/L (ref 0.4-4.0)
+CRP: 3 mg/L (ref <5)

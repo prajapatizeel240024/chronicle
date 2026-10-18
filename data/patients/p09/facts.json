@@ -1,0 +1,2458 @@
+{
+ "patient_id": "p09",
+ "name": "Sam",
+ "conditions": [
+  "ibs",
+  "fibromyalgia"
+ ],
+ "start_date": "2026-06-25",
+ "days": 38,
+ "meds": [
+  {
+   "generic": "dicyclomine",
+   "dose": "10 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "loperamide",
+   "dose": "2 mg",
+   "start_date": "2026-07-04",
+   "stop_date": null
+  },
+  {
+   "generic": "duloxetine",
+   "dose": "30 mg",
+   "start_date": null,
+   "stop_date": "2026-07-24"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-07-04",
+  "2026-07-14",
+  "2026-07-24"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p09-d00a-e0",
+   "msg_id": "p09-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with diarrhea, 4/10.",
+   "span": [
+    38,
+    66
+   ],
+   "event_id": "p09-d00a-e1",
+   "msg_id": "p09-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, diarrhea sitting at 6.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p09-d01a-e0",
+   "msg_id": "p09-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, bloating sitting at 4.",
+   "span": [
+    34,
+    67
+   ],
+   "event_id": "p09-d01a-e1",
+   "msg_id": "p09-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p09-d02a-e0",
+   "msg_id": "p09-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: aching joints about a 6.",
+   "span": [
+    38,
+    85
+   ],
+   "event_id": "p09-d02a-e1",
+   "msg_id": "p09-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with bloating, 3/10. It came on after a big meal.",
+   "span": [
+    86,
+    143
+   ],
+   "event_id": "p09-d02a-e2",
+   "msg_id": "p09-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "tiredness today around a 5",
+   "span": [
+    0,
+    26
+   ],
+   "event_id": "p09-d03a-e0",
+   "msg_id": "p09-d03a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "uh took my duloxetine this morning",
+   "span": [
+    27,
+    61
+   ],
+   "event_id": "p09-d03a-e1",
+   "msg_id": "p09-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "diarrhea was properly bad today",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p09-d04a-e0",
+   "msg_id": "p09-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, bloating sitting at 5.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p09-d05a-e0",
+   "msg_id": "p09-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea today, around a 5.",
+   "span": [
+    34,
+    61
+   ],
+   "event_id": "p09-d05a-e1",
+   "msg_id": "p09-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, bloating sitting at 7.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p09-d06a-e0",
+   "msg_id": "p09-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 6.",
+   "span": [
+    34,
+    68
+   ],
+   "event_id": "p09-d06a-e1",
+   "msg_id": "p09-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Gut is killing me today, 7 out of 10.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p09-d06b-e0",
+   "msg_id": "p09-d06b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My sister's migraine attacks are awful this month, she cancelled everything.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p09-d07b-e0",
+   "msg_id": "p09-d07b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, foggy thinking sitting at 4.",
+   "span": [
+    77,
+    116
+   ],
+   "event_id": "p09-d07b-e1",
+   "msg_id": "p09-d07b"
+  },
+  {
+   "kind": "symptom",
+   "name": "numbness_tingling",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Tingling in my fingers on and off, a 2, can't tie it to anything.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p09-d08b-e0",
+   "msg_id": "p09-d08b"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: bloating about a 5. It came on after the grocery run.",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p09-d09a-e0",
+   "msg_id": "p09-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, unrefreshing sleep sitting at 5. It came on after a long walk.",
+   "span": [
+    75,
+    148
+   ],
+   "event_id": "p09-d09a-e1",
+   "msg_id": "p09-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with bloating, 4/10.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p09-d10a-e0",
+   "msg_id": "p09-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, brain fog sitting at 4.",
+   "span": [
+    29,
+    63
+   ],
+   "event_id": "p09-d10a-e1",
+   "msg_id": "p09-d10a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my duloxetine again today.",
+   "span": [
+    64,
+    95
+   ],
+   "event_id": "p09-d10a-e2",
+   "msg_id": "p09-d10a"
+  },
+  {
+   "kind": "med",
+   "name": "loperamide",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Imodium",
+   "dose": "2 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Started Imodium 2 mg last night, fingers crossed.",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p09-d10b-e0",
+   "msg_id": "p09-d10b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "knees",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with aching joints in my knees, 6/10.",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p09-d11a-e0",
+   "msg_id": "p09-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: stomach cramps in my lower abdomen about a 4. It came on after standing in the shower.",
+   "span": [
+    46,
+    153
+   ],
+   "event_id": "p09-d11a-e1",
+   "msg_id": "p09-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date",
+    "channel_voice"
+   ],
+   "quote": "so unrefreshing sleep has been bugging me since wednesday about a 3",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p09-d11b-e0",
+   "msg_id": "p09-d11b"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 5.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p09-d13a-e0",
+   "msg_id": "p09-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking today, around a 5.",
+   "span": [
+    28,
+    61
+   ],
+   "event_id": "p09-d13a-e1",
+   "msg_id": "p09-d13a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my duloxetine again today.",
+   "span": [
+    62,
+    93
+   ],
+   "event_id": "p09-d13a-e2",
+   "msg_id": "p09-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "so um my unrefreshing sleep is like a eight no wait more like a ten today",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p09-d13b-e0",
+   "msg_id": "p09-d13b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: foggy thinking about a 6.",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p09-d14a-e0",
+   "msg_id": "p09-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with bloating, 5/10. It came on after standing in the shower.",
+   "span": [
+    49,
+    118
+   ],
+   "event_id": "p09-d14a-e1",
+   "msg_id": "p09-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: bloating about a 4. It came on after a stressful deadline.",
+   "span": [
+    0,
+    79
+   ],
+   "event_id": "p09-d15a-e0",
+   "msg_id": "p09-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle aches in my legs today, around a 4.",
+   "span": [
+    80,
+    122
+   ],
+   "event_id": "p09-d15a-e1",
+   "msg_id": "p09-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "Quiet day overall, though on Saturday I had joint pain around a 7.",
+   "span": [
+    0,
+    66
+   ],
+   "event_id": "p09-d15b-e0",
+   "msg_id": "p09-d15b"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so bloating has been pretty mild all day",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p09-d16a-e0",
+   "msg_id": "p09-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so diarrhea was pretty mild today",
+   "span": [
+    41,
+    79
+   ],
+   "event_id": "p09-d16a-e1",
+   "msg_id": "p09-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so tiredness was pretty mild today",
+   "span": [
+    80,
+    114
+   ],
+   "event_id": "p09-d16a-e2",
+   "msg_id": "p09-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating was moderate today.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p09-d17a-e0",
+   "msg_id": "p09-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: diarrhea about a 3.",
+   "span": [
+    29,
+    69
+   ],
+   "event_id": "p09-d17a-e1",
+   "msg_id": "p09-d17a"
+  },
+  {
+   "kind": "med",
+   "name": "loperamide",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "loperamide",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my loperamide again today.",
+   "span": [
+    70,
+    101
+   ],
+   "event_id": "p09-d17a-e2",
+   "msg_id": "p09-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain in my neck today, around a 4. It came on after a big meal.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p09-d18a-e0",
+   "msg_id": "p09-d18a"
+  },
+  {
+   "kind": "med",
+   "name": "loperamide",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "loperamide",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my loperamide this morning.",
+   "span": [
+    71,
+    103
+   ],
+   "event_id": "p09-d18a-e1",
+   "msg_id": "p09-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with fatigue, 5/10.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p09-d19a-e0",
+   "msg_id": "p09-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 4. It came on after a long walk.",
+   "span": [
+    28,
+    85
+   ],
+   "event_id": "p09-d19a-e1",
+   "msg_id": "p09-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "back",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle aches in my back was moderate today.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p09-d20a-e0",
+   "msg_id": "p09-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so brain fog today around a 5 it came on after standing in line",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p09-d21a-e0",
+   "msg_id": "p09-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my ibs is acting up diarrhea about a 3 it came on after a hot day",
+   "span": [
+    69,
+    134
+   ],
+   "event_id": "p09-d21a-e1",
+   "msg_id": "p09-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one muscle aches in my legs sitting at 3",
+   "span": [
+    135,
+    184
+   ],
+   "event_id": "p09-d21a-e2",
+   "msg_id": "p09-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog was properly bad today. It came on after a big meal.",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p09-d22a-e0",
+   "msg_id": "p09-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um diarrhea has been properly bad all day",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p09-d23a-e0",
+   "msg_id": "p09-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh woke up with brain fog seven out of ten",
+   "span": [
+    42,
+    84
+   ],
+   "event_id": "p09-d23a-e1",
+   "msg_id": "p09-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so muscle pain in my neck has been moderate all day",
+   "span": [
+    85,
+    136
+   ],
+   "event_id": "p09-d23a-e2",
+   "msg_id": "p09-d23a"
+  },
+  {
+   "kind": "med",
+   "name": "dicyclomine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Bentyl",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "uh had my bentyl with breakfast",
+   "span": [
+    137,
+    168
+   ],
+   "event_id": "p09-d23a-e3",
+   "msg_id": "p09-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Correction: my diarrhea earlier today was a 8, I overstated it.",
+   "span": [
+    0,
+    63
+   ],
+   "event_id": "p09-d23b-e0",
+   "msg_id": "p09-d23b"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, diarrhea sitting at 5.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p09-d24a-e0",
+   "msg_id": "p09-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain has been moderate all day.",
+   "span": [
+    34,
+    72
+   ],
+   "event_id": "p09-d24a-e1",
+   "msg_id": "p09-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea: 5 out of 10 this afternoon. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    75
+   ],
+   "event_id": "p09-d25a-e0",
+   "msg_id": "p09-d25a"
+  },
+  {
+   "kind": "med",
+   "name": "dicyclomine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "dicyclomine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my dicyclomine with breakfast.",
+   "span": [
+    76,
+    110
+   ],
+   "event_id": "p09-d25a-e1",
+   "msg_id": "p09-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: diarrhea about a 5. It came on after the grocery run.",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p09-d26a-e0",
+   "msg_id": "p09-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um diarrhea six out of ten this afternoon",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p09-d27a-e0",
+   "msg_id": "p09-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh brain fog has been properly bad all day it came on after a stressful deadline",
+   "span": [
+    42,
+    122
+   ],
+   "event_id": "p09-d27a-e1",
+   "msg_id": "p09-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so woke up with bloating five out of ten",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p09-d28a-e0",
+   "msg_id": "p09-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "bloating five out of ten this afternoon",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p09-d29a-e0",
+   "msg_id": "p09-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh foggy thinking has been moderate all day",
+   "span": [
+    40,
+    83
+   ],
+   "event_id": "p09-d29a-e1",
+   "msg_id": "p09-d29a"
+  },
+  {
+   "kind": "med",
+   "name": "loperamide",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "loperamide",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "so had my loperamide with breakfast",
+   "span": [
+    84,
+    119
+   ],
+   "event_id": "p09-d29a-e2",
+   "msg_id": "p09-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 4/10. It came on after standing in the shower.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p09-d30a-e0",
+   "msg_id": "p09-d30a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop"
+   ],
+   "quote": "Stopped the duloxetine yesterday, it was upsetting my stomach.",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p09-d30b-e0",
+   "msg_id": "p09-d30b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so rough one foggy thinking sitting at 6",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p09-d31a-e0",
+   "msg_id": "p09-d31a"
+  },
+  {
+   "kind": "med",
+   "name": "dicyclomine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "dicyclomine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "okay so had my dicyclomine with breakfast",
+   "span": [
+    41,
+    82
+   ],
+   "event_id": "p09-d31a-e1",
+   "msg_id": "p09-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking has been properly bad all day.",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p09-d32a-e0",
+   "msg_id": "p09-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: brain fog about a 8.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p09-d33a-e0",
+   "msg_id": "p09-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-28",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "Exhaustion? None today, thankfully.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p09-d33b-e0",
+   "msg_id": "p09-d33b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog today, around a 8.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p09-d34a-e0",
+   "msg_id": "p09-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain today, around a 7.",
+   "span": [
+    29,
+    59
+   ],
+   "event_id": "p09-d34a-e1",
+   "msg_id": "p09-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle aches in my neck: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p09-d35a-e0",
+   "msg_id": "p09-d35a"
+  },
+  {
+   "kind": "med",
+   "name": "dicyclomine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "dicyclomine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my dicyclomine with breakfast.",
+   "span": [
+    53,
+    87
+   ],
+   "event_id": "p09-d35a-e1",
+   "msg_id": "p09-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion today, around a 5.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p09-d36a-e0",
+   "msg_id": "p09-d36a"
+  },
+  {
+   "kind": "med",
+   "name": "loperamide",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "loperamide",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my loperamide again today.",
+   "span": [
+    30,
+    61
+   ],
+   "event_id": "p09-d36a-e1",
+   "msg_id": "p09-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea: 5 out of 10 this afternoon. It came on after standing in line.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p09-d37a-e0",
+   "msg_id": "p09-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 4.",
+   "span": [
+    73,
+    107
+   ],
+   "event_id": "p09-d37a-e1",
+   "msg_id": "p09-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "If my foggy thinking flares up tomorrow, I'll cancel my plans.",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p09-d37b-e0",
+   "msg_id": "p09-d37b"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

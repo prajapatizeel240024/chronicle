@@ -1,0 +1,6 @@
+SYNTHETIC DOCUMENT - NOT A REAL RECORD
+Medication list for Kai
+Date: 2026-07-07
+- duloxetine 30 mg
+- pregabalin 75 mg
+- gabapentin 300 mg

@@ -1,0 +1,2731 @@
+{
+ "patient_id": "p06",
+ "name": "Rosa",
+ "conditions": [
+  "ra",
+  "fibromyalgia"
+ ],
+ "start_date": "2026-06-16",
+ "days": 45,
+ "meds": [
+  {
+   "generic": "methotrexate",
+   "dose": "15 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "hydroxychloroquine",
+   "dose": "200 mg",
+   "start_date": "2026-06-30",
+   "stop_date": null
+  },
+  {
+   "generic": "adalimumab",
+   "dose": "40 mg",
+   "start_date": null,
+   "stop_date": "2026-07-18"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-06-25",
+  "2026-07-05",
+  "2026-07-15",
+  "2026-07-25"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "knees",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Morning stiffness in my knees: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p06-d00a-e0",
+   "msg_id": "p06-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain today, around a 5.",
+   "span": [
+    59,
+    89
+   ],
+   "event_id": "p06-d00a-e1",
+   "msg_id": "p06-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so rough one fatigue sitting at 7",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p06-d01a-e0",
+   "msg_id": "p06-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh my fibro is acting up muscle aches about a 6 it came on after the grocery run",
+   "span": [
+    34,
+    114
+   ],
+   "event_id": "p06-d01a-e1",
+   "msg_id": "p06-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion was awful today. It came on after a long walk.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p06-d02a-e0",
+   "msg_id": "p06-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one tiredness sitting at 9",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p06-d03a-e0",
+   "msg_id": "p06-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "fatigue today around a 7",
+   "span": [
+    0,
+    24
+   ],
+   "event_id": "p06-d04a-e0",
+   "msg_id": "p06-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so woke up with unrefreshing sleep six out of ten",
+   "span": [
+    25,
+    79
+   ],
+   "event_id": "p06-d04a-e1",
+   "msg_id": "p06-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "joint pain three out of ten this afternoon it came on after a bad night's sleep",
+   "span": [
+    80,
+    159
+   ],
+   "event_id": "p06-d04a-e2",
+   "msg_id": "p06-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 6 out of 10 this afternoon. It came on after standing in the shower.",
+   "span": [
+    0,
+    80
+   ],
+   "event_id": "p06-d06a-e0",
+   "msg_id": "p06-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "knees",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My RA is acting up: joint pain in my knees about a 5.",
+   "span": [
+    81,
+    134
+   ],
+   "event_id": "p06-d06a-e1",
+   "msg_id": "p06-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "aching joints in my wrists six out of ten this afternoon",
+   "span": [
+    0,
+    56
+   ],
+   "event_id": "p06-d07a-e0",
+   "msg_id": "p06-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh waking up unrefreshed was moderate today it came on after the grocery run",
+   "span": [
+    57,
+    133
+   ],
+   "event_id": "p06-d07a-e1",
+   "msg_id": "p06-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "joint stiffness today around a 3",
+   "span": [
+    134,
+    166
+   ],
+   "event_id": "p06-d07a-e2",
+   "msg_id": "p06-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date",
+    "channel_voice"
+   ],
+   "quote": "foggy thinking since friday it's been a four the whole time",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p06-d07b-e0",
+   "msg_id": "p06-d07b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My RA is acting up: aching joints about a 7. It came on after standing in the shower.",
+   "span": [
+    0,
+    85
+   ],
+   "event_id": "p06-d08a-e0",
+   "msg_id": "p06-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, waking up unrefreshed sitting at 4.",
+   "span": [
+    86,
+    132
+   ],
+   "event_id": "p06-d08a-e1",
+   "msg_id": "p06-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, brain fog sitting at 4. It came on after a stressful deadline.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p06-d09a-e0",
+   "msg_id": "p06-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with exhaustion, 4/10.",
+   "span": [
+    74,
+    104
+   ],
+   "event_id": "p06-d09a-e1",
+   "msg_id": "p06-d09a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "methotrexate",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my methotrexate with breakfast.",
+   "span": [
+    105,
+    140
+   ],
+   "event_id": "p06-d09a-e2",
+   "msg_id": "p06-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Correction: my foggy thinking earlier today was a 7, I overstated it.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p06-d09b-e0",
+   "msg_id": "p06-d09b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "hips",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Aching joints in my hips has been properly bad all day.",
+   "span": [
+    0,
+    55
+   ],
+   "event_id": "p06-d10a-e0",
+   "msg_id": "p06-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness today, around a 4.",
+   "span": [
+    56,
+    90
+   ],
+   "event_id": "p06-d10a-e1",
+   "msg_id": "p06-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, unrefreshing sleep sitting at 2. It came on after a hot day.",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p06-d11a-e0",
+   "msg_id": "p06-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 5.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p06-d12a-e0",
+   "msg_id": "p06-d12a"
+  },
+  {
+   "kind": "med",
+   "name": "adalimumab",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Humira",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Humira with breakfast.",
+   "span": [
+    35,
+    64
+   ],
+   "event_id": "p06-d12a-e1",
+   "msg_id": "p06-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "numbness_tingling",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Tingling in my fingers on and off, a 2, can't tie it to anything.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p06-d12b-e0",
+   "msg_id": "p06-d12b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "hands",
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with morning stiffness in my hands, 8/10.",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p06-d13a-e0",
+   "msg_id": "p06-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "hips",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so aching joints in my hips was properly bad today",
+   "span": [
+    0,
+    50
+   ],
+   "event_id": "p06-d14a-e0",
+   "msg_id": "p06-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "tiredness was properly bad today",
+   "span": [
+    51,
+    83
+   ],
+   "event_id": "p06-d14a-e1",
+   "msg_id": "p06-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "uh waking up unrefreshed is a seven actually no a nine I think",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p06-d14b-e0",
+   "msg_id": "p06-d14b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with fatigue, 7/10.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p06-d15a-e0",
+   "msg_id": "p06-d15a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Plaquenil",
+   "dose": "200 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Started Plaquenil 200 mg last night, fingers crossed.",
+   "span": [
+    0,
+    53
+   ],
+   "event_id": "p06-d15b-e0",
+   "msg_id": "p06-d15b"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, unrefreshing sleep sitting at 2.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p06-d16a-e0",
+   "msg_id": "p06-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, foggy thinking sitting at 3. It came on after a big meal.",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p06-d17a-e0",
+   "msg_id": "p06-d17a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "hydroxychloroquine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my hydroxychloroquine again today.",
+   "span": [
+    69,
+    108
+   ],
+   "event_id": "p06-d17a-e1",
+   "msg_id": "p06-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with morning stiffness, 7/10.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p06-d18a-e0",
+   "msg_id": "p06-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with waking up unrefreshed, 6/10.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p06-d19a-e0",
+   "msg_id": "p06-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, morning stiffness sitting at 5.",
+   "span": [
+    42,
+    84
+   ],
+   "event_id": "p06-d19a-e1",
+   "msg_id": "p06-d19a"
+  },
+  {
+   "kind": "med",
+   "name": "adalimumab",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Humira",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Humira again today.",
+   "span": [
+    85,
+    112
+   ],
+   "event_id": "p06-d19a-e2",
+   "msg_id": "p06-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "knees",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness in my knees today, around a 5.",
+   "span": [
+    0,
+    46
+   ],
+   "event_id": "p06-d20a-e0",
+   "msg_id": "p06-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-06",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation",
+    "channel_voice"
+   ],
+   "quote": "okay so zero morning stiffness at all today",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p06-d20b-e0",
+   "msg_id": "p06-d20b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "hands",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, joint stiffness in my hands sitting at 4.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p06-d21a-e0",
+   "msg_id": "p06-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My partner has been dealing with nausea all week, so the house is quiet.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p06-d21b-e0",
+   "msg_id": "p06-d21b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with joint stiffness five out of ten",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p06-d22a-e0",
+   "msg_id": "p06-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one foggy thinking sitting at 5",
+   "span": [
+    48,
+    88
+   ],
+   "event_id": "p06-d22a-e1",
+   "msg_id": "p06-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain was moderate today. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p06-d23a-e0",
+   "msg_id": "p06-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "knees",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with joint stiffness in my knees, 5/10.",
+   "span": [
+    69,
+    116
+   ],
+   "event_id": "p06-d23a-e1",
+   "msg_id": "p06-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with tiredness, 4/10.",
+   "span": [
+    117,
+    146
+   ],
+   "event_id": "p06-d23a-e2",
+   "msg_id": "p06-d23a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "hydroxychloroquine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my hydroxychloroquine again today.",
+   "span": [
+    147,
+    186
+   ],
+   "event_id": "p06-d23a-e3",
+   "msg_id": "p06-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Out of spoons by noon, completely flattened, 7.",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p06-d23b-e0",
+   "msg_id": "p06-d23b"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "If my unrefreshing sleep flares up tomorrow, I'll cancel my plans.",
+   "span": [
+    0,
+    66
+   ],
+   "event_id": "p06-d24b-e0",
+   "msg_id": "p06-d24b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so aching joints today around a 4 it came on after a big meal",
+   "span": [
+    0,
+    66
+   ],
+   "event_id": "p06-d26a-e0",
+   "msg_id": "p06-d26a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Plaquenil",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so had my plaquenil with breakfast",
+   "span": [
+    67,
+    101
+   ],
+   "event_id": "p06-d26a-e1",
+   "msg_id": "p06-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um my ra is acting up morning stiffness about a 7",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p06-d27a-e0",
+   "msg_id": "p06-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so aching joints in my wrists two out of ten this afternoon it came on after a long walk",
+   "span": [
+    50,
+    138
+   ],
+   "event_id": "p06-d27a-e1",
+   "msg_id": "p06-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one fatigue sitting at 2",
+   "span": [
+    139,
+    172
+   ],
+   "event_id": "p06-d27a-e2",
+   "msg_id": "p06-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "hands",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness in my hands today, around a 6. It came on after a long walk.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p06-d28a-e0",
+   "msg_id": "p06-d28a"
+  },
+  {
+   "kind": "med",
+   "name": "adalimumab",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "adalimumab",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my adalimumab with breakfast.",
+   "span": [
+    77,
+    110
+   ],
+   "event_id": "p06-d28a-e1",
+   "msg_id": "p06-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "A week ago today I had waking up unrefreshed at 8, nothing like that now.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p06-d28b-e0",
+   "msg_id": "p06-d28b"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "back",
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one muscle aches in my back sitting at 3",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p06-d29a-e0",
+   "msg_id": "p06-d29a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Trexall",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "okay so had my trexall with breakfast",
+   "span": [
+    50,
+    87
+   ],
+   "event_id": "p06-d29a-e1",
+   "msg_id": "p06-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My RA is acting up: exhaustion about a 6. It came on after a long walk.",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p06-d30a-e0",
+   "msg_id": "p06-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "shoulders",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain in my shoulders has been moderate all day. It came on after a stressful deadline.",
+   "span": [
+    72,
+    164
+   ],
+   "event_id": "p06-d30a-e1",
+   "msg_id": "p06-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Aching joints today, around a 5. It came on after a big meal.",
+   "span": [
+    0,
+    61
+   ],
+   "event_id": "p06-d31a-e0",
+   "msg_id": "p06-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um my ra is acting up joint stiffness about a 7 it came on after a hot day",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p06-d32a-e0",
+   "msg_id": "p06-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "back",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: muscle aches in my back about a 6.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p06-d33a-e0",
+   "msg_id": "p06-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog today, around a 6.",
+   "span": [
+    58,
+    86
+   ],
+   "event_id": "p06-d33a-e1",
+   "msg_id": "p06-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with unrefreshing sleep, 7/10.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p06-d34a-e0",
+   "msg_id": "p06-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "knees",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with morning stiffness in my knees, 6/10.",
+   "span": [
+    39,
+    88
+   ],
+   "event_id": "p06-d34a-e1",
+   "msg_id": "p06-d34a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "methotrexate",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my methotrexate this morning.",
+   "span": [
+    89,
+    123
+   ],
+   "event_id": "p06-d34a-e2",
+   "msg_id": "p06-d34a"
+  },
+  {
+   "kind": "med",
+   "name": "adalimumab",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "Humira",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "stopped the humira on saturday it was upsetting my stomach",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p06-d34b-e0",
+   "msg_id": "p06-d34b"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with unrefreshing sleep six out of ten",
+   "span": [
+    0,
+    46
+   ],
+   "event_id": "p06-d35a-e0",
+   "msg_id": "p06-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with joint stiffness five out of ten",
+   "span": [
+    47,
+    91
+   ],
+   "event_id": "p06-d35a-e1",
+   "msg_id": "p06-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "hands",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness in my hands: 4 out of 10 this afternoon.",
+   "span": [
+    0,
+    56
+   ],
+   "event_id": "p06-d36a-e0",
+   "msg_id": "p06-d36a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "methotrexate",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my methotrexate again today.",
+   "span": [
+    57,
+    90
+   ],
+   "event_id": "p06-d36a-e1",
+   "msg_id": "p06-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, brain fog sitting at 5.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p06-d37a-e0",
+   "msg_id": "p06-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness: 7 out of 10 this afternoon. It came on after standing in the shower.",
+   "span": [
+    0,
+    85
+   ],
+   "event_id": "p06-d38a-e0",
+   "msg_id": "p06-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness: 8 out of 10 this afternoon.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p06-d39a-e0",
+   "msg_id": "p06-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh joint stiffness today around a 7 it came on after the grocery run",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p06-d40a-e0",
+   "msg_id": "p06-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so fatigue has been properly bad all day",
+   "span": [
+    69,
+    109
+   ],
+   "event_id": "p06-d40a-e1",
+   "msg_id": "p06-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one foggy thinking sitting at 5",
+   "span": [
+    110,
+    150
+   ],
+   "event_id": "p06-d40a-e2",
+   "msg_id": "p06-d40a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Trexall",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "uh used my trexall again today",
+   "span": [
+    151,
+    181
+   ],
+   "event_id": "p06-d40a-e3",
+   "msg_id": "p06-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness has been properly bad all day. It came on after a big meal.",
+   "span": [
+    0,
+    75
+   ],
+   "event_id": "p06-d41a-e0",
+   "msg_id": "p06-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue today, around a 6.",
+   "span": [
+    76,
+    102
+   ],
+   "event_id": "p06-d41a-e1",
+   "msg_id": "p06-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Waking up unrefreshed was properly bad today.",
+   "span": [
+    103,
+    148
+   ],
+   "event_id": "p06-d41a-e2",
+   "msg_id": "p06-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with waking up unrefreshed, 6/10.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p06-d42a-e0",
+   "msg_id": "p06-d42a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "hydroxychloroquine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my hydroxychloroquine this morning.",
+   "span": [
+    42,
+    82
+   ],
+   "event_id": "p06-d42a-e1",
+   "msg_id": "p06-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 4.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p06-d43a-e0",
+   "msg_id": "p06-d43a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "methotrexate",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my methotrexate this morning.",
+   "span": [
+    35,
+    69
+   ],
+   "event_id": "p06-d43a-e1",
+   "msg_id": "p06-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking today, around a 4.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p06-d44a-e0",
+   "msg_id": "p06-d44a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "methotrexate",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my methotrexate with breakfast.",
+   "span": [
+    34,
+    69
+   ],
+   "event_id": "p06-d44a-e1",
+   "msg_id": "p06-d44a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

@@ -1,0 +1,6 @@
+SYNTHETIC DOCUMENT - NOT A REAL RECORD
+Medication list for Iris
+Date: 2026-06-28
+- naproxen 220 mg
+- propranolol 10 mg
+- fludrocortisone 0.1 mg

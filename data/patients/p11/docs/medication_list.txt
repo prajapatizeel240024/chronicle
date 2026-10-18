@@ -1,0 +1,6 @@
+SYNTHETIC DOCUMENT - NOT A REAL RECORD
+Medication list for Omar
+Date: 2026-07-01
+- sumatriptan 50 mg
+- rizatriptan 10 mg
+- topiramate 25 mg

@@ -1,0 +1,3189 @@
+{
+ "patient_id": "p16",
+ "name": "Mina",
+ "conditions": [
+  "long_covid",
+  "mecfs"
+ ],
+ "start_date": "2026-07-16",
+ "days": 48,
+ "meds": [
+  {
+   "generic": "cetirizine",
+   "dose": "10 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "naltrexone",
+   "dose": "1.5 mg",
+   "start_date": "2026-08-14",
+   "stop_date": null
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-07-25",
+  "2026-08-04",
+  "2026-08-14",
+  "2026-08-24"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh palpitations today around a 6 it came on after standing in the shower",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p16-d00a-e0",
+   "msg_id": "p16-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one exhaustion sitting at 4 it came on after a bad night's sleep",
+   "span": [
+    73,
+    143
+   ],
+   "event_id": "p16-d00a-e1",
+   "msg_id": "p16-d00a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um took my cetirizine this morning",
+   "span": [
+    144,
+    178
+   ],
+   "event_id": "p16-d00a-e2",
+   "msg_id": "p16-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with tiredness, 5/10. It came on after standing in line.",
+   "span": [
+    0,
+    64
+   ],
+   "event_id": "p16-d01a-e0",
+   "msg_id": "p16-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with palpitations, 5/10. It came on after a stressful deadline.",
+   "span": [
+    65,
+    136
+   ],
+   "event_id": "p16-d01a-e1",
+   "msg_id": "p16-d01a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my cetirizine again today.",
+   "span": [
+    137,
+    168
+   ],
+   "event_id": "p16-d01a-e2",
+   "msg_id": "p16-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Heart racing has been properly bad all day.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p16-d02a-e0",
+   "msg_id": "p16-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 3 out of 10 this afternoon.",
+   "span": [
+    44,
+    83
+   ],
+   "event_id": "p16-d02a-e1",
+   "msg_id": "p16-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with palpitations eight out of ten",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p16-d03a-e0",
+   "msg_id": "p16-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with heart racing seven out of ten",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p16-d04a-e0",
+   "msg_id": "p16-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my long covid is acting up a fluttering heart about a 10",
+   "span": [
+    0,
+    56
+   ],
+   "event_id": "p16-d05a-e0",
+   "msg_id": "p16-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with unrefreshing sleep seven out of ten",
+   "span": [
+    57,
+    105
+   ],
+   "event_id": "p16-d05a-e1",
+   "msg_id": "p16-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "fatigue today around a 6 it came on after a stressful deadline",
+   "span": [
+    106,
+    168
+   ],
+   "event_id": "p16-d05a-e2",
+   "msg_id": "p16-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p16-d06a-e0",
+   "msg_id": "p16-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with waking up unrefreshed, 7/10.",
+   "span": [
+    39,
+    80
+   ],
+   "event_id": "p16-d06a-e1",
+   "msg_id": "p16-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Heart is going like crazy again, maybe a 6.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p16-d06b-e0",
+   "msg_id": "p16-d06b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so fatigue today around a 6",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p16-d07a-e0",
+   "msg_id": "p16-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um a fluttering heart six out of ten this afternoon",
+   "span": [
+    33,
+    84
+   ],
+   "event_id": "p16-d07a-e1",
+   "msg_id": "p16-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: heart racing about a 10.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p16-d08a-e0",
+   "msg_id": "p16-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue: 9 out of 10 this afternoon.",
+   "span": [
+    53,
+    89
+   ],
+   "event_id": "p16-d08a-e1",
+   "msg_id": "p16-d08a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Zyrtec with breakfast.",
+   "span": [
+    90,
+    119
+   ],
+   "event_id": "p16-d08a-e2",
+   "msg_id": "p16-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-24",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "No headache today, which is a nice change.",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p16-d08b-e0",
+   "msg_id": "p16-d08b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: fatigue about a 8. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    84
+   ],
+   "event_id": "p16-d09a-e0",
+   "msg_id": "p16-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, heart racing sitting at 8.",
+   "span": [
+    85,
+    122
+   ],
+   "event_id": "p16-d09a-e1",
+   "msg_id": "p16-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, waking up unrefreshed sitting at 8.",
+   "span": [
+    123,
+    169
+   ],
+   "event_id": "p16-d09a-e2",
+   "msg_id": "p16-d09a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Zyrtec with breakfast.",
+   "span": [
+    170,
+    199
+   ],
+   "event_id": "p16-d09a-e3",
+   "msg_id": "p16-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "numbness_tingling",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed",
+    "channel_voice"
+   ],
+   "quote": "um tingling in my fingers on and off a two can't tie it to anything",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p16-d09b-e0",
+   "msg_id": "p16-d09b"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so waking up unrefreshed today around a 8 it came on after the grocery run",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p16-d10a-e0",
+   "msg_id": "p16-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh a fluttering heart today around a 7",
+   "span": [
+    75,
+    113
+   ],
+   "event_id": "p16-d10a-e1",
+   "msg_id": "p16-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Heart racing: 6 out of 10 this afternoon. It came on after a long walk.",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p16-d11a-e0",
+   "msg_id": "p16-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: headache about a 3.",
+   "span": [
+    72,
+    119
+   ],
+   "event_id": "p16-d11a-e1",
+   "msg_id": "p16-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one heart racing sitting at 4",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p16-d12a-e0",
+   "msg_id": "p16-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so muscle pain in my neck two out of ten this afternoon it came on after the grocery run",
+   "span": [
+    39,
+    127
+   ],
+   "event_id": "p16-d12a-e1",
+   "msg_id": "p16-d12a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "um had my zyrtec with breakfast",
+   "span": [
+    128,
+    159
+   ],
+   "event_id": "p16-d12a-e2",
+   "msg_id": "p16-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p16-d13a-e0",
+   "msg_id": "p16-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, waking up unrefreshed sitting at 5.",
+   "span": [
+    37,
+    83
+   ],
+   "event_id": "p16-d13a-e1",
+   "msg_id": "p16-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Post-exertional malaise has been pretty mild all day.",
+   "span": [
+    84,
+    137
+   ],
+   "event_id": "p16-d13a-e2",
+   "msg_id": "p16-d13a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my cetirizine this morning.",
+   "span": [
+    138,
+    170
+   ],
+   "event_id": "p16-d13a-e3",
+   "msg_id": "p16-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 7.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p16-d14a-e0",
+   "msg_id": "p16-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Unrefreshing sleep was moderate today.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p16-d15a-e0",
+   "msg_id": "p16-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness was moderate today.",
+   "span": [
+    39,
+    68
+   ],
+   "event_id": "p16-d15a-e1",
+   "msg_id": "p16-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "so um my palpitations is like a nine no wait more like a ten today",
+   "span": [
+    0,
+    66
+   ],
+   "event_id": "p16-d15b-e0",
+   "msg_id": "p16-d15b"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "heart racing nine out of ten this afternoon",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p16-d16a-e0",
+   "msg_id": "p16-d16a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "uh used my cetirizine again today",
+   "span": [
+    44,
+    77
+   ],
+   "event_id": "p16-d16a-e1",
+   "msg_id": "p16-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Heart racing was awful today.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p16-d17a-e0",
+   "msg_id": "p16-d17a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my cetirizine this morning.",
+   "span": [
+    30,
+    62
+   ],
+   "event_id": "p16-d17a-e1",
+   "msg_id": "p16-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a fluttering heart sitting at 8.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p16-d18a-e0",
+   "msg_id": "p16-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 6.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p16-d19a-e0",
+   "msg_id": "p16-d19a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my cetirizine this morning.",
+   "span": [
+    36,
+    68
+   ],
+   "event_id": "p16-d19a-e1",
+   "msg_id": "p16-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Scratch what I said this morning, the exhaustion was really more like a 8.",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p16-d19b-e0",
+   "msg_id": "p16-d19b"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, palpitations sitting at 6.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p16-d21a-e0",
+   "msg_id": "p16-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness: 5 out of 10 this afternoon.",
+   "span": [
+    38,
+    81
+   ],
+   "event_id": "p16-d21a-e1",
+   "msg_id": "p16-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle aches in my legs: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p16-d22a-e0",
+   "msg_id": "p16-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness today, around a 4. It came on after a bad night's sleep.",
+   "span": [
+    53,
+    124
+   ],
+   "event_id": "p16-d22a-e1",
+   "msg_id": "p16-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A fluttering heart: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p16-d23a-e0",
+   "msg_id": "p16-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with exhaustion, 4/10.",
+   "span": [
+    48,
+    78
+   ],
+   "event_id": "p16-d23a-e1",
+   "msg_id": "p16-d23a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Zyrtec this morning.",
+   "span": [
+    79,
+    107
+   ],
+   "event_id": "p16-d23a-e2",
+   "msg_id": "p16-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain today, around a 6.",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p16-d24a-e0",
+   "msg_id": "p16-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 4/10.",
+   "span": [
+    31,
+    60
+   ],
+   "event_id": "p16-d24a-e1",
+   "msg_id": "p16-d24a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my cetirizine again today.",
+   "span": [
+    61,
+    92
+   ],
+   "event_id": "p16-d24a-e2",
+   "msg_id": "p16-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "If my brain fog flares up tomorrow, I'll cancel my plans.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p16-d24b-e0",
+   "msg_id": "p16-d24b"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so rough one heart racing sitting at 9",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p16-d27a-e0",
+   "msg_id": "p16-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week",
+    "channel_voice"
+   ],
+   "quote": "uh quiet day overall though on sunday i had tiredness around a 5",
+   "span": [
+    0,
+    64
+   ],
+   "event_id": "p16-d27b-e0",
+   "msg_id": "p16-d27b"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Palpitations: 10 out of 10 this afternoon.",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p16-d28a-e0",
+   "msg_id": "p16-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: tiredness about a 5. It came on after a stressful deadline.",
+   "span": [
+    0,
+    87
+   ],
+   "event_id": "p16-d29a-e0",
+   "msg_id": "p16-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain in my legs has been moderate all day.",
+   "span": [
+    88,
+    137
+   ],
+   "event_id": "p16-d29a-e1",
+   "msg_id": "p16-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness has been moderate all day.",
+   "span": [
+    138,
+    179
+   ],
+   "event_id": "p16-d29a-e2",
+   "msg_id": "p16-d29a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naltrexone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my naltrexone with breakfast.",
+   "span": [
+    180,
+    213
+   ],
+   "event_id": "p16-d29a-e3",
+   "msg_id": "p16-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-15",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "No unrefreshing sleep today, which is a nice change.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p16-d30b-e0",
+   "msg_id": "p16-d30b"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Revia",
+   "dose": "1.5 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Started Revia 1.5 mg last night, fingers crossed.",
+   "span": [
+    53,
+    102
+   ],
+   "event_id": "p16-d30b-e1",
+   "msg_id": "p16-d30b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness today, around a 7.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p16-d31a-e0",
+   "msg_id": "p16-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: tiredness about a 7.",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p16-d32a-e0",
+   "msg_id": "p16-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking was pretty mild today.",
+   "span": [
+    49,
+    86
+   ],
+   "event_id": "p16-d32a-e1",
+   "msg_id": "p16-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: foggy thinking about a 4. It came on after a stressful deadline.",
+   "span": [
+    0,
+    92
+   ],
+   "event_id": "p16-d33a-e0",
+   "msg_id": "p16-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with heart racing, 4/10.",
+   "span": [
+    93,
+    125
+   ],
+   "event_id": "p16-d33a-e1",
+   "msg_id": "p16-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one palpitations sitting at 6 it came on after a hot day",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p16-d34a-e0",
+   "msg_id": "p16-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so exhaustion was moderate today",
+   "span": [
+    71,
+    108
+   ],
+   "event_id": "p16-d34a-e1",
+   "msg_id": "p16-d34a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naltrexone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "took my naltrexone this morning",
+   "span": [
+    109,
+    140
+   ],
+   "event_id": "p16-d34a-e2",
+   "msg_id": "p16-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a PEM crash sitting at 4.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p16-d35a-e0",
+   "msg_id": "p16-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Unrefreshing sleep has been moderate all day.",
+   "span": [
+    37,
+    82
+   ],
+   "event_id": "p16-d35a-e1",
+   "msg_id": "p16-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-08-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue today, around a 3.",
+   "span": [
+    83,
+    109
+   ],
+   "event_id": "p16-d35a-e2",
+   "msg_id": "p16-d35a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naltrexone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my naltrexone this morning.",
+   "span": [
+    110,
+    142
+   ],
+   "event_id": "p16-d35a-e3",
+   "msg_id": "p16-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one post-exertional malaise sitting at 6",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p16-d36a-e0",
+   "msg_id": "p16-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with breathlessness five out of ten it came on after a hot day",
+   "span": [
+    50,
+    123
+   ],
+   "event_id": "p16-d36a-e1",
+   "msg_id": "p16-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so a fluttering heart today around a 4",
+   "span": [
+    124,
+    167
+   ],
+   "event_id": "p16-d36a-e2",
+   "msg_id": "p16-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Post-exertional malaise has been properly bad all day.",
+   "span": [
+    0,
+    54
+   ],
+   "event_id": "p16-d37a-e0",
+   "msg_id": "p16-d37a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naltrexone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my naltrexone with breakfast.",
+   "span": [
+    55,
+    88
+   ],
+   "event_id": "p16-d37a-e1",
+   "msg_id": "p16-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date",
+    "channel_voice"
+   ],
+   "quote": "okay so brain fog since thursday it's been a four the whole time",
+   "span": [
+    0,
+    64
+   ],
+   "event_id": "p16-d37b-e0",
+   "msg_id": "p16-d37b"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness today, around a 5.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p16-d38a-e0",
+   "msg_id": "p16-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A PEM crash today, around a 5. It came on after standing in the shower.",
+   "span": [
+    34,
+    105
+   ],
+   "event_id": "p16-d38a-e1",
+   "msg_id": "p16-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with waking up unrefreshed, 5/10.",
+   "span": [
+    106,
+    147
+   ],
+   "event_id": "p16-d38a-e2",
+   "msg_id": "p16-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p16-d39a-e0",
+   "msg_id": "p16-d39a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my cetirizine with breakfast.",
+   "span": [
+    44,
+    77
+   ],
+   "event_id": "p16-d39a-e1",
+   "msg_id": "p16-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-24",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person",
+    "channel_voice"
+   ],
+   "quote": "my partner has been dealing with nausea all week so the house is quiet",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p16-d39b-e0",
+   "msg_id": "p16-d39b"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-08-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh woke up with headache three out of ten",
+   "span": [
+    71,
+    112
+   ],
+   "event_id": "p16-d39b-e1",
+   "msg_id": "p16-d39b"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: shortness of breath about a 6.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p16-d40a-e0",
+   "msg_id": "p16-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a fluttering heart sitting at 4.",
+   "span": [
+    59,
+    102
+   ],
+   "event_id": "p16-d40a-e1",
+   "msg_id": "p16-d40a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naltrexone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my naltrexone with breakfast.",
+   "span": [
+    103,
+    136
+   ],
+   "event_id": "p16-d40a-e2",
+   "msg_id": "p16-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Heart racing today, around a 4.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p16-d41a-e0",
+   "msg_id": "p16-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-08-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: tiredness about a 3.",
+   "span": [
+    32,
+    80
+   ],
+   "event_id": "p16-d41a-e1",
+   "msg_id": "p16-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with shortness of breath, 5/10.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p16-d42a-e0",
+   "msg_id": "p16-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue today, around a 4.",
+   "span": [
+    40,
+    66
+   ],
+   "event_id": "p16-d42a-e1",
+   "msg_id": "p16-d42a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naltrexone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my naltrexone again today.",
+   "span": [
+    67,
+    98
+   ],
+   "event_id": "p16-d42a-e2",
+   "msg_id": "p16-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, fatigue sitting at 6.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p16-d43a-e0",
+   "msg_id": "p16-d43a"
+  },
+  {
+   "kind": "med",
+   "name": "naltrexone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Revia",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Revia with breakfast.",
+   "span": [
+    33,
+    61
+   ],
+   "event_id": "p16-d43a-e1",
+   "msg_id": "p16-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um palpitations today around a 7",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p16-d44a-e0",
+   "msg_id": "p16-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-08-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Palpitations today, around a 10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p16-d45a-e0",
+   "msg_id": "p16-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with unrefreshing sleep, 8/10.",
+   "span": [
+    33,
+    71
+   ],
+   "event_id": "p16-d45a-e1",
+   "msg_id": "p16-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-09-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: a fluttering heart about a 8.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p16-d47a-e0",
+   "msg_id": "p16-d47a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

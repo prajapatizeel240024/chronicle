@@ -1,0 +1,2303 @@
+{
+ "patient_id": "p15",
+ "name": "Eli",
+ "conditions": [
+  "ra",
+  "ibs"
+ ],
+ "start_date": "2026-07-13",
+ "days": 36,
+ "meds": [
+  {
+   "generic": "methotrexate",
+   "dose": "15 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "hydroxychloroquine",
+   "dose": "200 mg",
+   "start_date": "2026-07-25",
+   "stop_date": null
+  },
+  {
+   "generic": "adalimumab",
+   "dose": "40 mg",
+   "start_date": null,
+   "stop_date": "2026-07-24"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-07-22",
+  "2026-08-01",
+  "2026-08-11"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "hips",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, joint pain in my hips sitting at 4.",
+   "span": [
+    0,
+    46
+   ],
+   "event_id": "p15-d00a-e0",
+   "msg_id": "p15-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "hands",
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Morning stiffness in my hands: 3 out of 10 this afternoon.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p15-d01a-e0",
+   "msg_id": "p15-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating has been moderate all day.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p15-d02a-e0",
+   "msg_id": "p15-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 4.",
+   "span": [
+    36,
+    71
+   ],
+   "event_id": "p15-d02a-e1",
+   "msg_id": "p15-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Abdominal pain in my lower abdomen today, around a 4.",
+   "span": [
+    72,
+    125
+   ],
+   "event_id": "p15-d02a-e2",
+   "msg_id": "p15-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um exhaustion five out of ten this afternoon it came on after a hot day",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p15-d04a-e0",
+   "msg_id": "p15-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "aching joints today around a 4",
+   "span": [
+    72,
+    102
+   ],
+   "event_id": "p15-d04a-e1",
+   "msg_id": "p15-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so bloating four out of ten this afternoon",
+   "span": [
+    103,
+    150
+   ],
+   "event_id": "p15-d04a-e2",
+   "msg_id": "p15-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical",
+    "channel_voice"
+   ],
+   "quote": "um if my bloating flares up tomorrow i'll cancel my plans",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p15-d04b-e0",
+   "msg_id": "p15-d04b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um exhaustion today around a 5",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p15-d05a-e0",
+   "msg_id": "p15-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation today, around a 4. It came on after a hot day.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p15-d06a-e0",
+   "msg_id": "p15-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Abdominal pain today, around a 3.",
+   "span": [
+    60,
+    93
+   ],
+   "event_id": "p15-d06a-e1",
+   "msg_id": "p15-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint stiffness today, around a 3.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p15-d07a-e0",
+   "msg_id": "p15-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My RA is acting up: exhaustion about a 3.",
+   "span": [
+    35,
+    76
+   ],
+   "event_id": "p15-d07a-e1",
+   "msg_id": "p15-d07a"
+  },
+  {
+   "kind": "med",
+   "name": "adalimumab",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "adalimumab",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my adalimumab with breakfast.",
+   "span": [
+    77,
+    110
+   ],
+   "event_id": "p15-d07a-e2",
+   "msg_id": "p15-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one constipation sitting at 7",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p15-d08a-e0",
+   "msg_id": "p15-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "A week ago today I had morning stiffness at 5, nothing like that now.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p15-d08b-e0",
+   "msg_id": "p15-d08b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 7.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p15-d09a-e0",
+   "msg_id": "p15-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_stiffness",
+   "body_site": "hands",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Morning stiffness in my hands today, around a 6.",
+   "span": [
+    38,
+    86
+   ],
+   "event_id": "p15-d09a-e1",
+   "msg_id": "p15-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "shoulders",
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain in my shoulders was pretty mild today. It came on after a bad night's sleep.",
+   "span": [
+    87,
+    174
+   ],
+   "event_id": "p15-d09a-e2",
+   "msg_id": "p15-d09a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Trexall",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Trexall with breakfast.",
+   "span": [
+    175,
+    205
+   ],
+   "event_id": "p15-d09a-e3",
+   "msg_id": "p15-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one joint pain sitting at 4",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p15-d11a-e0",
+   "msg_id": "p15-d11a"
+  },
+  {
+   "kind": "med",
+   "name": "adalimumab",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "adalimumab",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop"
+   ],
+   "quote": "Stopped the adalimumab this morning, it was upsetting my stomach.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p15-d11b-e0",
+   "msg_id": "p15-d11b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion has been properly bad all day. It came on after a hot day.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p15-d12a-e0",
+   "msg_id": "p15-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 5 out of 10 this afternoon.",
+   "span": [
+    70,
+    111
+   ],
+   "event_id": "p15-d12a-e1",
+   "msg_id": "p15-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, stomach cramps sitting at 4.",
+   "span": [
+    112,
+    151
+   ],
+   "event_id": "p15-d12a-e2",
+   "msg_id": "p15-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um aching joints four out of ten this afternoon",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p15-d13a-e0",
+   "msg_id": "p15-d13a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Plaquenil",
+   "dose": "200 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so started plaquenil 200 mg last night fingers crossed",
+   "span": [
+    0,
+    54
+   ],
+   "event_id": "p15-d13b-e0",
+   "msg_id": "p15-d13b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 5.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p15-d14a-e0",
+   "msg_id": "p15-d14a"
+  },
+  {
+   "kind": "med",
+   "name": "methotrexate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Trexall",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Trexall again today.",
+   "span": [
+    38,
+    66
+   ],
+   "event_id": "p15-d14a-e1",
+   "msg_id": "p15-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh constipation has been properly bad all day it came on after standing in line",
+   "span": [
+    0,
+    79
+   ],
+   "event_id": "p15-d15a-e0",
+   "msg_id": "p15-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Stomach cramps today, around a 3. It came on after a long walk.",
+   "span": [
+    0,
+    63
+   ],
+   "event_id": "p15-d16a-e0",
+   "msg_id": "p15-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with constipation, 4/10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p15-d17a-e0",
+   "msg_id": "p15-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "knees",
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain in my knees today, around a 3.",
+   "span": [
+    33,
+    74
+   ],
+   "event_id": "p15-d17a-e1",
+   "msg_id": "p15-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-30",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "Zero aching joints at all today.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p15-d17b-e0",
+   "msg_id": "p15-d17b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation was properly bad today.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p15-d18a-e0",
+   "msg_id": "p15-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "hips",
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My RA is acting up: aching joints in my hips about a 3. It came on after the grocery run.",
+   "span": [
+    37,
+    126
+   ],
+   "event_id": "p15-d18a-e1",
+   "msg_id": "p15-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so diarrhea four out of ten this afternoon",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p15-d19a-e0",
+   "msg_id": "p15-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 8.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p15-d20a-e0",
+   "msg_id": "p15-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My partner has been dealing with nausea all week, so the house is quiet.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p15-d20b-e0",
+   "msg_id": "p15-d20b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation was properly bad today.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p15-d21a-e0",
+   "msg_id": "p15-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 1,
+   "severity_range": [
+    0,
+    2
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "uh diarrhea is a four actually no a one I think",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p15-d21b-e0",
+   "msg_id": "p15-d21b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Aching joints in my wrists: 6 out of 10 this afternoon. It came on after the grocery run.",
+   "span": [
+    0,
+    89
+   ],
+   "event_id": "p15-d22a-e0",
+   "msg_id": "p15-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, stomach cramps in my lower abdomen sitting at 5. It came on after the grocery run.",
+   "span": [
+    90,
+    183
+   ],
+   "event_id": "p15-d22a-e1",
+   "msg_id": "p15-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so joint pain in my wrists today around a 7 it came on after a long walk",
+   "span": [
+    0,
+    77
+   ],
+   "event_id": "p15-d23a-e0",
+   "msg_id": "p15-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation today, around a 6.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p15-d24a-e0",
+   "msg_id": "p15-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 5 out of 10 this afternoon.",
+   "span": [
+    32,
+    71
+   ],
+   "event_id": "p15-d24a-e1",
+   "msg_id": "p15-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with stomach cramps, 5/10.",
+   "span": [
+    72,
+    106
+   ],
+   "event_id": "p15-d24a-e2",
+   "msg_id": "p15-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so woke up with abdominal pain five out of ten it came on after a long walk",
+   "span": [
+    0,
+    80
+   ],
+   "event_id": "p15-d25a-e0",
+   "msg_id": "p15-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh diarrhea has been moderate all day",
+   "span": [
+    81,
+    118
+   ],
+   "event_id": "p15-d25a-e1",
+   "msg_id": "p15-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh rough one bloating sitting at 7",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p15-d26a-e0",
+   "msg_id": "p15-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so my ra is acting up joint pain about a 4 it came on after a long walk",
+   "span": [
+    35,
+    111
+   ],
+   "event_id": "p15-d26a-e1",
+   "msg_id": "p15-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh my ra is acting up fatigue about a 4",
+   "span": [
+    112,
+    151
+   ],
+   "event_id": "p15-d26a-e2",
+   "msg_id": "p15-d26a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "hydroxychloroquine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "had my hydroxychloroquine with breakfast",
+   "span": [
+    152,
+    192
+   ],
+   "event_id": "p15-d26a-e3",
+   "msg_id": "p15-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Correction: my bloating earlier today was a 9, I overstated it.",
+   "span": [
+    0,
+    63
+   ],
+   "event_id": "p15-d26b-e0",
+   "msg_id": "p15-d26b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 7.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p15-d27a-e0",
+   "msg_id": "p15-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with aching joints, 5/10.",
+   "span": [
+    45,
+    78
+   ],
+   "event_id": "p15-d27a-e1",
+   "msg_id": "p15-d27a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "hydroxychloroquine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my hydroxychloroquine this morning.",
+   "span": [
+    79,
+    119
+   ],
+   "event_id": "p15-d27a-e2",
+   "msg_id": "p15-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion today, around a 6. It came on after a long walk.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p15-d28a-e0",
+   "msg_id": "p15-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea today, around a 6. It came on after a stressful deadline.",
+   "span": [
+    60,
+    126
+   ],
+   "event_id": "p15-d28a-e1",
+   "msg_id": "p15-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one bloating sitting at 5",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p15-d29a-e0",
+   "msg_id": "p15-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ra",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my ra is acting up aching joints in my wrists about a 4",
+   "span": [
+    35,
+    90
+   ],
+   "event_id": "p15-d29a-e1",
+   "msg_id": "p15-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date"
+   ],
+   "quote": "Exhaustion since Friday, it's been a 4 the whole time.",
+   "span": [
+    0,
+    54
+   ],
+   "event_id": "p15-d29b-e0",
+   "msg_id": "p15-d29b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "shoulders",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh aching joints in my shoulders today around a 6 it came on after a big meal",
+   "span": [
+    0,
+    77
+   ],
+   "event_id": "p15-d30a-e0",
+   "msg_id": "p15-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one bloating sitting at 6 it came on after standing in line",
+   "span": [
+    78,
+    143
+   ],
+   "event_id": "p15-d30a-e1",
+   "msg_id": "p15-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with diarrhea five out of ten",
+   "span": [
+    144,
+    184
+   ],
+   "event_id": "p15-d30a-e2",
+   "msg_id": "p15-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 7 out of 10 this afternoon. It came on after standing in the shower.",
+   "span": [
+    0,
+    78
+   ],
+   "event_id": "p15-d31a-e0",
+   "msg_id": "p15-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "hips",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain in my hips today, around a 5.",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p15-d32a-e0",
+   "msg_id": "p15-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea today, around a 5.",
+   "span": [
+    41,
+    68
+   ],
+   "event_id": "p15-d32a-e1",
+   "msg_id": "p15-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation was moderate today.",
+   "span": [
+    69,
+    101
+   ],
+   "event_id": "p15-d32a-e2",
+   "msg_id": "p15-d32a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Plaquenil",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Plaquenil with breakfast.",
+   "span": [
+    102,
+    134
+   ],
+   "event_id": "p15-d32a-e3",
+   "msg_id": "p15-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "hips",
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Flare day: hips on fire, 8.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p15-d33b-e0",
+   "msg_id": "p15-d33b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 5.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p15-d34a-e0",
+   "msg_id": "p15-d34a"
+  },
+  {
+   "kind": "med",
+   "name": "hydroxychloroquine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "hydroxychloroquine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my hydroxychloroquine this morning.",
+   "span": [
+    45,
+    85
+   ],
+   "event_id": "p15-d34a-e1",
+   "msg_id": "p15-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 6. It came on after the grocery run.",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p15-d35a-e0",
+   "msg_id": "p15-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: diarrhea about a 5.",
+   "span": [
+    72,
+    112
+   ],
+   "event_id": "p15-d35a-e1",
+   "msg_id": "p15-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "numbness_tingling",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Tingling in my fingers on and off, a 2, can't tie it to anything.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p15-d35b-e0",
+   "msg_id": "p15-d35b"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

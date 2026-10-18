@@ -1,0 +1,3031 @@
+{
+ "patient_id": "p05",
+ "name": "Lena",
+ "conditions": [
+  "pots",
+  "migraine"
+ ],
+ "start_date": "2026-06-13",
+ "days": 50,
+ "meds": [
+  {
+   "generic": "propranolol",
+   "dose": "10 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "fludrocortisone",
+   "dose": "0.1 mg",
+   "start_date": "2026-07-10",
+   "stop_date": null
+  },
+  {
+   "generic": "midodrine",
+   "dose": "5 mg",
+   "start_date": null,
+   "stop_date": "2026-07-09"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-06-22",
+  "2026-07-02",
+  "2026-07-12",
+  "2026-07-22",
+  "2026-08-01"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine, 5/10. It came on after standing in the shower.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p05-d00a-e0",
+   "msg_id": "p05-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: dizzy spells about a 4.",
+   "span": [
+    70,
+    115
+   ],
+   "event_id": "p05-d00a-e1",
+   "msg_id": "p05-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: fatigue about a 7. It came on after a long walk.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p05-d01a-e0",
+   "msg_id": "p05-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, lightheadedness sitting at 5.",
+   "span": [
+    71,
+    111
+   ],
+   "event_id": "p05-d01a-e1",
+   "msg_id": "p05-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: exhaustion about a 7.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p05-d02a-e0",
+   "msg_id": "p05-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine today, around a 6. It came on after standing in line.",
+   "span": [
+    44,
+    106
+   ],
+   "event_id": "p05-d02a-e1",
+   "msg_id": "p05-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with dizzy spells, 5/10.",
+   "span": [
+    107,
+    139
+   ],
+   "event_id": "p05-d02a-e2",
+   "msg_id": "p05-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine sitting at 9.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p05-d03a-e0",
+   "msg_id": "p05-d03a"
+  },
+  {
+   "kind": "med",
+   "name": "midodrine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "midodrine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my midodrine with breakfast.",
+   "span": [
+    34,
+    66
+   ],
+   "event_id": "p05-d03a-e1",
+   "msg_id": "p05-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um my migraine is acting up migraine about a 8",
+   "span": [
+    0,
+    46
+   ],
+   "event_id": "p05-d04a-e0",
+   "msg_id": "p05-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with exhaustion, 8/10. It came on after a big meal.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p05-d05a-e0",
+   "msg_id": "p05-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "dizziness has been properly bad all day",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p05-d07a-e0",
+   "msg_id": "p05-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so my pots is acting up fatigue about a 4 it came on after a stressful deadline",
+   "span": [
+    40,
+    124
+   ],
+   "event_id": "p05-d07a-e1",
+   "msg_id": "p05-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My dad says his joint pain is back and he can barely walk.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p05-d07b-e0",
+   "msg_id": "p05-d07b"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Lightheadedness today, around a 6.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p05-d08a-e0",
+   "msg_id": "p05-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-06-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness has been pretty mild all day.",
+   "span": [
+    35,
+    74
+   ],
+   "event_id": "p05-d08a-e1",
+   "msg_id": "p05-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so dizziness today around a 4",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p05-d09a-e0",
+   "msg_id": "p05-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Dizziness: 4 out of 10 this afternoon.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p05-d10a-e0",
+   "msg_id": "p05-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine attack sitting at 4. It came on after a bad night's sleep.",
+   "span": [
+    39,
+    117
+   ],
+   "event_id": "p05-d10a-e1",
+   "msg_id": "p05-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one migraine attack sitting at 6",
+   "span": [
+    0,
+    46
+   ],
+   "event_id": "p05-d11a-e0",
+   "msg_id": "p05-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one exhaustion sitting at 5 it came on after standing in the shower",
+   "span": [
+    47,
+    128
+   ],
+   "event_id": "p05-d11a-e1",
+   "msg_id": "p05-d11a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Inderal",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so had my inderal with breakfast",
+   "span": [
+    129,
+    161
+   ],
+   "event_id": "p05-d11a-e2",
+   "msg_id": "p05-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue has been moderate all day. It came on after a hot day.",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p05-d12a-e0",
+   "msg_id": "p05-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: dizzy spells about a 4.",
+   "span": [
+    63,
+    108
+   ],
+   "event_id": "p05-d12a-e1",
+   "msg_id": "p05-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine sitting at 4. It came on after a bad night's sleep.",
+   "span": [
+    109,
+    180
+   ],
+   "event_id": "p05-d12a-e2",
+   "msg_id": "p05-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 7 out of 10 this afternoon. It came on after the grocery run.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p05-d13a-e0",
+   "msg_id": "p05-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine sitting at 10. It came on after the grocery run.",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p05-d14a-e0",
+   "msg_id": "p05-d14a"
+  },
+  {
+   "kind": "med",
+   "name": "midodrine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "midodrine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my midodrine this morning.",
+   "span": [
+    69,
+    100
+   ],
+   "event_id": "p05-d14a-e1",
+   "msg_id": "p05-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine today, around a 10.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p05-d15a-e0",
+   "msg_id": "p05-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang",
+    "channel_voice"
+   ],
+   "quote": "um brain fog is thick today a 6",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p05-d15b-e0",
+   "msg_id": "p05-d15b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: tiredness about a 7.",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p05-d16a-e0",
+   "msg_id": "p05-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine was properly bad today. It came on after a long walk.",
+   "span": [
+    43,
+    105
+   ],
+   "event_id": "p05-d16a-e1",
+   "msg_id": "p05-d16a"
+  },
+  {
+   "kind": "med",
+   "name": "midodrine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "ProAmatine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my ProAmatine this morning.",
+   "span": [
+    106,
+    138
+   ],
+   "event_id": "p05-d16a-e2",
+   "msg_id": "p05-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "sensitivity to light ten out of ten this afternoon it came on after the grocery run",
+   "span": [
+    0,
+    83
+   ],
+   "event_id": "p05-d17a-e0",
+   "msg_id": "p05-d17a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um used my propranolol again today",
+   "span": [
+    84,
+    118
+   ],
+   "event_id": "p05-d17a-e1",
+   "msg_id": "p05-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-30",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "No migraine attack today, which is a nice change.",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p05-d17b-e0",
+   "msg_id": "p05-d17b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh woke up with foggy thinking five out of ten it came on after a big meal",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p05-d18a-e0",
+   "msg_id": "p05-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh tiredness has been moderate all day it came on after the grocery run",
+   "span": [
+    75,
+    146
+   ],
+   "event_id": "p05-d18a-e1",
+   "msg_id": "p05-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "migraine attack has been properly bad all day",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p05-d19a-e0",
+   "msg_id": "p05-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so rough one brain fog sitting at 5 it came on after standing in the shower",
+   "span": [
+    46,
+    121
+   ],
+   "event_id": "p05-d19a-e1",
+   "msg_id": "p05-d19a"
+  },
+  {
+   "kind": "med",
+   "name": "midodrine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "ProAmatine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "uh had my proamatine with breakfast",
+   "span": [
+    122,
+    157
+   ],
+   "event_id": "p05-d19a-e2",
+   "msg_id": "p05-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "uh a fluttering heart is a six actually no a nine I think",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p05-d19b-e0",
+   "msg_id": "p05-d19b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: migraine about a 7.",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p05-d20a-e0",
+   "msg_id": "p05-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: foggy thinking about a 6.",
+   "span": [
+    46,
+    93
+   ],
+   "event_id": "p05-d20a-e1",
+   "msg_id": "p05-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: sensitivity to light about a 5.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p05-d21a-e0",
+   "msg_id": "p05-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so woke up with migraine six out of ten it came on after a bad night's sleep",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p05-d22a-e0",
+   "msg_id": "p05-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, dizziness sitting at 6. It came on after a hot day.",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p05-d23a-e0",
+   "msg_id": "p05-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "Quiet day overall, though on Friday I had brain fog around a 5.",
+   "span": [
+    0,
+    63
+   ],
+   "event_id": "p05-d23b-e0",
+   "msg_id": "p05-d23b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine, 6/10.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p05-d24a-e0",
+   "msg_id": "p05-d24a"
+  },
+  {
+   "kind": "med",
+   "name": "midodrine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "midodrine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my midodrine this morning.",
+   "span": [
+    29,
+    60
+   ],
+   "event_id": "p05-d24a-e1",
+   "msg_id": "p05-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with dizzy spells, 6/10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p05-d25a-e0",
+   "msg_id": "p05-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "What if my lightheadedness gets worse tonight? I really can't afford that.",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p05-d25b-e0",
+   "msg_id": "p05-d25b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine sitting at 7.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p05-d26a-e0",
+   "msg_id": "p05-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue has been awful all day.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p05-d27a-e0",
+   "msg_id": "p05-d27a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my propranolol with breakfast.",
+   "span": [
+    32,
+    66
+   ],
+   "event_id": "p05-d27a-e1",
+   "msg_id": "p05-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so heart racing six out of ten this afternoon it came on after a stressful deadline",
+   "span": [
+    0,
+    88
+   ],
+   "event_id": "p05-d28a-e0",
+   "msg_id": "p05-d28a"
+  },
+  {
+   "kind": "med",
+   "name": "fludrocortisone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "fludrocortisone",
+   "dose": "0.1 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop"
+   ],
+   "quote": "Started fludrocortisone 0.1 mg last night, fingers crossed.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p05-d28b-e0",
+   "msg_id": "p05-d28b"
+  },
+  {
+   "kind": "med",
+   "name": "midodrine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "ProAmatine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Stopped the ProAmatine on Thursday, it was upsetting my stomach.",
+   "span": [
+    60,
+    124
+   ],
+   "event_id": "p05-d28b-e1",
+   "msg_id": "p05-d28b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with tiredness, 7/10. It came on after a long walk.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p05-d30a-e0",
+   "msg_id": "p05-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine attack, 6/10.",
+   "span": [
+    60,
+    95
+   ],
+   "event_id": "p05-d30a-e1",
+   "msg_id": "p05-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: sensitivity to light about a 6.",
+   "span": [
+    96,
+    153
+   ],
+   "event_id": "p05-d30a-e2",
+   "msg_id": "p05-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Lightheadedness has been awful all day.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p05-d31a-e0",
+   "msg_id": "p05-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Dizzy spells: 8 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p05-d32a-e0",
+   "msg_id": "p05-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with heart racing, 5/10.",
+   "span": [
+    42,
+    74
+   ],
+   "event_id": "p05-d32a-e1",
+   "msg_id": "p05-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Dizziness has been properly bad all day.",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p05-d33a-e0",
+   "msg_id": "p05-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with sensitivity to light, 5/10.",
+   "span": [
+    41,
+    81
+   ],
+   "event_id": "p05-d33a-e1",
+   "msg_id": "p05-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with lightheadedness, 5/10.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p05-d35a-e0",
+   "msg_id": "p05-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 5 out of 10 this afternoon.",
+   "span": [
+    36,
+    75
+   ],
+   "event_id": "p05-d35a-e1",
+   "msg_id": "p05-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with dizzy spells six out of ten",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p05-d36a-e0",
+   "msg_id": "p05-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with tiredness, 4/10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p05-d37a-e0",
+   "msg_id": "p05-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine attack, 4/10.",
+   "span": [
+    30,
+    65
+   ],
+   "event_id": "p05-d37a-e1",
+   "msg_id": "p05-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: tiredness about a 6. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    80
+   ],
+   "event_id": "p05-d38a-e0",
+   "msg_id": "p05-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine attack, 6/10.",
+   "span": [
+    81,
+    116
+   ],
+   "event_id": "p05-d38a-e1",
+   "msg_id": "p05-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with light sensitivity, 5/10. It came on after a bad night's sleep.",
+   "span": [
+    117,
+    192
+   ],
+   "event_id": "p05-d38a-e2",
+   "msg_id": "p05-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine attack has been properly bad all day. It came on after a big meal.",
+   "span": [
+    0,
+    75
+   ],
+   "event_id": "p05-d39a-e0",
+   "msg_id": "p05-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with tiredness, 6/10.",
+   "span": [
+    76,
+    105
+   ],
+   "event_id": "p05-d39a-e1",
+   "msg_id": "p05-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p05-d40a-e0",
+   "msg_id": "p05-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, sensitivity to light sitting at 5.",
+   "span": [
+    40,
+    85
+   ],
+   "event_id": "p05-d40a-e1",
+   "msg_id": "p05-d40a"
+  },
+  {
+   "kind": "med",
+   "name": "fludrocortisone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Florinef",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Florinef this morning.",
+   "span": [
+    86,
+    116
+   ],
+   "event_id": "p05-d40a-e2",
+   "msg_id": "p05-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "tinnitus",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Weird ringing in my ears today, around a 3, no idea what it's from.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p05-d40b-e0",
+   "msg_id": "p05-d40b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh fatigue has been properly bad all day",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p05-d41a-e0",
+   "msg_id": "p05-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: a fluttering heart about a 6.",
+   "span": [
+    0,
+    51
+   ],
+   "event_id": "p05-d42a-e0",
+   "msg_id": "p05-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um heart racing was properly bad today",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p05-d43a-e0",
+   "msg_id": "p05-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one exhaustion sitting at 6",
+   "span": [
+    39,
+    72
+   ],
+   "event_id": "p05-d43a-e1",
+   "msg_id": "p05-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Lightheadedness today, around a 7.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p05-d44a-e0",
+   "msg_id": "p05-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A fluttering heart today, around a 5.",
+   "span": [
+    35,
+    72
+   ],
+   "event_id": "p05-d44a-e1",
+   "msg_id": "p05-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one lightheadedness sitting at 7",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p05-d45a-e0",
+   "msg_id": "p05-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my pots is acting up palpitations about a 6",
+   "span": [
+    39,
+    82
+   ],
+   "event_id": "p05-d45a-e1",
+   "msg_id": "p05-d45a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um had my propranolol with breakfast",
+   "span": [
+    83,
+    119
+   ],
+   "event_id": "p05-d45a-e2",
+   "msg_id": "p05-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine, 7/10.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p05-d46a-e0",
+   "msg_id": "p05-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 6.",
+   "span": [
+    29,
+    64
+   ],
+   "event_id": "p05-d46a-e1",
+   "msg_id": "p05-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with dizziness, 6/10. It came on after standing in the shower.",
+   "span": [
+    65,
+    135
+   ],
+   "event_id": "p05-d46a-e2",
+   "msg_id": "p05-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction",
+    "channel_voice"
+   ],
+   "quote": "so correction my dizzy spells earlier today was a nine i overstated it",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p05-d46b-e0",
+   "msg_id": "p05-d46b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one fatigue sitting at 5 it came on after a stressful deadline",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p05-d47a-e0",
+   "msg_id": "p05-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so dizziness four out of ten this afternoon",
+   "span": [
+    69,
+    117
+   ],
+   "event_id": "p05-d47a-e1",
+   "msg_id": "p05-d47a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "okay so had my propranolol with breakfast",
+   "span": [
+    118,
+    159
+   ],
+   "event_id": "p05-d47a-e2",
+   "msg_id": "p05-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date"
+   ],
+   "quote": "Foggy thinking since Sunday, it's been a 7 the whole time.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p05-d47b-e0",
+   "msg_id": "p05-d47b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 6.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p05-d48a-e0",
+   "msg_id": "p05-d48a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my propranolol this morning.",
+   "span": [
+    36,
+    69
+   ],
+   "event_id": "p05-d48a-e1",
+   "msg_id": "p05-d48a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Dizziness was properly bad today. It came on after the grocery run.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p05-d49a-e0",
+   "msg_id": "p05-d49a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 5.",
+   "span": [
+    68,
+    103
+   ],
+   "event_id": "p05-d49a-e1",
+   "msg_id": "p05-d49a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Inderal",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Inderal this morning.",
+   "span": [
+    104,
+    133
+   ],
+   "event_id": "p05-d49a-e2",
+   "msg_id": "p05-d49a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

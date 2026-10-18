@@ -1,0 +1,2314 @@
+{
+ "patient_id": "p04",
+ "name": "Jon",
+ "conditions": [
+  "long_covid"
+ ],
+ "start_date": "2026-06-10",
+ "days": 35,
+ "meds": [
+  {
+   "generic": "cetirizine",
+   "dose": "10 mg",
+   "start_date": null,
+   "stop_date": null
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-06-19",
+  "2026-06-29",
+  "2026-07-09"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with head pain, 5/10. It came on after standing in the shower.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p04-d01a-e0",
+   "msg_id": "p04-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness: 4 out of 10 this afternoon.",
+   "span": [
+    71,
+    114
+   ],
+   "event_id": "p04-d01a-e1",
+   "msg_id": "p04-d01a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Zyrtec this morning.",
+   "span": [
+    115,
+    143
+   ],
+   "event_id": "p04-d01a-e2",
+   "msg_id": "p04-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with foggy thinking six out of ten",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p04-d02a-e0",
+   "msg_id": "p04-d02a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um used my cetirizine again today",
+   "span": [
+    43,
+    76
+   ],
+   "event_id": "p04-d02a-e1",
+   "msg_id": "p04-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um shortness of breath eight out of ten this afternoon",
+   "span": [
+    0,
+    54
+   ],
+   "event_id": "p04-d03a-e0",
+   "msg_id": "p04-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one headache sitting at 8",
+   "span": [
+    55,
+    89
+   ],
+   "event_id": "p04-d03a-e1",
+   "msg_id": "p04-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um heart racing has been properly bad all day",
+   "span": [
+    90,
+    135
+   ],
+   "event_id": "p04-d03a-e2",
+   "msg_id": "p04-d03a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "okay so had my zyrtec with breakfast",
+   "span": [
+    136,
+    172
+   ],
+   "event_id": "p04-d03a-e3",
+   "msg_id": "p04-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, brain fog sitting at 9.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p04-d04a-e0",
+   "msg_id": "p04-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog: 8 out of 10 this afternoon. It came on after a big meal.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p04-d05a-e0",
+   "msg_id": "p04-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: exhaustion about a 5.",
+   "span": [
+    68,
+    117
+   ],
+   "event_id": "p04-d05a-e1",
+   "msg_id": "p04-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, head pain sitting at 7. It came on after a stressful deadline.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p04-d06a-e0",
+   "msg_id": "p04-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue was moderate today.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p04-d07a-e0",
+   "msg_id": "p04-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness today, around a 4.",
+   "span": [
+    28,
+    61
+   ],
+   "event_id": "p04-d07a-e1",
+   "msg_id": "p04-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-17",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "No headache today, which is a nice change.",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p04-d07b-e0",
+   "msg_id": "p04-d07b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking today, around a 8.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p04-d08a-e0",
+   "msg_id": "p04-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness today, around a 6.",
+   "span": [
+    34,
+    62
+   ],
+   "event_id": "p04-d08a-e1",
+   "msg_id": "p04-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "If my shortness of breath flares up tomorrow, I'll cancel my plans.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p04-d08b-e0",
+   "msg_id": "p04-d08b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um foggy thinking today around a 7",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p04-d09a-e0",
+   "msg_id": "p04-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so head pain today around a 6 it came on after a stressful deadline",
+   "span": [
+    35,
+    102
+   ],
+   "event_id": "p04-d09a-e1",
+   "msg_id": "p04-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog today, around a 6.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p04-d10a-e0",
+   "msg_id": "p04-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with headache, 5/10. It came on after a big meal.",
+   "span": [
+    29,
+    86
+   ],
+   "event_id": "p04-d10a-e1",
+   "msg_id": "p04-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with tiredness four out of ten",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p04-d11a-e0",
+   "msg_id": "p04-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so shortness of breath was moderate today",
+   "span": [
+    42,
+    83
+   ],
+   "event_id": "p04-d11a-e1",
+   "msg_id": "p04-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh headache four out of ten this afternoon",
+   "span": [
+    84,
+    126
+   ],
+   "event_id": "p04-d11a-e2",
+   "msg_id": "p04-d11a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so used my zyrtec again today",
+   "span": [
+    127,
+    156
+   ],
+   "event_id": "p04-d11a-e3",
+   "msg_id": "p04-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 5/10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p04-d12a-e0",
+   "msg_id": "p04-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: shortness of breath about a 4.",
+   "span": [
+    30,
+    88
+   ],
+   "event_id": "p04-d12a-e1",
+   "msg_id": "p04-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "brain fog eight out of ten this afternoon it came on after a hot day",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p04-d13a-e0",
+   "msg_id": "p04-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "so um my fatigue is like a seven no wait more like a ten today",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p04-d13b-e0",
+   "msg_id": "p04-d13b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 7/10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p04-d14a-e0",
+   "msg_id": "p04-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue: 5 out of 10 this afternoon.",
+   "span": [
+    30,
+    66
+   ],
+   "event_id": "p04-d14a-e1",
+   "msg_id": "p04-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Breathlessness was moderate today. It came on after standing in the shower.",
+   "span": [
+    0,
+    75
+   ],
+   "event_id": "p04-d15a-e0",
+   "msg_id": "p04-d15a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Zyrtec again today.",
+   "span": [
+    76,
+    103
+   ],
+   "event_id": "p04-d15a-e1",
+   "msg_id": "p04-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang",
+    "channel_voice"
+   ],
+   "quote": "okay so brain fog is thick today a 6",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p04-d15b-e0",
+   "msg_id": "p04-d15b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: exhaustion about a 6. It came on after a big meal.",
+   "span": [
+    0,
+    78
+   ],
+   "event_id": "p04-d16a-e0",
+   "msg_id": "p04-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, shortness of breath sitting at 5. It came on after standing in line.",
+   "span": [
+    79,
+    158
+   ],
+   "event_id": "p04-d16a-e1",
+   "msg_id": "p04-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Head pain: 5 out of 10 this afternoon.",
+   "span": [
+    159,
+    197
+   ],
+   "event_id": "p04-d16a-e2",
+   "msg_id": "p04-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: foggy thinking about a 4.",
+   "span": [
+    198,
+    251
+   ],
+   "event_id": "p04-d16a-e3",
+   "msg_id": "p04-d16a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Zyrtec again today.",
+   "span": [
+    252,
+    279
+   ],
+   "event_id": "p04-d16a-e4",
+   "msg_id": "p04-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction",
+    "channel_voice"
+   ],
+   "quote": "correction my exhaustion earlier today was a three i overstated it",
+   "span": [
+    0,
+    66
+   ],
+   "event_id": "p04-d16b-e0",
+   "msg_id": "p04-d16b"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, breathlessness sitting at 3.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p04-d17a-e0",
+   "msg_id": "p04-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking today, around a 3.",
+   "span": [
+    40,
+    73
+   ],
+   "event_id": "p04-d17a-e1",
+   "msg_id": "p04-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with foggy thinking, 6/10.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p04-d18a-e0",
+   "msg_id": "p04-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "tinnitus",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed",
+    "channel_voice"
+   ],
+   "quote": "okay so weird ringing in my ears today around a three no idea what it's from",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p04-d19b-e0",
+   "msg_id": "p04-d19b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "brain fog was moderate today",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p04-d20a-e0",
+   "msg_id": "p04-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um head pain has been moderate all day",
+   "span": [
+    29,
+    67
+   ],
+   "event_id": "p04-d20a-e1",
+   "msg_id": "p04-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um breathlessness today around a 4",
+   "span": [
+    68,
+    102
+   ],
+   "event_id": "p04-d20a-e2",
+   "msg_id": "p04-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um tiredness five out of ten this afternoon",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p04-d21a-e0",
+   "msg_id": "p04-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so woke up with head pain five out of ten it came on after a bad night's sleep",
+   "span": [
+    44,
+    122
+   ],
+   "event_id": "p04-d21a-e1",
+   "msg_id": "p04-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "Today was calm. But 5 days ago I had foggy thinking at 8, it really knocked me out.",
+   "span": [
+    0,
+    83
+   ],
+   "event_id": "p04-d21b-e0",
+   "msg_id": "p04-d21b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh foggy thinking today around a 5",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p04-d22a-e0",
+   "msg_id": "p04-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with exhaustion four out of ten",
+   "span": [
+    35,
+    74
+   ],
+   "event_id": "p04-d22a-e1",
+   "msg_id": "p04-d22a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "used my zyrtec again today",
+   "span": [
+    75,
+    101
+   ],
+   "event_id": "p04-d22a-e2",
+   "msg_id": "p04-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 6/10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p04-d23a-e0",
+   "msg_id": "p04-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh foggy thinking today around a 5",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p04-d24a-e0",
+   "msg_id": "p04-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "head pain was moderate today",
+   "span": [
+    35,
+    63
+   ],
+   "event_id": "p04-d24a-e1",
+   "msg_id": "p04-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh exhaustion today around a 2",
+   "span": [
+    64,
+    94
+   ],
+   "event_id": "p04-d24a-e2",
+   "msg_id": "p04-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one brain fog sitting at 4",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p04-d25a-e0",
+   "msg_id": "p04-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so shortness of breath today around a 3",
+   "span": [
+    33,
+    72
+   ],
+   "event_id": "p04-d25a-e1",
+   "msg_id": "p04-d25a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "cetirizine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um used my cetirizine again today",
+   "span": [
+    73,
+    106
+   ],
+   "event_id": "p04-d25a-e2",
+   "msg_id": "p04-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person",
+    "channel_voice"
+   ],
+   "quote": "so my sister's migraine attacks are awful this month she cancelled everything",
+   "span": [
+    0,
+    77
+   ],
+   "event_id": "p04-d25b-e0",
+   "msg_id": "p04-d25b"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with shortness of breath three out of ten",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p04-d26a-e0",
+   "msg_id": "p04-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um foggy thinking three out of ten this afternoon",
+   "span": [
+    50,
+    99
+   ],
+   "event_id": "p04-d26a-e1",
+   "msg_id": "p04-d26a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "had my zyrtec with breakfast",
+   "span": [
+    100,
+    128
+   ],
+   "event_id": "p04-d26a-e2",
+   "msg_id": "p04-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, breathlessness sitting at 4.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p04-d27a-e0",
+   "msg_id": "p04-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date",
+    "channel_voice"
+   ],
+   "quote": "brain fog has been bugging me since friday about a 6",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p04-d28b-e0",
+   "msg_id": "p04-d28b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p04-d29a-e0",
+   "msg_id": "p04-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: brain fog about a 6. It came on after standing in line.",
+   "span": [
+    0,
+    83
+   ],
+   "event_id": "p04-d30a-e0",
+   "msg_id": "p04-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: breathlessness about a 4.",
+   "span": [
+    84,
+    137
+   ],
+   "event_id": "p04-d30a-e1",
+   "msg_id": "p04-d30a"
+  },
+  {
+   "kind": "med",
+   "name": "cetirizine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zyrtec",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Zyrtec again today.",
+   "span": [
+    138,
+    165
+   ],
+   "event_id": "p04-d30a-e2",
+   "msg_id": "p04-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: brain fog about a 8.",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p04-d31a-e0",
+   "msg_id": "p04-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 4.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p04-d32a-e0",
+   "msg_id": "p04-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "shortness_of_breath",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "long_covid",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My long COVID is acting up: breathlessness about a 4.",
+   "span": [
+    35,
+    88
+   ],
+   "event_id": "p04-d32a-e1",
+   "msg_id": "p04-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking: 6 out of 10 this afternoon. It came on after a big meal.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p04-d33a-e0",
+   "msg_id": "p04-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 6/10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p04-d34a-e0",
+   "msg_id": "p04-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness today, around a 4.",
+   "span": [
+    30,
+    58
+   ],
+   "event_id": "p04-d34a-e1",
+   "msg_id": "p04-d34a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

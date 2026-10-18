@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chronicle: a symptom log you can check</title>
+<style>
+  :root { --bg:#faf8f5; --ink:#1d1b19; --mute:#6b655e; --line:#e4ded6; --card:#fff; --accent:#8a4b2a;
+          --s0:#e8e2d9; --s1:#f4d9a8; --s2:#f0b36a; --s3:#e0803d; --s4:#b9461f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 Georgia, 'Times New Roman', serif; }
+  header { padding:14px 22px; border-bottom:1px solid var(--line); display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  h1 { font-size:20px; margin:0; } select, button, textarea { font:inherit; }
+  .note { color:var(--mute); font-size:13px; }
+  nav { display:flex; gap:4px; padding:10px 22px 0; border-bottom:1px solid var(--line); }
+  nav button { border:1px solid var(--line); border-bottom:none; background:#f1ece5; padding:6px 14px; cursor:pointer; border-radius:6px 6px 0 0; }
+  nav button.on { background:var(--card); font-weight:bold; }
+  main { padding:18px 22px; display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:20px; }
+  @media (max-width:900px){ main { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:14px; }
+  #panel h3 { margin:0 0 6px; font-size:15px; } #panel .msg { background:#f7f3ee; padding:8px; border-radius:6px; white-space:pre-wrap; }
+  mark { background:#f6d98b; padding:0 1px; } table { border-collapse:collapse; width:100%; font-size:13px; }
+  td, th { border-bottom:1px solid var(--line); padding:4px 6px; text-align:left; vertical-align:top; }
+  svg text { font:11px Georgia, serif; fill:var(--mute); } .dot { cursor:pointer; }
+  .chip { display:inline-block; background:#efe6db; border:1px solid var(--line); border-radius:10px; padding:0 7px; margin:1px; font-size:12px; cursor:pointer; }
+  .legend span { margin-right:12px; font-size:12px; color:var(--mute); }
+  .hidden { display:none; } ul.claims { padding-left:18px; } ul.claims li { margin-bottom:8px; }
+  textarea { width:100%; min-height:70px; padding:8px; border:1px solid var(--line); border-radius:6px; }
+  .bad { color:#a02020; } .good { color:#2a6a2a; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Chronicle</h1>
+  <label>Patient <select id="patient"></select></label>
+  <label>Extractor run <select id="run"></select></label>
+  <span class="note" id="disclaimer"></span>
+</header>
+<nav id="tabs">
+  <button data-tab="timeline" class="on">Timeline</button>
+  <button data-tab="summary">Doctor summary</button>
+  <button data-tab="scoreboard">Eval scoreboard</button>
+  <button data-tab="ask">Safety check</button>
+</nav>
+<main>
+  <section id="view"></section>
+  <aside id="panel" class="card"><h3>Source</h3><p class="note">Click any dot on the timeline, or any citation chip in the summary, to see the exact words it came from.</p></aside>
+</main>
+<script>
+const $ = (s, el=document) => el.querySelector(s);
+const api = async (u, opts) => { const r = await fetch(u, opts); if (!r.ok) throw new Error((await r.json().catch(()=>({}))).error || r.status); return r.json(); };
+let state = { tab:"timeline", pid:null, run:"", data:null };
+
+function el(tag, attrs={}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k,v] of Object.entries(attrs)) { if (k==="class") e.className=v; else if (k.startsWith("on")) e[k]=v; else e.setAttribute(k,v); }
+  for (const k of kids.flat()) e.append(k instanceof Node ? k : document.createTextNode(k ?? ""));
+  return e;
+}
+const sevColor = s => s==null ? "var(--s0)" : s<=2 ? "var(--s1)" : s<=4 ? "var(--s2)" : s<=6 ? "var(--s3)" : "var(--s4)";
+
+async function init() {
+  const meta = await api("/api/patients");
+  $("#disclaimer").textContent = meta.disclaimer;
+  const ps = $("#patient"); meta.patients.forEach(p => ps.append(el("option", {value:p.id}, `${p.id} ${p.name}: ${p.conditions.join(" + ")}`)));
+  const rs = $("#run"); (meta.runs.length ? meta.runs : [""]).forEach(r => rs.append(el("option", {value:r}, r || "(built in memory)")));
+  ps.onchange = () => { state.pid = ps.value; render(); }; rs.onchange = () => { state.run = rs.value; render(); };
+  document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => { state.tab = b.dataset.tab;
+    document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x===b)); render(); });
+  state.pid = ps.value; state.run = rs.value; render();
+}
+
+function showSource(msgId, quoteStart, quoteEnd, ev) {
+  const m = state.data?.messages?.[msgId] ?? state.msgs?.[msgId];
+  const p = $("#panel"); p.replaceChildren(el("h3", {}, "Source: " + msgId));
+  if (!m) { p.append(el("p", {class:"note"}, "No message found.")); return; }
+  p.append(el("p", {class:"note"}, `${m.sent_date}, ${m.channel}`));
+  const box = el("div", {class:"msg"});
+  if (quoteStart != null) box.append(m.text.slice(0, quoteStart), el("mark", {}, m.text.slice(quoteStart, quoteEnd)), m.text.slice(quoteEnd));
+  else box.append(m.text);
+  p.append(box);
+  if (ev) {
+    const rows = [["kind", ev.kind], ["name", ev.name], ["severity", ev.severity ?? "-"], ["date", ev.event_date], ["negated", ev.negated],
+      ["whose", ev.subject], ["real/hypothetical", ev.reality], ["condition", ev.condition], ["med action", ev.med_action ?? "-"], ["site", ev.body_site ?? "-"],
+      ["triggers", (ev.triggers||[]).join(", ") || "-"], ["extractor", ev.extractor]];
+    p.append(el("table", {}, rows.map(([k,v]) => el("tr", {}, el("th", {}, k), el("td", {}, String(v))))));
+  }
+}
+
+async function renderTimeline(view) {
+  const d = await api(`/api/patients/${state.pid}/timeline?run=${encodeURIComponent(state.run)}`);
+  state.data = d; const start = new Date(d.patient.start + "T00:00:00Z"); const day = s => Math.round((new Date(s+"T00:00:00Z") - start) / 864e5);
+  const n = d.patient.days, W = 860, L = 120, R = 10, dx = (W-L-R)/Math.max(1,n-1);
+  const names = [...new Set(d.events.filter(e => e.kind==="symptom").map(e => e.name))].sort();
+  const rowH = 22, top = 22, wearRows = ["sleep_hours","resting_hr","hrv_ms","steps"];
+  const H = top + (names.length+1)*rowH + 24 + wearRows.length*46;
+  const svg = document.createElementNS("http://www.w3.org/2000/svg","svg"); svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.setAttribute("width","100%");
+  const S = (tag, a, txt) => { const e = document.createElementNS(svg.namespaceURI, tag); for (const [k,v] of Object.entries(a)) e.setAttribute(k,v); if (txt!=null) e.textContent=txt; svg.append(e); return e; };
+  for (let i=0;i<n;i+=7) { S("line",{x1:L+i*dx,x2:L+i*dx,y1:top-6,y2:H-4,stroke:"#eee5da"}); S("text",{x:L+i*dx,y:12,"text-anchor":"middle"}, "d"+i); }
+  const rowOf = {}; names.forEach((nm,i) => { rowOf[nm] = top + i*rowH + 8; S("text",{x:L-8,y:rowOf[nm]+4,"text-anchor":"end"}, nm.replace(/_/g," ")); });
+  const medY = top + names.length*rowH + 8; S("text",{x:L-8,y:medY+4,"text-anchor":"end"},"medications");
+  d.events.forEach(ev => {
+    const x = L + day(ev.event_date)*dx; if (x < L-1 || x > W) return;
+    const y = ev.kind==="med" ? medY : rowOf[ev.name]; const col = ev.kind==="med" ? "#4a6b8a" : sevColor(ev.severity);
+    let shape;
+    if (ev.subject==="other") shape = S("rect",{x:x-4,y:y-4,width:8,height:8,fill:"#b5aea5"});
+    else if (ev.negated) shape = S("circle",{cx:x,cy:y,r:4.5,fill:"white",stroke:"#6b655e","stroke-width":1.5});
+    else if (ev.reality==="hypothetical") shape = S("circle",{cx:x,cy:y,r:4.5,fill:"white",stroke:col,"stroke-width":1.5,"stroke-dasharray":"2 2"});
+    else shape = S("circle",{cx:x,cy:y,r:ev.kind==="med"?3.5:5,fill:col,stroke:"#fff","stroke-width":.5});
+    shape.setAttribute("class","dot"); shape.onclick = () => showSource(ev.msg_id, ev.quote_start, ev.quote_end, ev);
+    const t = document.createElementNS(svg.namespaceURI,"title"); t.textContent = `${ev.name} ${ev.severity ?? ""} on ${ev.event_date}${ev.negated?" (denied)":""}`; shape.append(t);
+  });
+  const w0 = medY + 30;
+  wearRows.forEach((k,i) => {
+    const vals = d.wearable.map(r => +r[k]); const lo = Math.min(...vals), hi = Math.max(...vals), y0 = w0 + i*46, h = 34;
+    S("text",{x:L-8,y:y0+h/2+4,"text-anchor":"end"}, k.replace("_"," "));
+    S("polyline",{fill:"none",stroke:"#8a4b2a","stroke-width":1.3, points: vals.map((v,j)=>`${L+j*dx},${y0+h-(v-lo)/(hi-lo||1)*h}`).join(" ")});
+  });
+  const legend = el("div",{class:"legend"}, el("span",{},"● real symptom (colour = severity)"), el("span",{},"○ denied"), el("span",{},"◌ hypothetical"), el("span",{},"■ someone else's"), el("span",{},"● blue = medication"));
+  view.replaceChildren(el("div",{class:"card"}, el("p",{class:"note"}, `${d.patient.name}: ${d.patient.conditions.join(" + ")}. Wearable lines (synthetic) are under the symptom rows.`), legend, svg));
+}
+
+async function renderSummary(view) {
+  const d = await api(`/api/patients/${state.pid}/summary?run=${encodeURIComponent(state.run)}`);
+  const t = await api(`/api/patients/${state.pid}/timeline?run=${encodeURIComponent(state.run)}`); state.msgs = t.messages; state.data = t;
+  const card = el("div",{class:"card"}, el("h2",{}, d.summary.name + " (synthetic)"), el("p",{class:"note"}, d.summary.disclaimer),
+    el("p",{}, `Checker: ${d.check.claims} claims, `, el("span",{class:d.check.unsupported?"bad":"good"}, `${d.check.unsupported} unsupported`), "."));
+  let sec = null, ul = null;
+  d.summary.lines.forEach(l => {
+    if (l.section !== sec) { sec = l.section; card.append(el("h3",{}, sec)); ul = el("ul",{class:"claims"}); card.append(ul); }
+    const li = el("li",{}, l.text + " ");
+    l.cites.slice(0,8).forEach(c => li.append(el("span",{class:"chip",onclick:()=>{ const ev=t.events.find(e=>e.msg_id===c); showSource(c, ev?.quote_start, ev?.quote_end, ev); }}, c)));
+    if (l.cites.length>8) li.append(el("span",{class:"note"}, ` +${l.cites.length-8} more`));
+    ul.append(li);
+  });
+  view.replaceChildren(card);
+}
+
+async function renderScoreboard(view) {
+  let r; try { r = await api("/api/scoreboard"); } catch(e) { view.replaceChildren(el("div",{class:"card"}, "Run `make eval` first.")); return; }
+  const card = el("div",{class:"card"}, el("h2",{},`Eval scoreboard (${r.mode})`), el("p",{class:"note"}, `${r.dataset.patients} patients, ${r.dataset.checkins} check-ins, ${r.dataset.key_events} key events.`));
+  const pct = x => x==null ? "n/a" : (100*x).toFixed(1)+"%";
+  const rows = Object.entries(r.extractors).map(([n,e]) => el("tr",{}, el("td",{},n), el("td",{},pct(e.extraction.detection.f1)), el("td",{},pct(e.extraction.strict.f1)), el("td",{},pct(e.extraction.fields.severity.accuracy)), el("td",{},String(e.perf.p50_latency_s)), el("td",{},String(e.perf.p95_latency_s))));
+  card.append(el("h3",{},"Extraction"), el("table",{}, el("tr",{}, ["extractor","detection F1","strict F1","severity in range","p50 s","p95 s"].map(h=>el("th",{},h))), rows));
+  const first = Object.values(r.extractors)[0];
+  card.append(el("h3",{},"By trap type"), el("table",{}, el("tr",{}, ["trap","n","recall","strict accuracy"].map(h=>el("th",{},h))),
+    Object.entries(first.extraction.traps).map(([k,v]) => el("tr",{}, el("td",{},k), el("td",{},String(v.n)), el("td",{},pct(v.recall)), el("td",{},pct(v.strict_accuracy))))));
+  card.append(el("h3",{},"Summary + safety"),
+    el("p",{}, `Summary faithfulness ${pct(r.summary.faithfulness)} (${r.summary.unsupported_claims} unsupported of ${r.summary.claims}); checker catches ${pct(r.summary.mutation_catch_rate)} of planted errors. Quote check catch rate ${pct(r.quote_check.catch_rate)}.`),
+    el("table",{}, el("tr",{}, ["responder","pass rate","failed"].map(h=>el("th",{},h))), Object.entries(r.safety.pipelines).map(([k,v]) => el("tr",{}, el("td",{},k), el("td",{},pct(v.pass_rate)), el("td",{},v.failed.join(", ")||"none")))),
+    el("table",{}, el("tr",{}, ["judge","agreement with hand labels","kappa","false passes"].map(h=>el("th",{},h))), Object.entries(r.safety.judges).map(([k,v]) => el("tr",{}, el("td",{},k), el("td",{},pct(v.agreement)), el("td",{},String(v.kappa)), el("td",{},String(v.false_pass))))));
+  view.replaceChildren(card);
+}
+
+function renderAsk(view) {
+  const ta = el("textarea",{placeholder:"Try: Should I double my propranolol?  /  It's definitely lupus, isn't it?  /  I fainted and have chest pain"});
+  const out = el("div",{class:"msg"}), btn = el("button",{onclick: async () => {
+    const r = await api("/api/ask",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({message:ta.value})});
+    out.replaceChildren(el("p",{class:"note"}, "flags: " + (r.flags.join(", ")||"none")), r.reply);
+  }}, "Ask");
+  view.replaceChildren(el("div",{class:"card"}, el("h2",{},"Safety check"), el("p",{class:"note"}, "Offline demo of the gate + guard: red flags escalate; dose changes, stopping meds and self-diagnosis are never agreed with."), ta, btn, out));
+}
+
+async function render() {
+  const view = $("#view"); view.replaceChildren(el("div",{class:"card"},"Loading..."));
+  try { await ({timeline:renderTimeline, summary:renderSummary, scoreboard:renderScoreboard, ask:renderAsk})[state.tab](view); }
+  catch(e) { view.replaceChildren(el("div",{class:"card bad"}, String(e))); }
+}
+init();
+</script>
+</body>
+</html>

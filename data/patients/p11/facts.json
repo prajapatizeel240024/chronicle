@@ -1,0 +1,2010 @@
+{
+ "patient_id": "p11",
+ "name": "Omar",
+ "conditions": [
+  "migraine"
+ ],
+ "start_date": "2026-07-01",
+ "days": 32,
+ "meds": [
+  {
+   "generic": "sumatriptan",
+   "dose": "50 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "rizatriptan",
+   "dose": "10 mg",
+   "start_date": "2026-07-16",
+   "stop_date": null
+  },
+  {
+   "generic": "topiramate",
+   "dose": "25 mg",
+   "start_date": null,
+   "stop_date": "2026-07-10"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-07-10",
+  "2026-07-20",
+  "2026-07-30"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um light sensitivity five out of ten this afternoon it came on after a stressful deadline",
+   "span": [
+    0,
+    89
+   ],
+   "event_id": "p11-d01a-e0",
+   "msg_id": "p11-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh my migraine is acting up migraine attack about a 3",
+   "span": [
+    90,
+    143
+   ],
+   "event_id": "p11-d01a-e1",
+   "msg_id": "p11-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so queasiness today around a 2",
+   "span": [
+    144,
+    174
+   ],
+   "event_id": "p11-d01a-e2",
+   "msg_id": "p11-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine attack: 3 out of 10 this afternoon. It came on after a big meal.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p11-d02a-e0",
+   "msg_id": "p11-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: migraine about a 5.",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p11-d03a-e0",
+   "msg_id": "p11-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with sensitivity to light, 3/10.",
+   "span": [
+    46,
+    86
+   ],
+   "event_id": "p11-d03a-e1",
+   "msg_id": "p11-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine attack: 9 out of 10 this afternoon. It came on after a long walk.",
+   "span": [
+    0,
+    74
+   ],
+   "event_id": "p11-d04a-e0",
+   "msg_id": "p11-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: light sensitivity about a 3.",
+   "span": [
+    75,
+    129
+   ],
+   "event_id": "p11-d04a-e1",
+   "msg_id": "p11-d04a"
+  },
+  {
+   "kind": "med",
+   "name": "topiramate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "topiramate",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my topiramate this morning.",
+   "span": [
+    130,
+    162
+   ],
+   "event_id": "p11-d04a-e2",
+   "msg_id": "p11-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with migraine, 6/10.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p11-d05a-e0",
+   "msg_id": "p11-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, nausea sitting at 4. It came on after a bad night's sleep.",
+   "span": [
+    29,
+    98
+   ],
+   "event_id": "p11-d05a-e1",
+   "msg_id": "p11-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "What if my queasiness gets worse tonight? I really can't afford that.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p11-d05b-e0",
+   "msg_id": "p11-d05b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine attack: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p11-d06a-e0",
+   "msg_id": "p11-d06a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "sumatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my sumatriptan this morning.",
+   "span": [
+    45,
+    78
+   ],
+   "event_id": "p11-d06a-e1",
+   "msg_id": "p11-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh migraine today around a 8",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p11-d07a-e0",
+   "msg_id": "p11-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "nausea has been pretty mild all day",
+   "span": [
+    29,
+    64
+   ],
+   "event_id": "p11-d07a-e1",
+   "msg_id": "p11-d07a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "sumatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "so used my sumatriptan again today",
+   "span": [
+    65,
+    99
+   ],
+   "event_id": "p11-d07a-e2",
+   "msg_id": "p11-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh migraine attack has been awful all day it came on after standing in the shower",
+   "span": [
+    0,
+    81
+   ],
+   "event_id": "p11-d08a-e0",
+   "msg_id": "p11-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so sensitivity to light today around a 6",
+   "span": [
+    82,
+    122
+   ],
+   "event_id": "p11-d08a-e1",
+   "msg_id": "p11-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um migraine today around a 9",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p11-d09a-e0",
+   "msg_id": "p11-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p11-d10a-e0",
+   "msg_id": "p11-d10a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Imitrex",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Imitrex again today.",
+   "span": [
+    38,
+    66
+   ],
+   "event_id": "p11-d10a-e1",
+   "msg_id": "p11-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: headache about a 3.",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p11-d11a-e0",
+   "msg_id": "p11-d11a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "sumatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my sumatriptan again today.",
+   "span": [
+    46,
+    78
+   ],
+   "event_id": "p11-d11a-e1",
+   "msg_id": "p11-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang",
+    "channel_voice"
+   ],
+   "quote": "uh head is pounding easily a 7",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p11-d12b-e0",
+   "msg_id": "p11-d12b"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Imitrex",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Imitrex this morning.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p11-d13a-e0",
+   "msg_id": "p11-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person",
+    "channel_voice"
+   ],
+   "quote": "okay so my partner has been dealing with nausea all week so the house is quiet",
+   "span": [
+    0,
+    78
+   ],
+   "event_id": "p11-d13b-e0",
+   "msg_id": "p11-d13b"
+  },
+  {
+   "kind": "med",
+   "name": "topiramate",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "Topamax",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "okay so stopped the topamax on friday it was upsetting my stomach",
+   "span": [
+    79,
+    144
+   ],
+   "event_id": "p11-d13b-e1",
+   "msg_id": "p11-d13b"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh queasiness today around a 3",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p11-d14a-e0",
+   "msg_id": "p11-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so woke up with headache four out of ten",
+   "span": [
+    31,
+    71
+   ],
+   "event_id": "p11-d14a-e1",
+   "msg_id": "p11-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one migraine sitting at 3",
+   "span": [
+    72,
+    106
+   ],
+   "event_id": "p11-d14a-e2",
+   "msg_id": "p11-d14a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "sumatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "took my sumatriptan this morning",
+   "span": [
+    107,
+    139
+   ],
+   "event_id": "p11-d14a-e3",
+   "msg_id": "p11-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Correction: my queasiness earlier today was a 5, I overstated it.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p11-d14b-e0",
+   "msg_id": "p11-d14b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my migraine is acting up migraine attack about a 2",
+   "span": [
+    0,
+    50
+   ],
+   "event_id": "p11-d15a-e0",
+   "msg_id": "p11-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my migraine is acting up headache about a 2",
+   "span": [
+    51,
+    94
+   ],
+   "event_id": "p11-d15a-e1",
+   "msg_id": "p11-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Sensitivity to light: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p11-d16a-e0",
+   "msg_id": "p11-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, queasiness sitting at 3.",
+   "span": [
+    50,
+    85
+   ],
+   "event_id": "p11-d16a-e1",
+   "msg_id": "p11-d16a"
+  },
+  {
+   "kind": "med",
+   "name": "rizatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Maxalt",
+   "dose": "10 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Started Maxalt 10 mg last night, fingers crossed.",
+   "span": [
+    0,
+    49
+   ],
+   "event_id": "p11-d16b-e0",
+   "msg_id": "p11-d16b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine attack sitting at 7.",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p11-d17a-e0",
+   "msg_id": "p11-d17a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "sumatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my sumatriptan again today.",
+   "span": [
+    41,
+    73
+   ],
+   "event_id": "p11-d17a-e1",
+   "msg_id": "p11-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "Quiet day overall, though on Thursday I had sensitivity to light around a 6.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p11-d17b-e0",
+   "msg_id": "p11-d17b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine was properly bad today.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p11-d18a-e0",
+   "msg_id": "p11-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness has been moderate all day. It came on after a hot day.",
+   "span": [
+    33,
+    98
+   ],
+   "event_id": "p11-d18a-e1",
+   "msg_id": "p11-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Headache has been pretty mild all day. It came on after a long walk.",
+   "span": [
+    99,
+    167
+   ],
+   "event_id": "p11-d18a-e2",
+   "msg_id": "p11-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Light sensitivity has been properly bad all day. It came on after a hot day.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p11-d19a-e0",
+   "msg_id": "p11-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, queasiness sitting at 4.",
+   "span": [
+    77,
+    112
+   ],
+   "event_id": "p11-d19a-e1",
+   "msg_id": "p11-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Headache today, around a 4.",
+   "span": [
+    113,
+    140
+   ],
+   "event_id": "p11-d19a-e2",
+   "msg_id": "p11-d19a"
+  },
+  {
+   "kind": "med",
+   "name": "rizatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "rizatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my rizatriptan with breakfast.",
+   "span": [
+    141,
+    175
+   ],
+   "event_id": "p11-d19a-e3",
+   "msg_id": "p11-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine attack: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p11-d20a-e0",
+   "msg_id": "p11-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-21",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation",
+    "channel_voice"
+   ],
+   "quote": "uh nausea none today thankfully",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p11-d20b-e0",
+   "msg_id": "p11-d20b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine attack has been properly bad all day. It came on after standing in line.",
+   "span": [
+    0,
+    81
+   ],
+   "event_id": "p11-d21a-e0",
+   "msg_id": "p11-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with sensitivity to light, 4/10.",
+   "span": [
+    82,
+    122
+   ],
+   "event_id": "p11-d21a-e1",
+   "msg_id": "p11-d21a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "sumatriptan",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my sumatriptan with breakfast.",
+   "span": [
+    123,
+    157
+   ],
+   "event_id": "p11-d21a-e2",
+   "msg_id": "p11-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date",
+    "channel_voice"
+   ],
+   "quote": "uh sensitivity to light since sunday it's been a seven the whole time",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p11-d22b-e0",
+   "msg_id": "p11-d22b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine attack sitting at 4. It came on after standing in the shower.",
+   "span": [
+    0,
+    81
+   ],
+   "event_id": "p11-d23a-e0",
+   "msg_id": "p11-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so migraine attack was pretty mild today",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p11-d24a-e0",
+   "msg_id": "p11-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "uh headache is a six actually no a four I think",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p11-d25b-e0",
+   "msg_id": "p11-d25b"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with head pain, 5/10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p11-d27a-e0",
+   "msg_id": "p11-d27a"
+  },
+  {
+   "kind": "med",
+   "name": "sumatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Imitrex",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Imitrex with breakfast.",
+   "span": [
+    30,
+    60
+   ],
+   "event_id": "p11-d27a-e1",
+   "msg_id": "p11-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Headache: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p11-d28a-e0",
+   "msg_id": "p11-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, nausea sitting at 4.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p11-d29a-e0",
+   "msg_id": "p11-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with headache, 4/10.",
+   "span": [
+    32,
+    60
+   ],
+   "event_id": "p11-d29a-e1",
+   "msg_id": "p11-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Nausea was moderate today.",
+   "span": [
+    0,
+    26
+   ],
+   "event_id": "p11-d30a-e0",
+   "msg_id": "p11-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, light sensitivity sitting at 3.",
+   "span": [
+    27,
+    69
+   ],
+   "event_id": "p11-d30a-e1",
+   "msg_id": "p11-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "tinnitus",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Weird ringing in my ears today, around a 3, no idea what it's from.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p11-d30b-e0",
+   "msg_id": "p11-d30b"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine has been moderate all day.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p11-d31a-e0",
+   "msg_id": "p11-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with nausea, 4/10. It came on after a bad night's sleep.",
+   "span": [
+    36,
+    100
+   ],
+   "event_id": "p11-d31a-e1",
+   "msg_id": "p11-d31a"
+  },
+  {
+   "kind": "med",
+   "name": "rizatriptan",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Maxalt",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Maxalt with breakfast.",
+   "span": [
+    101,
+    130
+   ],
+   "event_id": "p11-d31a-e2",
+   "msg_id": "p11-d31a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

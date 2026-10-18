@@ -1,0 +1,3595 @@
+{
+ "patient_id": "p10",
+ "name": "Iris",
+ "conditions": [
+  "eds",
+  "pots",
+  "gastroparesis"
+ ],
+ "start_date": "2026-06-28",
+ "days": 52,
+ "meds": [
+  {
+   "generic": "naproxen",
+   "dose": "220 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "propranolol",
+   "dose": "10 mg",
+   "start_date": "2026-07-13",
+   "stop_date": null
+  },
+  {
+   "generic": "fludrocortisone",
+   "dose": "0.1 mg",
+   "start_date": null,
+   "stop_date": "2026-07-14"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-07-07",
+  "2026-07-17",
+  "2026-07-27",
+  "2026-08-06",
+  "2026-08-16"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um my pots is acting up nausea about a 6",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p10-d00a-e0",
+   "msg_id": "p10-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh rough one palpitations sitting at 5 it came on after a hot day",
+   "span": [
+    41,
+    106
+   ],
+   "event_id": "p10-d00a-e1",
+   "msg_id": "p10-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um my pots is acting up heart racing about a 9 it came on after the grocery run",
+   "span": [
+    0,
+    79
+   ],
+   "event_id": "p10-d01a-e0",
+   "msg_id": "p10-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so exhaustion has been awful all day",
+   "span": [
+    80,
+    116
+   ],
+   "event_id": "p10-d01a-e1",
+   "msg_id": "p10-d01a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um used my naproxen again today",
+   "span": [
+    117,
+    148
+   ],
+   "event_id": "p10-d01a-e2",
+   "msg_id": "p10-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so tiredness was properly bad today",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p10-d02a-e0",
+   "msg_id": "p10-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so foggy thinking has been properly bad all day",
+   "span": [
+    41,
+    88
+   ],
+   "event_id": "p10-d02a-e1",
+   "msg_id": "p10-d02a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "used my naproxen again today",
+   "span": [
+    89,
+    117
+   ],
+   "event_id": "p10-d02a-e2",
+   "msg_id": "p10-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "nausea has been properly bad all day it came on after a big meal",
+   "span": [
+    0,
+    64
+   ],
+   "event_id": "p10-d03a-e0",
+   "msg_id": "p10-d03a"
+  },
+  {
+   "kind": "med",
+   "name": "fludrocortisone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Florinef",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so took my florinef this morning",
+   "span": [
+    65,
+    97
+   ],
+   "event_id": "p10-d03a-e1",
+   "msg_id": "p10-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Palpitations: 4 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p10-d04a-e0",
+   "msg_id": "p10-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my pots is acting up queasiness about a 9",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p10-d05a-e0",
+   "msg_id": "p10-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "foggy thinking today around a 5",
+   "span": [
+    42,
+    73
+   ],
+   "event_id": "p10-d05a-e1",
+   "msg_id": "p10-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": "knee",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one a subluxation in my knee sitting at 4",
+   "span": [
+    74,
+    121
+   ],
+   "event_id": "p10-d05a-e2",
+   "msg_id": "p10-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": "shoulder",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A subluxation in my shoulder: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p10-d06a-e0",
+   "msg_id": "p10-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, muscle aches in my neck sitting at 7. It came on after a bad night's sleep.",
+   "span": [
+    58,
+    144
+   ],
+   "event_id": "p10-d06a-e1",
+   "msg_id": "p10-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A fluttering heart today, around a 7.",
+   "span": [
+    145,
+    182
+   ],
+   "event_id": "p10-d06a-e2",
+   "msg_id": "p10-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh nausea today around a 7",
+   "span": [
+    0,
+    26
+   ],
+   "event_id": "p10-d07a-e0",
+   "msg_id": "p10-d07a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "okay so took my naproxen this morning",
+   "span": [
+    27,
+    64
+   ],
+   "event_id": "p10-d07a-e1",
+   "msg_id": "p10-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "A week ago today I had a subluxation at 9, nothing like that now.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p10-d07b-e0",
+   "msg_id": "p10-d07b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog was properly bad today.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p10-d08a-e0",
+   "msg_id": "p10-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness: 7 out of 10 this afternoon.",
+   "span": [
+    34,
+    73
+   ],
+   "event_id": "p10-d08a-e1",
+   "msg_id": "p10-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain was moderate today.",
+   "span": [
+    74,
+    105
+   ],
+   "event_id": "p10-d08a-e2",
+   "msg_id": "p10-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "What if my bloating gets worse tonight? I really can't afford that.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p10-d08b-e0",
+   "msg_id": "p10-d08b"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so queasiness today around a 6",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p10-d09a-e0",
+   "msg_id": "p10-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "brain fog was properly bad today",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p10-d10a-e0",
+   "msg_id": "p10-d10a"
+  },
+  {
+   "kind": "med",
+   "name": "fludrocortisone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "fludrocortisone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "used my fludrocortisone again today",
+   "span": [
+    33,
+    68
+   ],
+   "event_id": "p10-d10a-e1",
+   "msg_id": "p10-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so queasiness today around a 8",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p10-d11a-e0",
+   "msg_id": "p10-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: nausea about a 8.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p10-d12a-e0",
+   "msg_id": "p10-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking today, around a 7.",
+   "span": [
+    40,
+    73
+   ],
+   "event_id": "p10-d12a-e1",
+   "msg_id": "p10-d12a"
+  },
+  {
+   "kind": "med",
+   "name": "fludrocortisone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "fludrocortisone",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my fludrocortisone with breakfast.",
+   "span": [
+    74,
+    112
+   ],
+   "event_id": "p10-d12a-e2",
+   "msg_id": "p10-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date"
+   ],
+   "quote": "Queasiness has been bugging me since Wednesday, about a 4.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p10-d12b-e0",
+   "msg_id": "p10-d12b"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p10-d13a-e0",
+   "msg_id": "p10-d13a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Aleve with breakfast.",
+   "span": [
+    40,
+    68
+   ],
+   "event_id": "p10-d13a-e1",
+   "msg_id": "p10-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "eds",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My EDS is acting up: aching joints about a 5.",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p10-d14a-e0",
+   "msg_id": "p10-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle aches has been moderate all day.",
+   "span": [
+    46,
+    85
+   ],
+   "event_id": "p10-d14a-e1",
+   "msg_id": "p10-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "back",
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "eds",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My EDS is acting up: muscle pain in my back about a 10.",
+   "span": [
+    0,
+    55
+   ],
+   "event_id": "p10-d15a-e0",
+   "msg_id": "p10-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, nausea sitting at 9.",
+   "span": [
+    56,
+    87
+   ],
+   "event_id": "p10-d15a-e1",
+   "msg_id": "p10-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Aching joints: 8 out of 10 this afternoon.",
+   "span": [
+    88,
+    130
+   ],
+   "event_id": "p10-d15a-e2",
+   "msg_id": "p10-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with palpitations, 9/10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p10-d16a-e0",
+   "msg_id": "p10-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My partner has been dealing with nausea all week, so the house is quiet.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p10-d16b-e0",
+   "msg_id": "p10-d16b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, foggy thinking sitting at 5.",
+   "span": [
+    73,
+    112
+   ],
+   "event_id": "p10-d16b-e1",
+   "msg_id": "p10-d16b"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Inderal",
+   "dose": "10 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Started Inderal 10 mg last night, fingers crossed.",
+   "span": [
+    113,
+    163
+   ],
+   "event_id": "p10-d16b-e2",
+   "msg_id": "p10-d16b"
+  },
+  {
+   "kind": "med",
+   "name": "fludrocortisone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "Florinef",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Stopped the Florinef this morning, it was upsetting my stomach.",
+   "span": [
+    164,
+    227
+   ],
+   "event_id": "p10-d16b-e3",
+   "msg_id": "p10-d16b"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh rough one queasiness sitting at 8 it came on after a bad night's sleep",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p10-d17a-e0",
+   "msg_id": "p10-d17a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Inderal",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "um had my inderal with breakfast",
+   "span": [
+    74,
+    106
+   ],
+   "event_id": "p10-d17a-e1",
+   "msg_id": "p10-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um bloating today around a 7",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p10-d18a-e0",
+   "msg_id": "p10-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so woke up with palpitations six out of ten it came on after standing in the shower",
+   "span": [
+    29,
+    117
+   ],
+   "event_id": "p10-d18a-e1",
+   "msg_id": "p10-d18a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "okay so used my propranolol again today",
+   "span": [
+    118,
+    157
+   ],
+   "event_id": "p10-d18a-e2",
+   "msg_id": "p10-d18a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Nausea: 10 out of 10 this afternoon.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p10-d19a-e0",
+   "msg_id": "p10-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a fluttering heart sitting at 6.",
+   "span": [
+    37,
+    80
+   ],
+   "event_id": "p10-d19a-e1",
+   "msg_id": "p10-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness today, around a 4.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p10-d20a-e0",
+   "msg_id": "p10-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with queasiness, 10/10.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p10-d21a-e0",
+   "msg_id": "p10-d21a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my propranolol again today.",
+   "span": [
+    32,
+    64
+   ],
+   "event_id": "p10-d21a-e1",
+   "msg_id": "p10-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness: 9 out of 10 this afternoon. It came on after a big meal.",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p10-d22a-e0",
+   "msg_id": "p10-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so muscle pain four out of ten this afternoon",
+   "span": [
+    0,
+    50
+   ],
+   "event_id": "p10-d23a-e0",
+   "msg_id": "p10-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so woke up with fatigue four out of ten",
+   "span": [
+    51,
+    90
+   ],
+   "event_id": "p10-d23a-e1",
+   "msg_id": "p10-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Palpitations today, around a 9.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p10-d24a-e0",
+   "msg_id": "p10-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, muscle aches in my legs sitting at 6.",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p10-d25a-e0",
+   "msg_id": "p10-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, nausea sitting at 6.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p10-d26a-e0",
+   "msg_id": "p10-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with muscle aches, 5/10. It came on after a big meal.",
+   "span": [
+    32,
+    93
+   ],
+   "event_id": "p10-d26a-e1",
+   "msg_id": "p10-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain has been moderate all day. It came on after standing in line.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p10-d27a-e0",
+   "msg_id": "p10-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with heart racing, 5/10. It came on after a bad night's sleep.",
+   "span": [
+    74,
+    144
+   ],
+   "event_id": "p10-d27a-e1",
+   "msg_id": "p10-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: nausea about a 5.",
+   "span": [
+    145,
+    184
+   ],
+   "event_id": "p10-d27a-e2",
+   "msg_id": "p10-d27a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Inderal",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Inderal with breakfast.",
+   "span": [
+    185,
+    215
+   ],
+   "event_id": "p10-d27a-e3",
+   "msg_id": "p10-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Dizziness was moderate today.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p10-d28a-e0",
+   "msg_id": "p10-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Nausea today, around a 5.",
+   "span": [
+    30,
+    55
+   ],
+   "event_id": "p10-d28a-e1",
+   "msg_id": "p10-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "rash",
+   "body_site": "forearms",
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "An itchy rash on my forearms, 3, not sure if it's related to anything.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p10-d28b-e0",
+   "msg_id": "p10-d28b"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, nausea sitting at 9.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p10-d29a-e0",
+   "msg_id": "p10-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so palpitations ten out of ten this afternoon it came on after standing in line",
+   "span": [
+    0,
+    79
+   ],
+   "event_id": "p10-d30a-e0",
+   "msg_id": "p10-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with dizzy spells, 9/10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p10-d31a-e0",
+   "msg_id": "p10-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A joint slipping out today, around a 7.",
+   "span": [
+    33,
+    72
+   ],
+   "event_id": "p10-d31a-e1",
+   "msg_id": "p10-d31a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my naproxen with breakfast.",
+   "span": [
+    73,
+    104
+   ],
+   "event_id": "p10-d31a-e2",
+   "msg_id": "p10-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "uh palpitations is a six actually no a eight I think",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p10-d31b-e0",
+   "msg_id": "p10-d31b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": "hip",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A subluxation in my hip: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p10-d32a-e0",
+   "msg_id": "p10-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so queasiness has been properly bad all day",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p10-d33a-e0",
+   "msg_id": "p10-d33a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "took my naproxen this morning",
+   "span": [
+    49,
+    78
+   ],
+   "event_id": "p10-d33a-e1",
+   "msg_id": "p10-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "eds",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My EDS is acting up: tiredness about a 3. It came on after a long walk.",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p10-d34a-e0",
+   "msg_id": "p10-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, muscle pain sitting at 5. It came on after a stressful deadline.",
+   "span": [
+    72,
+    147
+   ],
+   "event_id": "p10-d34a-e1",
+   "msg_id": "p10-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 1,
+   "severity_range": [
+    0,
+    2
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Correction: my fatigue earlier today was a 1, I overstated it.",
+   "span": [
+    0,
+    62
+   ],
+   "event_id": "p10-d34b-e0",
+   "msg_id": "p10-d34b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "eds",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My EDS is acting up: exhaustion about a 5.",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p10-d35a-e0",
+   "msg_id": "p10-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, queasiness sitting at 6. It came on after the grocery run.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p10-d36a-e0",
+   "msg_id": "p10-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "eds",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my eds is acting up muscle pain about a 5",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p10-d37a-e0",
+   "msg_id": "p10-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so woke up with nausea five out of ten",
+   "span": [
+    42,
+    85
+   ],
+   "event_id": "p10-d37a-e1",
+   "msg_id": "p10-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Feeling super woozy whenever I stand up, 5.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p10-d37b-e0",
+   "msg_id": "p10-d37b"
+  },
+  {
+   "kind": "symptom",
+   "name": "palpitations",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with palpitations, 6/10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p10-d38a-e0",
+   "msg_id": "p10-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 6 out of 10 this afternoon. It came on after a stressful deadline.",
+   "span": [
+    33,
+    109
+   ],
+   "event_id": "p10-d38a-e1",
+   "msg_id": "p10-d38a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Aleve this morning.",
+   "span": [
+    110,
+    137
+   ],
+   "event_id": "p10-d38a-e2",
+   "msg_id": "p10-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "numbness_tingling",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Tingling in my fingers on and off, a 2, can't tie it to anything.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p10-d38b-e0",
+   "msg_id": "p10-d38b"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so woke up with nausea eight out of ten it came on after a stressful deadline",
+   "span": [
+    0,
+    77
+   ],
+   "event_id": "p10-d39a-e0",
+   "msg_id": "p10-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness today, around a 7.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p10-d40a-e0",
+   "msg_id": "p10-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 6 out of 10 this afternoon.",
+   "span": [
+    30,
+    67
+   ],
+   "event_id": "p10-d40a-e1",
+   "msg_id": "p10-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "knees",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain in my knees today, around a 4. It came on after the grocery run.",
+   "span": [
+    68,
+    143
+   ],
+   "event_id": "p10-d40a-e2",
+   "msg_id": "p10-d40a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Inderal",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Inderal with breakfast.",
+   "span": [
+    144,
+    174
+   ],
+   "event_id": "p10-d40a-e3",
+   "msg_id": "p10-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness: 9 out of 10 this afternoon.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p10-d41a-e0",
+   "msg_id": "p10-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "gastroparesis",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My gastroparesis is acting up: bloating about a 9.",
+   "span": [
+    40,
+    90
+   ],
+   "event_id": "p10-d41a-e1",
+   "msg_id": "p10-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "pots",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My POTS is acting up: nausea about a 10.",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p10-d42a-e0",
+   "msg_id": "p10-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "back",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain in my back: 7 out of 10 this afternoon.",
+   "span": [
+    41,
+    92
+   ],
+   "event_id": "p10-d42a-e1",
+   "msg_id": "p10-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 8 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p10-d43a-e0",
+   "msg_id": "p10-d43a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my naproxen again today.",
+   "span": [
+    38,
+    67
+   ],
+   "event_id": "p10-d43a-e1",
+   "msg_id": "p10-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, queasiness sitting at 8. It came on after a big meal.",
+   "span": [
+    0,
+    64
+   ],
+   "event_id": "p10-d44a-e0",
+   "msg_id": "p10-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 7.",
+   "span": [
+    65,
+    92
+   ],
+   "event_id": "p10-d44a-e1",
+   "msg_id": "p10-d44a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Inderal",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Inderal this morning.",
+   "span": [
+    93,
+    122
+   ],
+   "event_id": "p10-d44a-e2",
+   "msg_id": "p10-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Muscle pain in my legs: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    51
+   ],
+   "event_id": "p10-d45a-e0",
+   "msg_id": "p10-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 6.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p10-d46a-e0",
+   "msg_id": "p10-d46a"
+  },
+  {
+   "kind": "med",
+   "name": "propranolol",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "propranolol",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my propranolol with breakfast.",
+   "span": [
+    28,
+    62
+   ],
+   "event_id": "p10-d46a-e1",
+   "msg_id": "p10-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-13",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "Exhaustion? None today, thankfully.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p10-d46b-e0",
+   "msg_id": "p10-d46b"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": "knee",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A joint slipping out in my knee today, around a 6. It came on after standing in line.",
+   "span": [
+    0,
+    85
+   ],
+   "event_id": "p10-d47a-e0",
+   "msg_id": "p10-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 5/10.",
+   "span": [
+    86,
+    115
+   ],
+   "event_id": "p10-d47a-e1",
+   "msg_id": "p10-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, bloating sitting at 5.",
+   "span": [
+    116,
+    149
+   ],
+   "event_id": "p10-d47a-e2",
+   "msg_id": "p10-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a subluxation sitting at 5.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p10-d48a-e0",
+   "msg_id": "p10-d48a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue has been moderate all day. It came on after a stressful deadline.",
+   "span": [
+    39,
+    112
+   ],
+   "event_id": "p10-d48a-e1",
+   "msg_id": "p10-d48a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking has been moderate all day.",
+   "span": [
+    113,
+    154
+   ],
+   "event_id": "p10-d48a-e2",
+   "msg_id": "p10-d48a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "eds",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My EDS is acting up: a joint slipping out about a 5.",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p10-d49a-e0",
+   "msg_id": "p10-d49a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Aleve again today.",
+   "span": [
+    53,
+    79
+   ],
+   "event_id": "p10-d49a-e1",
+   "msg_id": "p10-d49a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": "knee",
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um a joint slipping out in my knee today around a 8 it came on after a long walk",
+   "span": [
+    0,
+    80
+   ],
+   "event_id": "p10-d50a-e0",
+   "msg_id": "p10-d50a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so foggy thinking seven out of ten this afternoon it came on after a long walk",
+   "span": [
+    81,
+    159
+   ],
+   "event_id": "p10-d50a-e1",
+   "msg_id": "p10-d50a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh woke up with aching joints in my wrists six out of ten it came on after a hot day",
+   "span": [
+    160,
+    244
+   ],
+   "event_id": "p10-d50a-e2",
+   "msg_id": "p10-d50a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Brain fog is thick today, a 6.",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p10-d50b-e0",
+   "msg_id": "p10-d50b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog was awful today.",
+   "span": [
+    0,
+    26
+   ],
+   "event_id": "p10-d51a-e0",
+   "msg_id": "p10-d51a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_subluxation",
+   "body_site": "hip",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a joint slipping out in my hip sitting at 6.",
+   "span": [
+    27,
+    82
+   ],
+   "event_id": "p10-d51a-e1",
+   "msg_id": "p10-d51a"
+  },
+  {
+   "kind": "symptom",
+   "name": "dizziness",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Lightheadedness today, around a 5.",
+   "span": [
+    83,
+    117
+   ],
+   "event_id": "p10-d51a-e2",
+   "msg_id": "p10-d51a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

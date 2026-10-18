@@ -1,0 +1,182 @@
+[
+ {
+  "patient_id": "p01",
+  "name": "Ava",
+  "conditions": [
+   "pots",
+   "eds",
+   "migraine"
+  ],
+  "days": 45,
+  "messages": 52,
+  "events": 95
+ },
+ {
+  "patient_id": "p02",
+  "name": "Noor",
+  "conditions": [
+   "endometriosis",
+   "ibs"
+  ],
+  "days": 40,
+  "messages": 49,
+  "events": 88
+ },
+ {
+  "patient_id": "p03",
+  "name": "Maya",
+  "conditions": [
+   "mecfs",
+   "fibromyalgia"
+  ],
+  "days": 55,
+  "messages": 61,
+  "events": 113
+ },
+ {
+  "patient_id": "p04",
+  "name": "Jon",
+  "conditions": [
+   "long_covid"
+  ],
+  "days": 35,
+  "messages": 41,
+  "events": 78
+ },
+ {
+  "patient_id": "p05",
+  "name": "Lena",
+  "conditions": [
+   "pots",
+   "migraine"
+  ],
+  "days": 50,
+  "messages": 57,
+  "events": 102
+ },
+ {
+  "patient_id": "p06",
+  "name": "Rosa",
+  "conditions": [
+   "ra",
+   "fibromyalgia"
+  ],
+  "days": 45,
+  "messages": 53,
+  "events": 92
+ },
+ {
+  "patient_id": "p07",
+  "name": "Priya",
+  "conditions": [
+   "endometriosis",
+   "migraine",
+   "ibs"
+  ],
+  "days": 60,
+  "messages": 72,
+  "events": 138
+ },
+ {
+  "patient_id": "p08",
+  "name": "Theo",
+  "conditions": [
+   "mecfs",
+   "pots",
+   "long_covid"
+  ],
+  "days": 50,
+  "messages": 55,
+  "events": 104
+ },
+ {
+  "patient_id": "p09",
+  "name": "Sam",
+  "conditions": [
+   "ibs",
+   "fibromyalgia"
+  ],
+  "days": 38,
+  "messages": 46,
+  "events": 83
+ },
+ {
+  "patient_id": "p10",
+  "name": "Iris",
+  "conditions": [
+   "eds",
+   "pots",
+   "gastroparesis"
+  ],
+  "days": 52,
+  "messages": 63,
+  "events": 122
+ },
+ {
+  "patient_id": "p11",
+  "name": "Omar",
+  "conditions": [
+   "migraine"
+  ],
+  "days": 32,
+  "messages": 37,
+  "events": 68
+ },
+ {
+  "patient_id": "p12",
+  "name": "Zoe",
+  "conditions": [
+   "long_covid",
+   "pots"
+  ],
+  "days": 42,
+  "messages": 48,
+  "events": 96
+ },
+ {
+  "patient_id": "p13",
+  "name": "Kai",
+  "conditions": [
+   "fibromyalgia",
+   "mecfs",
+   "ibs",
+   "migraine"
+  ],
+  "days": 58,
+  "messages": 66,
+  "events": 136
+ },
+ {
+  "patient_id": "p14",
+  "name": "Dana",
+  "conditions": [
+   "endometriosis",
+   "pots"
+  ],
+  "days": 44,
+  "messages": 52,
+  "events": 103
+ },
+ {
+  "patient_id": "p15",
+  "name": "Eli",
+  "conditions": [
+   "ra",
+   "ibs"
+  ],
+  "days": 36,
+  "messages": 44,
+  "events": 77
+ },
+ {
+  "patient_id": "p16",
+  "name": "Mina",
+  "conditions": [
+   "long_covid",
+   "mecfs"
+  ],
+  "days": 48,
+  "messages": 53,
+  "events": 109
+ }
+]

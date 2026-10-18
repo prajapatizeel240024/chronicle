@@ -1,0 +1,4009 @@
+{
+ "patient_id": "p13",
+ "name": "Kai",
+ "conditions": [
+  "fibromyalgia",
+  "mecfs",
+  "ibs",
+  "migraine"
+ ],
+ "start_date": "2026-07-07",
+ "days": 58,
+ "meds": [
+  {
+   "generic": "duloxetine",
+   "dose": "30 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "pregabalin",
+   "dose": "75 mg",
+   "start_date": "2026-08-16",
+   "stop_date": null
+  },
+  {
+   "generic": "gabapentin",
+   "dose": "300 mg",
+   "start_date": null,
+   "stop_date": "2026-08-19"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-07-16",
+  "2026-07-26",
+  "2026-08-05",
+  "2026-08-15",
+  "2026-08-25"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one constipation sitting at 6",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p13-d00a-e0",
+   "msg_id": "p13-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh brain fog today around a 4",
+   "span": [
+    39,
+    68
+   ],
+   "event_id": "p13-d00a-e1",
+   "msg_id": "p13-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Unrefreshing sleep: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p13-d01a-e0",
+   "msg_id": "p13-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with constipation, 5/10.",
+   "span": [
+    48,
+    80
+   ],
+   "event_id": "p13-d01a-e1",
+   "msg_id": "p13-d01a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my duloxetine with breakfast.",
+   "span": [
+    81,
+    114
+   ],
+   "event_id": "p13-d01a-e2",
+   "msg_id": "p13-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "knees",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: aching joints in my knees about a 4.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p13-d02a-e0",
+   "msg_id": "p13-d02a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "gabapentin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my gabapentin this morning.",
+   "span": [
+    60,
+    92
+   ],
+   "event_id": "p13-d02a-e1",
+   "msg_id": "p13-d02a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one joint pain sitting at 5 it came on after a stressful deadline",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p13-d03a-e0",
+   "msg_id": "p13-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "fatigue today around a 5 it came on after a hot day",
+   "span": [
+    72,
+    123
+   ],
+   "event_id": "p13-d03a-e1",
+   "msg_id": "p13-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "diarrhea was moderate today",
+   "span": [
+    124,
+    151
+   ],
+   "event_id": "p13-d03a-e2",
+   "msg_id": "p13-d03a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "took my duloxetine this morning",
+   "span": [
+    152,
+    183
+   ],
+   "event_id": "p13-d03a-e3",
+   "msg_id": "p13-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um my fibro is acting up aching joints about a 7",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p13-d04a-e0",
+   "msg_id": "p13-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh my fibro is acting up exhaustion about a 5",
+   "span": [
+    49,
+    94
+   ],
+   "event_id": "p13-d04a-e1",
+   "msg_id": "p13-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Joint pain today, around a 6.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p13-d05a-e0",
+   "msg_id": "p13-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness has been properly bad all day. It came on after a hot day.",
+   "span": [
+    30,
+    98
+   ],
+   "event_id": "p13-d05a-e1",
+   "msg_id": "p13-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My sister's migraine attacks are awful this month, she cancelled everything.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p13-d05b-e0",
+   "msg_id": "p13-d05b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with exhaustion five out of ten",
+   "span": [
+    0,
+    42
+   ],
+   "event_id": "p13-d06a-e0",
+   "msg_id": "p13-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um woke up with post-exertional malaise four out of ten",
+   "span": [
+    43,
+    98
+   ],
+   "event_id": "p13-d06a-e1",
+   "msg_id": "p13-d06a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "um used my duloxetine again today",
+   "span": [
+    99,
+    132
+   ],
+   "event_id": "p13-d06a-e2",
+   "msg_id": "p13-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 7.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p13-d07a-e0",
+   "msg_id": "p13-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: unrefreshing sleep about a 4. It came on after a stressful deadline.",
+   "span": [
+    35,
+    126
+   ],
+   "event_id": "p13-d07a-e1",
+   "msg_id": "p13-d07a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my duloxetine this morning.",
+   "span": [
+    127,
+    159
+   ],
+   "event_id": "p13-d07a-e2",
+   "msg_id": "p13-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "legs",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so rough one muscle pain in my legs sitting at 7",
+   "span": [
+    0,
+    48
+   ],
+   "event_id": "p13-d08a-e0",
+   "msg_id": "p13-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so post-exertional malaise seven out of ten this afternoon",
+   "span": [
+    49,
+    107
+   ],
+   "event_id": "p13-d08a-e1",
+   "msg_id": "p13-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness today, around a 10.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p13-d09a-e0",
+   "msg_id": "p13-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with muscle pain in my neck, 10/10.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p13-d10a-e0",
+   "msg_id": "p13-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 10.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p13-d11a-e0",
+   "msg_id": "p13-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation has been awful all day. It came on after standing in line.",
+   "span": [
+    36,
+    107
+   ],
+   "event_id": "p13-d11a-e1",
+   "msg_id": "p13-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "Today was calm. But 6 days ago I had constipation at 5, it really knocked me out.",
+   "span": [
+    0,
+    81
+   ],
+   "event_id": "p13-d11b-e0",
+   "msg_id": "p13-d11b"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, muscle pain in my neck sitting at 10. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    86
+   ],
+   "event_id": "p13-d12a-e0",
+   "msg_id": "p13-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with brain fog, 10/10. It came on after standing in line.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p13-d13a-e0",
+   "msg_id": "p13-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 8 out of 10 this afternoon.",
+   "span": [
+    66,
+    107
+   ],
+   "event_id": "p13-d13a-e1",
+   "msg_id": "p13-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: fatigue about a 8. It came on after a big meal.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p13-d14a-e0",
+   "msg_id": "p13-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: brain fog about a 8.",
+   "span": [
+    71,
+    114
+   ],
+   "event_id": "p13-d14a-e1",
+   "msg_id": "p13-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with constipation, 8/10.",
+   "span": [
+    115,
+    147
+   ],
+   "event_id": "p13-d14a-e2",
+   "msg_id": "p13-d14a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my duloxetine with breakfast.",
+   "span": [
+    148,
+    181
+   ],
+   "event_id": "p13-d14a-e3",
+   "msg_id": "p13-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "numbness_tingling",
+   "body_site": null,
+   "severity": 2,
+   "severity_range": [
+    1,
+    3
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Tingling in my fingers on and off, a 2, can't tie it to anything.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p13-d14b-e0",
+   "msg_id": "p13-d14b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, foggy thinking sitting at 8. It came on after a hot day.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p13-d15a-e0",
+   "msg_id": "p13-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 8. It came on after standing in line.",
+   "span": [
+    68,
+    147
+   ],
+   "event_id": "p13-d15a-e1",
+   "msg_id": "p13-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: sensitivity to light about a 8.",
+   "span": [
+    148,
+    205
+   ],
+   "event_id": "p13-d15a-e2",
+   "msg_id": "p13-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: fatigue about a 6.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d16a-e0",
+   "msg_id": "p13-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with unrefreshing sleep, 6/10.",
+   "span": [
+    42,
+    80
+   ],
+   "event_id": "p13-d16a-e1",
+   "msg_id": "p13-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, aching joints sitting at 9.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p13-d17a-e0",
+   "msg_id": "p13-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking today, around a 9. It came on after standing in the shower.",
+   "span": [
+    39,
+    113
+   ],
+   "event_id": "p13-d17a-e1",
+   "msg_id": "p13-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so constipation has been properly bad all day",
+   "span": [
+    0,
+    50
+   ],
+   "event_id": "p13-d19a-e0",
+   "msg_id": "p13-d19a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Neurontin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "uh used my neurontin again today",
+   "span": [
+    51,
+    83
+   ],
+   "event_id": "p13-d19a-e1",
+   "msg_id": "p13-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d20a-e0",
+   "msg_id": "p13-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Head pain today, around a 7.",
+   "span": [
+    42,
+    70
+   ],
+   "event_id": "p13-d20a-e1",
+   "msg_id": "p13-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue today, around a 6. It came on after a bad night's sleep.",
+   "span": [
+    71,
+    135
+   ],
+   "event_id": "p13-d20a-e2",
+   "msg_id": "p13-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with fatigue, 7/10.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p13-d21a-e0",
+   "msg_id": "p13-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with foggy thinking, 5/10. It came on after the grocery run.",
+   "span": [
+    28,
+    96
+   ],
+   "event_id": "p13-d21a-e1",
+   "msg_id": "p13-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction",
+    "channel_voice"
+   ],
+   "quote": "correction my foggy thinking earlier today was a three i overstated it",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p13-d21b-e0",
+   "msg_id": "p13-d21b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: foggy thinking about a 8. It came on after a long walk.",
+   "span": [
+    0,
+    78
+   ],
+   "event_id": "p13-d22a-e0",
+   "msg_id": "p13-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Unrefreshing sleep has been properly bad all day.",
+   "span": [
+    79,
+    128
+   ],
+   "event_id": "p13-d22a-e1",
+   "msg_id": "p13-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 6. It came on after the grocery run.",
+   "span": [
+    129,
+    198
+   ],
+   "event_id": "p13-d22a-e2",
+   "msg_id": "p13-d22a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my duloxetine with breakfast.",
+   "span": [
+    199,
+    232
+   ],
+   "event_id": "p13-d22a-e3",
+   "msg_id": "p13-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with waking up unrefreshed, 8/10.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d23a-e0",
+   "msg_id": "p13-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 7 out of 10 this afternoon.",
+   "span": [
+    42,
+    81
+   ],
+   "event_id": "p13-d23a-e1",
+   "msg_id": "p13-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "What if my muscle aches gets worse tonight? I really can't afford that.",
+   "span": [
+    0,
+    71
+   ],
+   "event_id": "p13-d23b-e0",
+   "msg_id": "p13-d23b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 8 out of 10 this afternoon. It came on after a long walk.",
+   "span": [
+    0,
+    69
+   ],
+   "event_id": "p13-d24a-e0",
+   "msg_id": "p13-d24a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "gabapentin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my gabapentin with breakfast.",
+   "span": [
+    70,
+    103
+   ],
+   "event_id": "p13-d24a-e1",
+   "msg_id": "p13-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion today, around a 7.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p13-d25a-e0",
+   "msg_id": "p13-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking was properly bad today.",
+   "span": [
+    30,
+    68
+   ],
+   "event_id": "p13-d25a-e1",
+   "msg_id": "p13-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with exhaustion, 6/10.",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p13-d26a-e0",
+   "msg_id": "p13-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 5.",
+   "span": [
+    31,
+    75
+   ],
+   "event_id": "p13-d26a-e1",
+   "msg_id": "p13-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 6.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p13-d27a-e0",
+   "msg_id": "p13-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "knees",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Aching joints in my knees today, around a 5.",
+   "span": [
+    38,
+    82
+   ],
+   "event_id": "p13-d27a-e1",
+   "msg_id": "p13-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Brain fog today, around a 5. It came on after a big meal.",
+   "span": [
+    83,
+    140
+   ],
+   "event_id": "p13-d27a-e2",
+   "msg_id": "p13-d27a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Cymbalta",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Cymbalta this morning.",
+   "span": [
+    141,
+    171
+   ],
+   "event_id": "p13-d27a-e3",
+   "msg_id": "p13-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "uh migraine attack is a seven actually no a nine I think",
+   "span": [
+    0,
+    56
+   ],
+   "event_id": "p13-d27b-e0",
+   "msg_id": "p13-d27b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 8. It came on after a long walk.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p13-d28a-e0",
+   "msg_id": "p13-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue has been properly bad all day. It came on after standing in the shower.",
+   "span": [
+    68,
+    147
+   ],
+   "event_id": "p13-d28a-e1",
+   "msg_id": "p13-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 7.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p13-d29a-e0",
+   "msg_id": "p13-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "exhaustion today around a 6 it came on after a big meal",
+   "span": [
+    0,
+    55
+   ],
+   "event_id": "p13-d30a-e0",
+   "msg_id": "p13-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one brain fog sitting at 5",
+   "span": [
+    56,
+    91
+   ],
+   "event_id": "p13-d30a-e1",
+   "msg_id": "p13-d30a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "uh had my duloxetine with breakfast",
+   "span": [
+    92,
+    127
+   ],
+   "event_id": "p13-d30a-e2",
+   "msg_id": "p13-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so fatigue today around a 7 it came on after a bad night's sleep",
+   "span": [
+    0,
+    64
+   ],
+   "event_id": "p13-d31a-e0",
+   "msg_id": "p13-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one constipation sitting at 7 it came on after a bad night's sleep",
+   "span": [
+    65,
+    137
+   ],
+   "event_id": "p13-d31a-e1",
+   "msg_id": "p13-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 8.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p13-d32a-e0",
+   "msg_id": "p13-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with constipation, 8/10.",
+   "span": [
+    36,
+    68
+   ],
+   "event_id": "p13-d32a-e1",
+   "msg_id": "p13-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: unrefreshing sleep about a 5.",
+   "span": [
+    69,
+    121
+   ],
+   "event_id": "p13-d32a-e2",
+   "msg_id": "p13-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d34a-e0",
+   "msg_id": "p13-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": "neck",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, muscle pain in my neck sitting at 5.",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p13-d35a-e0",
+   "msg_id": "p13-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Unrefreshing sleep today, around a 5.",
+   "span": [
+    48,
+    85
+   ],
+   "event_id": "p13-d35a-e1",
+   "msg_id": "p13-d35a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Neurontin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Neurontin with breakfast.",
+   "span": [
+    86,
+    118
+   ],
+   "event_id": "p13-d35a-e2",
+   "msg_id": "p13-d35a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue has been moderate all day.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p13-d36a-e0",
+   "msg_id": "p13-d36a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "gabapentin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my gabapentin this morning.",
+   "span": [
+    35,
+    67
+   ],
+   "event_id": "p13-d36a-e1",
+   "msg_id": "p13-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "muscle_pain",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date"
+   ],
+   "quote": "Muscle pain has been bugging me since Thursday, about a 4.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p13-d36b-e0",
+   "msg_id": "p13-d36b"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um rough one bloating sitting at 6 it came on after a hot day",
+   "span": [
+    0,
+    61
+   ],
+   "event_id": "p13-d37a-e0",
+   "msg_id": "p13-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "my fibro is acting up unrefreshing sleep about a 5 it came on after standing in the shower",
+   "span": [
+    62,
+    152
+   ],
+   "event_id": "p13-d37a-e1",
+   "msg_id": "p13-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My sister's migraine attacks are awful this month, she cancelled everything.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p13-d37b-e0",
+   "msg_id": "p13-d37b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, fatigue sitting at 5. It came on after standing in the shower.",
+   "span": [
+    77,
+    150
+   ],
+   "event_id": "p13-d37b-e1",
+   "msg_id": "p13-d37b"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so a pem crash has been properly bad all day",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p13-d38a-e0",
+   "msg_id": "p13-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh bloating today around a 6 it came on after a big meal",
+   "span": [
+    45,
+    101
+   ],
+   "event_id": "p13-d38a-e1",
+   "msg_id": "p13-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so foggy thinking today around a 6",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p13-d39a-e0",
+   "msg_id": "p13-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "post-exertional malaise five out of ten this afternoon",
+   "span": [
+    35,
+    89
+   ],
+   "event_id": "p13-d39a-e1",
+   "msg_id": "p13-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so bloating has been moderate all day",
+   "span": [
+    90,
+    132
+   ],
+   "event_id": "p13-d39a-e2",
+   "msg_id": "p13-d39a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "so used my duloxetine again today",
+   "span": [
+    133,
+    166
+   ],
+   "event_id": "p13-d39a-e3",
+   "msg_id": "p13-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion was awful today.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p13-d40a-e0",
+   "msg_id": "p13-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Aching joints was awful today.",
+   "span": [
+    28,
+    58
+   ],
+   "event_id": "p13-d40a-e1",
+   "msg_id": "p13-d40a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "gabapentin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my gabapentin this morning.",
+   "span": [
+    59,
+    91
+   ],
+   "event_id": "p13-d40a-e2",
+   "msg_id": "p13-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: headache about a 7. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    83
+   ],
+   "event_id": "p13-d41a-e0",
+   "msg_id": "p13-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, a PEM crash sitting at 6. It came on after the grocery run.",
+   "span": [
+    84,
+    154
+   ],
+   "event_id": "p13-d41a-e1",
+   "msg_id": "p13-d41a"
+  },
+  {
+   "kind": "med",
+   "name": "pregabalin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "pregabalin",
+   "dose": "75 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop"
+   ],
+   "quote": "Started pregabalin 75 mg last night, fingers crossed.",
+   "span": [
+    0,
+    53
+   ],
+   "event_id": "p13-d41b-e0",
+   "msg_id": "p13-d41b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with exhaustion, 10/10.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p13-d42a-e0",
+   "msg_id": "p13-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Headache today, around a 8.",
+   "span": [
+    32,
+    59
+   ],
+   "event_id": "p13-d42a-e1",
+   "msg_id": "p13-d42a"
+  },
+  {
+   "kind": "med",
+   "name": "pregabalin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Lyrica",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Lyrica with breakfast.",
+   "span": [
+    60,
+    89
+   ],
+   "event_id": "p13-d42a-e2",
+   "msg_id": "p13-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "fibromyalgia",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My fibro is acting up: tiredness about a 9. It came on after a big meal.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p13-d43a-e0",
+   "msg_id": "p13-d43a"
+  },
+  {
+   "kind": "med",
+   "name": "duloxetine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "duloxetine",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my duloxetine with breakfast.",
+   "span": [
+    73,
+    106
+   ],
+   "event_id": "p13-d43a-e1",
+   "msg_id": "p13-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My sister's migraine attacks are awful this month, she cancelled everything.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p13-d43b-e0",
+   "msg_id": "p13-d43b"
+  },
+  {
+   "kind": "symptom",
+   "name": "brain_fog",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Foggy thinking was moderate today.",
+   "span": [
+    77,
+    111
+   ],
+   "event_id": "p13-d43b-e1",
+   "msg_id": "p13-d43b"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so post-exertional malaise was properly bad today it came on after standing in the shower",
+   "span": [
+    0,
+    89
+   ],
+   "event_id": "p13-d44a-e0",
+   "msg_id": "p13-d44a"
+  },
+  {
+   "kind": "med",
+   "name": "gabapentin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "Neurontin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Stopped the Neurontin yesterday, it was upsetting my stomach.",
+   "span": [
+    0,
+    61
+   ],
+   "event_id": "p13-d44b-e0",
+   "msg_id": "p13-d44b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, fatigue sitting at 6.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p13-d45a-e0",
+   "msg_id": "p13-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "A PEM crash today, around a 6.",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p13-d46a-e0",
+   "msg_id": "p13-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 6.",
+   "span": [
+    31,
+    75
+   ],
+   "event_id": "p13-d46a-e1",
+   "msg_id": "p13-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with joint pain, 5/10.",
+   "span": [
+    76,
+    106
+   ],
+   "event_id": "p13-d46a-e2",
+   "msg_id": "p13-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, fatigue sitting at 6.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p13-d47a-e0",
+   "msg_id": "p13-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "post_exertional_malaise",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with post-exertional malaise, 6/10.",
+   "span": [
+    33,
+    76
+   ],
+   "event_id": "p13-d47a-e1",
+   "msg_id": "p13-d47a"
+  },
+  {
+   "kind": "med",
+   "name": "pregabalin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "pregabalin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my pregabalin again today.",
+   "span": [
+    77,
+    108
+   ],
+   "event_id": "p13-d47a-e2",
+   "msg_id": "p13-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 9 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d49a-e0",
+   "msg_id": "p13-d49a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p13-d50a-e0",
+   "msg_id": "p13-d50a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-27",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation"
+   ],
+   "quote": "Constipation? None today, thankfully.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p13-d51b-e0",
+   "msg_id": "p13-d51b"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one waking up unrefreshed sitting at 7",
+   "span": [
+    0,
+    52
+   ],
+   "event_id": "p13-d52a-e0",
+   "msg_id": "p13-d52a"
+  },
+  {
+   "kind": "med",
+   "name": "pregabalin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Lyrica",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "used my lyrica again today",
+   "span": [
+    53,
+    79
+   ],
+   "event_id": "p13-d52a-e1",
+   "msg_id": "p13-d52a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d53a-e0",
+   "msg_id": "p13-d53a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion has been moderate all day.",
+   "span": [
+    42,
+    79
+   ],
+   "event_id": "p13-d53a-e1",
+   "msg_id": "p13-d53a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Waking up unrefreshed has been moderate all day. It came on after the grocery run.",
+   "span": [
+    80,
+    162
+   ],
+   "event_id": "p13-d53a-e2",
+   "msg_id": "p13-d53a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness: 7 out of 10 this afternoon. It came on after a long walk.",
+   "span": [
+    0,
+    68
+   ],
+   "event_id": "p13-d54a-e0",
+   "msg_id": "p13-d54a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 7.",
+   "span": [
+    69,
+    113
+   ],
+   "event_id": "p13-d54a-e1",
+   "msg_id": "p13-d54a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p13-d55a-e0",
+   "msg_id": "p13-d55a"
+  },
+  {
+   "kind": "symptom",
+   "name": "joint_pain",
+   "body_site": "wrists",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with aching joints in my wrists, 5/10. It came on after a stressful deadline.",
+   "span": [
+    42,
+    127
+   ],
+   "event_id": "p13-d55a-e1",
+   "msg_id": "p13-d55a"
+  },
+  {
+   "kind": "med",
+   "name": "pregabalin",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "pregabalin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my pregabalin again today.",
+   "span": [
+    128,
+    159
+   ],
+   "event_id": "p13-d55a-e2",
+   "msg_id": "p13-d55a"
+  },
+  {
+   "kind": "symptom",
+   "name": "unrefreshing_sleep",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-09-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Unrefreshing sleep was awful today.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p13-d56a-e0",
+   "msg_id": "p13-d56a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-09-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 8.",
+   "span": [
+    36,
+    70
+   ],
+   "event_id": "p13-d56a-e1",
+   "msg_id": "p13-d56a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-09-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang"
+   ],
+   "quote": "Head is pounding, easily a 7.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p13-d56b-e0",
+   "msg_id": "p13-d56b"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

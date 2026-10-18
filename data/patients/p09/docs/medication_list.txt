@@ -1,0 +1,6 @@
+SYNTHETIC DOCUMENT - NOT A REAL RECORD
+Medication list for Sam
+Date: 2026-06-25
+- dicyclomine 10 mg
+- loperamide 2 mg
+- duloxetine 30 mg

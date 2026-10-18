@@ -1,0 +1,4060 @@
+{
+ "patient_id": "p07",
+ "name": "Priya",
+ "conditions": [
+  "endometriosis",
+  "migraine",
+  "ibs"
+ ],
+ "start_date": "2026-06-19",
+ "days": 60,
+ "meds": [
+  {
+   "generic": "naproxen",
+   "dose": "220 mg",
+   "start_date": null,
+   "stop_date": null
+  },
+  {
+   "generic": "norethindrone",
+   "dose": "5 mg",
+   "start_date": "2026-08-01",
+   "stop_date": null
+  },
+  {
+   "generic": "ondansetron",
+   "dose": "4 mg",
+   "start_date": null,
+   "stop_date": "2026-07-01"
+  }
+ ],
+ "severity_anchors": {
+  "0": "None.",
+  "1-2": "Faint. Forgotten when busy.",
+  "3-4": "Noticeable, but I do everything I planned.",
+  "5-6": "Hard to ignore. I cut back on some activities.",
+  "7-8": "Limits most activities. Mostly resting or lying down.",
+  "9-10": "Unbearable. I cannot function; I would want urgent care."
+ },
+ "snapshot_days": [
+  "2026-06-28",
+  "2026-07-08",
+  "2026-07-18",
+  "2026-07-28",
+  "2026-08-07",
+  "2026-08-17"
+ ],
+ "events": [
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "abdominal pain was properly bad today",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p07-d00a-e0",
+   "msg_id": "p07-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so rough one fatigue sitting at 5",
+   "span": [
+    38,
+    71
+   ],
+   "event_id": "p07-d00a-e1",
+   "msg_id": "p07-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": "lower back",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um back pain in my lower back today around a 5 it came on after standing in line",
+   "span": [
+    72,
+    152
+   ],
+   "event_id": "p07-d00a-e2",
+   "msg_id": "p07-d00a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "exhaustion was moderate today",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p07-d01a-e0",
+   "msg_id": "p07-d01a"
+  },
+  {
+   "kind": "med",
+   "name": "ondansetron",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "ondansetron",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "uh used my ondansetron again today",
+   "span": [
+    30,
+    64
+   ],
+   "event_id": "p07-d01a-e1",
+   "msg_id": "p07-d01a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion today, around a 6.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p07-d03a-e0",
+   "msg_id": "p07-d03a"
+  },
+  {
+   "kind": "med",
+   "name": "ondansetron",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zofran",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Zofran again today.",
+   "span": [
+    30,
+    57
+   ],
+   "event_id": "p07-d03a-e1",
+   "msg_id": "p07-d03a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Migraine has been properly bad all day.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p07-d04a-e0",
+   "msg_id": "p07-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Back pain has been moderate all day.",
+   "span": [
+    40,
+    76
+   ],
+   "event_id": "p07-d04a-e1",
+   "msg_id": "p07-d04a"
+  },
+  {
+   "kind": "med",
+   "name": "ondansetron",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "ondansetron",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my ondansetron with breakfast.",
+   "span": [
+    77,
+    111
+   ],
+   "event_id": "p07-d04a-e2",
+   "msg_id": "p07-d04a"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": "pelvis",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Pelvic pain in my pelvis today, around a 5.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p07-d05a-e0",
+   "msg_id": "p07-d05a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-24",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang",
+    "channel_voice"
+   ],
+   "quote": "so totally wiped out today an 8",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p07-d05b-e0",
+   "msg_id": "p07-d05b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "endometriosis",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My endo is acting up: fatigue about a 9.",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p07-d06a-e0",
+   "msg_id": "p07-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My migraine is acting up: migraine about a 6.",
+   "span": [
+    41,
+    86
+   ],
+   "event_id": "p07-d06a-e1",
+   "msg_id": "p07-d06a"
+  },
+  {
+   "kind": "med",
+   "name": "ondansetron",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Zofran",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Used my Zofran again today.",
+   "span": [
+    87,
+    114
+   ],
+   "event_id": "p07-d06a-e2",
+   "msg_id": "p07-d06a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "period"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, exhaustion sitting at 7. It came on after my period starting.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p07-d07a-e0",
+   "msg_id": "p07-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": "pelvis",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with pelvic pain in my pelvis, 5/10.",
+   "span": [
+    73,
+    117
+   ],
+   "event_id": "p07-d07a-e1",
+   "msg_id": "p07-d07a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Aleve this morning.",
+   "span": [
+    118,
+    145
+   ],
+   "event_id": "p07-d07a-e2",
+   "msg_id": "p07-d07a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-06-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p07-d08a-e0",
+   "msg_id": "p07-d08a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 7.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p07-d09a-e0",
+   "msg_id": "p07-d09a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-06-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "voice_selfcorrect",
+    "channel_voice"
+   ],
+   "quote": "so um my sensitivity to light is like a seven no wait more like a nine today",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p07-d09b-e0",
+   "msg_id": "p07-d09b"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": "pelvis",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with pelvic pain in my pelvis, 5/10.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p07-d10a-e0",
+   "msg_id": "p07-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, stomach cramps sitting at 5.",
+   "span": [
+    45,
+    84
+   ],
+   "event_id": "p07-d10a-e1",
+   "msg_id": "p07-d10a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my naproxen again today.",
+   "span": [
+    85,
+    114
+   ],
+   "event_id": "p07-d10a-e2",
+   "msg_id": "p07-d10a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-06-29",
+   "negated": true,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "negation",
+    "channel_voice"
+   ],
+   "quote": "no diarrhea today which is a nice change",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p07-d10b-e0",
+   "msg_id": "p07-d10b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 8,
+   "severity_range": [
+    7,
+    9
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation today, around a 8.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p07-d11a-e0",
+   "msg_id": "p07-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-06-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Abdominal pain in my lower abdomen today, around a 4.",
+   "span": [
+    32,
+    85
+   ],
+   "event_id": "p07-d11a-e1",
+   "msg_id": "p07-d11a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation today, around a 9.",
+   "span": [
+    0,
+    31
+   ],
+   "event_id": "p07-d12a-e0",
+   "msg_id": "p07-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Stomach cramps in my lower abdomen today, around a 7.",
+   "span": [
+    32,
+    85
+   ],
+   "event_id": "p07-d12a-e1",
+   "msg_id": "p07-d12a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Tiredness today, around a 7.",
+   "span": [
+    0,
+    28
+   ],
+   "event_id": "p07-d13a-e0",
+   "msg_id": "p07-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 7.",
+   "span": [
+    29,
+    66
+   ],
+   "event_id": "p07-d13a-e1",
+   "msg_id": "p07-d13a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating was properly bad today.",
+   "span": [
+    67,
+    99
+   ],
+   "event_id": "p07-d13a-e2",
+   "msg_id": "p07-d13a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my naproxen again today.",
+   "span": [
+    100,
+    129
+   ],
+   "event_id": "p07-d13a-e3",
+   "msg_id": "p07-d13a"
+  },
+  {
+   "kind": "med",
+   "name": "ondansetron",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "stop",
+   "med_as_said": "Zofran",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Stopped the Zofran yesterday, it was upsetting my stomach.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p07-d13b-e0",
+   "msg_id": "p07-d13b"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so pelvic pain today around a 7",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p07-d14a-e0",
+   "msg_id": "p07-d14a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so took my aleve this morning",
+   "span": [
+    37,
+    66
+   ],
+   "event_id": "p07-d14a-e1",
+   "msg_id": "p07-d14a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation today, around a 9. It came on after a long walk.",
+   "span": [
+    0,
+    61
+   ],
+   "event_id": "p07-d15a-e0",
+   "msg_id": "p07-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "endometriosis",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My endo is acting up: fatigue about a 5.",
+   "span": [
+    62,
+    102
+   ],
+   "event_id": "p07-d15a-e1",
+   "msg_id": "p07-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Headache: 5 out of 10 this afternoon. It came on after a big meal.",
+   "span": [
+    103,
+    169
+   ],
+   "event_id": "p07-d15a-e2",
+   "msg_id": "p07-d15a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 6.",
+   "span": [
+    0,
+    27
+   ],
+   "event_id": "p07-d16a-e0",
+   "msg_id": "p07-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Pelvic pain today, around a 5.",
+   "span": [
+    28,
+    58
+   ],
+   "event_id": "p07-d16a-e1",
+   "msg_id": "p07-d16a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my naproxen this morning.",
+   "span": [
+    59,
+    89
+   ],
+   "event_id": "p07-d16a-e2",
+   "msg_id": "p07-d16a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 6. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p07-d17a-e0",
+   "msg_id": "p07-d17a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so stomach cramps five out of ten this afternoon",
+   "span": [
+    0,
+    53
+   ],
+   "event_id": "p07-d19a-e0",
+   "msg_id": "p07-d19a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "If my queasiness flares up tomorrow, I'll cancel my plans.",
+   "span": [
+    0,
+    58
+   ],
+   "event_id": "p07-d19b-e0",
+   "msg_id": "p07-d19b"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so woke up with bloating five out of ten",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p07-d20a-e0",
+   "msg_id": "p07-d20a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "slang",
+    "channel_voice"
+   ],
+   "quote": "gut is killing me today seven out of ten",
+   "span": [
+    0,
+    40
+   ],
+   "event_id": "p07-d20b-e0",
+   "msg_id": "p07-d20b"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": "lower back",
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Back pain in my lower back has been properly bad all day.",
+   "span": [
+    0,
+    57
+   ],
+   "event_id": "p07-d21a-e0",
+   "msg_id": "p07-d21a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p07-d22a-e0",
+   "msg_id": "p07-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 6 out of 10 this afternoon. It came on after a stressful deadline.",
+   "span": [
+    42,
+    118
+   ],
+   "event_id": "p07-d22a-e1",
+   "msg_id": "p07-d22a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, bloating sitting at 7.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p07-d23a-e0",
+   "msg_id": "p07-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with constipation, 7/10. It came on after a stressful deadline.",
+   "span": [
+    34,
+    105
+   ],
+   "event_id": "p07-d23a-e1",
+   "msg_id": "p07-d23a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p07-d24a-e0",
+   "msg_id": "p07-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, headache sitting at 6. It came on after the grocery run.",
+   "span": [
+    38,
+    105
+   ],
+   "event_id": "p07-d24a-e1",
+   "msg_id": "p07-d24a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p07-d25a-e0",
+   "msg_id": "p07-d25a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Used my naproxen again today.",
+   "span": [
+    38,
+    67
+   ],
+   "event_id": "p07-d25a-e1",
+   "msg_id": "p07-d25a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with constipation, 7/10.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p07-d26a-e0",
+   "msg_id": "p07-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "exertion"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea today, around a 6. It came on after the grocery run.",
+   "span": [
+    33,
+    94
+   ],
+   "event_id": "p07-d26a-e1",
+   "msg_id": "p07-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Back pain: 5 out of 10 this afternoon.",
+   "span": [
+    95,
+    133
+   ],
+   "event_id": "p07-d26a-e2",
+   "msg_id": "p07-d26a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating has been moderate all day.",
+   "span": [
+    0,
+    35
+   ],
+   "event_id": "p07-d27a-e0",
+   "msg_id": "p07-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, diarrhea sitting at 5.",
+   "span": [
+    36,
+    69
+   ],
+   "event_id": "p07-d27a-e1",
+   "msg_id": "p07-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Head pain: 4 out of 10 this afternoon.",
+   "span": [
+    70,
+    108
+   ],
+   "event_id": "p07-d27a-e2",
+   "msg_id": "p07-d27a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: constipation about a 7.",
+   "span": [
+    0,
+    44
+   ],
+   "event_id": "p07-d28a-e0",
+   "msg_id": "p07-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with head pain, 6/10.",
+   "span": [
+    45,
+    74
+   ],
+   "event_id": "p07-d28a-e1",
+   "msg_id": "p07-d28a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Headache: 6 out of 10 this afternoon. It came on after a hot day.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p07-d29a-e0",
+   "msg_id": "p07-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 6. It came on after a hot day.",
+   "span": [
+    66,
+    131
+   ],
+   "event_id": "p07-d29a-e1",
+   "msg_id": "p07-d29a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-18",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My partner has been dealing with nausea all week, so the house is quiet.",
+   "span": [
+    0,
+    72
+   ],
+   "event_id": "p07-d29b-e0",
+   "msg_id": "p07-d29b"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Back pain was properly bad today.",
+   "span": [
+    0,
+    33
+   ],
+   "event_id": "p07-d30a-e0",
+   "msg_id": "p07-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: diarrhea about a 6. It came on after a hot day.",
+   "span": [
+    34,
+    102
+   ],
+   "event_id": "p07-d30a-e1",
+   "msg_id": "p07-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-19",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Stomach cramps in my lower abdomen: 5 out of 10 this afternoon.",
+   "span": [
+    103,
+    166
+   ],
+   "event_id": "p07-d30a-e2",
+   "msg_id": "p07-d30a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": "lower back",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-20",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, back pain in my lower back sitting at 6. It came on after a hot day.",
+   "span": [
+    0,
+    79
+   ],
+   "event_id": "p07-d31a-e0",
+   "msg_id": "p07-d31a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so constipation six out of ten this afternoon",
+   "span": [
+    0,
+    50
+   ],
+   "event_id": "p07-d32a-e0",
+   "msg_id": "p07-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-21",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "migraine",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "so my migraine is acting up headache about a 5",
+   "span": [
+    51,
+    97
+   ],
+   "event_id": "p07-d32a-e1",
+   "msg_id": "p07-d32a"
+  },
+  {
+   "kind": "symptom",
+   "name": "headache",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "last_week"
+   ],
+   "quote": "A week ago today I had head pain at 5, nothing like that now.",
+   "span": [
+    0,
+    61
+   ],
+   "event_id": "p07-d32b-e0",
+   "msg_id": "p07-d32b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p07-d33a-e0",
+   "msg_id": "p07-d33a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-22",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Had my naproxen with breakfast.",
+   "span": [
+    40,
+    71
+   ],
+   "event_id": "p07-d33a-e1",
+   "msg_id": "p07-d33a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, tiredness sitting at 7.",
+   "span": [
+    0,
+    34
+   ],
+   "event_id": "p07-d34a-e0",
+   "msg_id": "p07-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-23",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Back pain: 6 out of 10 this afternoon.",
+   "span": [
+    35,
+    73
+   ],
+   "event_id": "p07-d34a-e1",
+   "msg_id": "p07-d34a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue: 7 out of 10 this afternoon.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p07-d36a-e0",
+   "msg_id": "p07-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": "pelvis",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Pelvic pain in my pelvis was moderate today.",
+   "span": [
+    37,
+    81
+   ],
+   "event_id": "p07-d36a-e1",
+   "msg_id": "p07-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Nausea today, around a 4. It came on after a hot day.",
+   "span": [
+    82,
+    135
+   ],
+   "event_id": "p07-d36a-e2",
+   "msg_id": "p07-d36a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Aleve with breakfast.",
+   "span": [
+    136,
+    164
+   ],
+   "event_id": "p07-d36a-e3",
+   "msg_id": "p07-d36a"
+  },
+  {
+   "kind": "symptom",
+   "name": "tinnitus",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-07-25",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "unattributed"
+   ],
+   "quote": "Weird ringing in my ears today, around a 3, no idea what it's from.",
+   "span": [
+    0,
+    67
+   ],
+   "event_id": "p07-d36b-e0",
+   "msg_id": "p07-d36b"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": "pelvis",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-26",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Pelvic pain in my pelvis today, around a 5.",
+   "span": [
+    0,
+    43
+   ],
+   "event_id": "p07-d37a-e0",
+   "msg_id": "p07-d37a"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Pelvic pain has been moderate all day.",
+   "span": [
+    0,
+    38
+   ],
+   "event_id": "p07-d38a-e0",
+   "msg_id": "p07-d38a"
+  },
+  {
+   "kind": "symptom",
+   "name": "light_sensitivity",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-27",
+   "negated": false,
+   "subject": "self",
+   "reality": "hypothetical",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "hypothetical"
+   ],
+   "quote": "What if my sensitivity to light gets worse tonight? I really can't afford that.",
+   "span": [
+    0,
+    79
+   ],
+   "event_id": "p07-d38b-e0",
+   "msg_id": "p07-d38b"
+  },
+  {
+   "kind": "symptom",
+   "name": "pelvic_pain",
+   "body_site": "pelvis",
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-28",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Pelvic pain in my pelvis: 6 out of 10 this afternoon.",
+   "span": [
+    0,
+    53
+   ],
+   "event_id": "p07-d39a-e0",
+   "msg_id": "p07-d39a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-29",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion: 5 out of 10 this afternoon. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    77
+   ],
+   "event_id": "p07-d40a-e0",
+   "msg_id": "p07-d40a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so rough one constipation sitting at 6 it came on after standing in the shower",
+   "span": [
+    0,
+    83
+   ],
+   "event_id": "p07-d41a-e0",
+   "msg_id": "p07-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "stress"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "um fatigue four out of ten this afternoon it came on after a stressful deadline",
+   "span": [
+    84,
+    163
+   ],
+   "event_id": "p07-d41a-e1",
+   "msg_id": "p07-d41a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": "lower back",
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Back pain in my lower back has been moderate all day. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    91
+   ],
+   "event_id": "p07-d42a-e0",
+   "msg_id": "p07-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, constipation sitting at 7.",
+   "span": [
+    92,
+    129
+   ],
+   "event_id": "p07-d42a-e1",
+   "msg_id": "p07-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "period"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Abdominal pain has been properly bad all day. It came on after my period starting.",
+   "span": [
+    130,
+    212
+   ],
+   "event_id": "p07-d42a-e2",
+   "msg_id": "p07-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea: 5 out of 10 this afternoon.",
+   "span": [
+    213,
+    250
+   ],
+   "event_id": "p07-d42a-e3",
+   "msg_id": "p07-d42a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my naproxen this morning.",
+   "span": [
+    251,
+    281
+   ],
+   "event_id": "p07-d42a-e4",
+   "msg_id": "p07-d42a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-07-31",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Scratch what I said this morning, the back pain was really more like a 7.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p07-d42b-e0",
+   "msg_id": "p07-d42b"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so constipation today around a 6 it came on after standing in the shower",
+   "span": [
+    0,
+    77
+   ],
+   "event_id": "p07-d43a-e0",
+   "msg_id": "p07-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "heat"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with bloating five out of ten it came on after a hot day",
+   "span": [
+    78,
+    142
+   ],
+   "event_id": "p07-d43a-e1",
+   "msg_id": "p07-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "endometriosis",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so my endo is acting up fatigue about a 4 it came on after standing in line",
+   "span": [
+    143,
+    223
+   ],
+   "event_id": "p07-d43a-e2",
+   "msg_id": "p07-d43a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Stomach cramps was properly bad today. It came on after standing in line.",
+   "span": [
+    0,
+    73
+   ],
+   "event_id": "p07-d44a-e0",
+   "msg_id": "p07-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Diarrhea was moderate today. It came on after a bad night's sleep.",
+   "span": [
+    74,
+    140
+   ],
+   "event_id": "p07-d44a-e1",
+   "msg_id": "p07-d44a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-08-02",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 4 out of 10 this afternoon.",
+   "span": [
+    141,
+    178
+   ],
+   "event_id": "p07-d44a-e2",
+   "msg_id": "p07-d44a"
+  },
+  {
+   "kind": "med",
+   "name": "norethindrone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-01",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "start",
+   "med_as_said": "Aygestin",
+   "dose": "5 mg",
+   "triggers": [],
+   "tags": [
+    "med_start_stop",
+    "brand_generic"
+   ],
+   "quote": "Started Aygestin 5 mg last night, fingers crossed.",
+   "span": [
+    0,
+    50
+   ],
+   "event_id": "p07-d44b-e0",
+   "msg_id": "p07-d44b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion has been properly bad all day.",
+   "span": [
+    0,
+    41
+   ],
+   "event_id": "p07-d45a-e0",
+   "msg_id": "p07-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "diarrhea",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-03",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with diarrhea, 7/10.",
+   "span": [
+    42,
+    70
+   ],
+   "event_id": "p07-d45a-e1",
+   "msg_id": "p07-d45a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 4,
+   "severity_range": [
+    3,
+    5
+   ],
+   "date": "2026-07-30",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "relative_date"
+   ],
+   "quote": "Constipation has been bugging me since Thursday, about a 4.",
+   "span": [
+    0,
+    59
+   ],
+   "event_id": "p07-d45b-e0",
+   "msg_id": "p07-d45b"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-04",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating was properly bad today.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p07-d46a-e0",
+   "msg_id": "p07-d46a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 3,
+   "severity_range": [
+    2,
+    4
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Queasiness: 3 out of 10 this afternoon.",
+   "span": [
+    0,
+    39
+   ],
+   "event_id": "p07-d47a-e0",
+   "msg_id": "p07-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, fatigue sitting at 7.",
+   "span": [
+    40,
+    72
+   ],
+   "event_id": "p07-d47a-e1",
+   "msg_id": "p07-d47a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Took my naproxen this morning.",
+   "span": [
+    73,
+    103
+   ],
+   "event_id": "p07-d47a-e2",
+   "msg_id": "p07-d47a"
+  },
+  {
+   "kind": "symptom",
+   "name": "nausea",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-05",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "correction"
+   ],
+   "quote": "Correction: my queasiness earlier today was a 5, I overstated it.",
+   "span": [
+    0,
+    65
+   ],
+   "event_id": "p07-d47b-e0",
+   "msg_id": "p07-d47b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "period"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh tiredness has been properly bad all day it came on after my period starting",
+   "span": [
+    0,
+    78
+   ],
+   "event_id": "p07-d48a-e0",
+   "msg_id": "p07-d48a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-06",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "woke up with bloating six out of ten",
+   "span": [
+    79,
+    115
+   ],
+   "event_id": "p07-d48a-e1",
+   "msg_id": "p07-d48a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-07",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating: 5 out of 10 this afternoon.",
+   "span": [
+    0,
+    37
+   ],
+   "event_id": "p07-d49a-e0",
+   "msg_id": "p07-d49a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating was properly bad today.",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p07-d50a-e0",
+   "msg_id": "p07-d50a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation today, around a 6.",
+   "span": [
+    33,
+    64
+   ],
+   "event_id": "p07-d50a-e1",
+   "msg_id": "p07-d50a"
+  },
+  {
+   "kind": "med",
+   "name": "norethindrone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-08",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aygestin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Had my Aygestin with breakfast.",
+   "span": [
+    65,
+    96
+   ],
+   "event_id": "p07-d50a-e2",
+   "msg_id": "p07-d50a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Constipation was properly bad today.",
+   "span": [
+    0,
+    36
+   ],
+   "event_id": "p07-d51a-e0",
+   "msg_id": "p07-d51a"
+  },
+  {
+   "kind": "symptom",
+   "name": "bloating",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Bloating today, around a 5.",
+   "span": [
+    37,
+    64
+   ],
+   "event_id": "p07-d51a-e1",
+   "msg_id": "p07-d51a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-09",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "food"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, migraine attack sitting at 5. It came on after a big meal.",
+   "span": [
+    65,
+    134
+   ],
+   "event_id": "p07-d51a-e2",
+   "msg_id": "p07-d51a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-10",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with exhaustion, 5/10.",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p07-d52a-e0",
+   "msg_id": "p07-d52a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "rough one tiredness sitting at 6",
+   "span": [
+    0,
+    32
+   ],
+   "event_id": "p07-d53a-e0",
+   "msg_id": "p07-d53a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "standing"
+   ],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "uh rough one back pain sitting at 6 it came on after standing in the shower",
+   "span": [
+    33,
+    108
+   ],
+   "event_id": "p07-d53a-e1",
+   "msg_id": "p07-d53a"
+  },
+  {
+   "kind": "symptom",
+   "name": "constipation",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-11",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "constipation today around a 6",
+   "span": [
+    109,
+    138
+   ],
+   "event_id": "p07-d53a-e2",
+   "msg_id": "p07-d53a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 7,
+   "severity_range": [
+    6,
+    8
+   ],
+   "date": "2026-08-12",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [
+    "poor_sleep"
+   ],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Rough one, fatigue sitting at 7. It came on after a bad night's sleep.",
+   "span": [
+    0,
+    70
+   ],
+   "event_id": "p07-d54a-e0",
+   "msg_id": "p07-d54a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Fatigue was awful today.",
+   "span": [
+    0,
+    24
+   ],
+   "event_id": "p07-d55a-e0",
+   "msg_id": "p07-d55a"
+  },
+  {
+   "kind": "symptom",
+   "name": "migraine",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-13",
+   "negated": false,
+   "subject": "other",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "other_person"
+   ],
+   "quote": "My sister's migraine attacks are awful this month, she cancelled everything.",
+   "span": [
+    0,
+    76
+   ],
+   "event_id": "p07-d55b-e0",
+   "msg_id": "p07-d55b"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 6,
+   "severity_range": [
+    5,
+    7
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "okay so woke up with tiredness six out of ten",
+   "span": [
+    0,
+    45
+   ],
+   "event_id": "p07-d56a-e0",
+   "msg_id": "p07-d56a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": null,
+   "severity": 5,
+   "severity_range": [
+    4,
+    6
+   ],
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "back pain five out of ten this afternoon",
+   "span": [
+    46,
+    86
+   ],
+   "event_id": "p07-d56a-e1",
+   "msg_id": "p07-d56a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-14",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "naproxen",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice"
+   ],
+   "quote": "okay so used my naproxen again today",
+   "span": [
+    87,
+    123
+   ],
+   "event_id": "p07-d56a-e2",
+   "msg_id": "p07-d56a"
+  },
+  {
+   "kind": "symptom",
+   "name": "fatigue",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Exhaustion today, around a 9.",
+   "span": [
+    0,
+    29
+   ],
+   "event_id": "p07-d57a-e0",
+   "msg_id": "p07-d57a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": "lower abdomen",
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with abdominal pain in my lower abdomen, 9/10.",
+   "span": [
+    30,
+    84
+   ],
+   "event_id": "p07-d57a-e1",
+   "msg_id": "p07-d57a"
+  },
+  {
+   "kind": "med",
+   "name": "norethindrone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-15",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aygestin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Aygestin this morning.",
+   "span": [
+    85,
+    115
+   ],
+   "event_id": "p07-d57a-e2",
+   "msg_id": "p07-d57a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 9,
+   "severity_range": [
+    8,
+    10
+   ],
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "channel_voice",
+    "routine"
+   ],
+   "quote": "stomach cramps was awful today",
+   "span": [
+    0,
+    30
+   ],
+   "event_id": "p07-d58a-e0",
+   "msg_id": "p07-d58a"
+  },
+  {
+   "kind": "med",
+   "name": "naproxen",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-16",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aleve",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic",
+    "channel_voice"
+   ],
+   "quote": "so used my aleve again today",
+   "span": [
+    31,
+    59
+   ],
+   "event_id": "p07-d58a-e1",
+   "msg_id": "p07-d58a"
+  },
+  {
+   "kind": "symptom",
+   "name": "back_pain",
+   "body_site": "lower back",
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "Woke up with back pain in my lower back, 10/10.",
+   "span": [
+    0,
+    47
+   ],
+   "event_id": "p07-d59a-e0",
+   "msg_id": "p07-d59a"
+  },
+  {
+   "kind": "symptom",
+   "name": "abdominal_pain",
+   "body_site": null,
+   "severity": 10,
+   "severity_range": [
+    9,
+    10
+   ],
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "ibs",
+   "med_action": null,
+   "med_as_said": null,
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "routine"
+   ],
+   "quote": "My IBS is acting up: stomach cramps about a 10.",
+   "span": [
+    48,
+    95
+   ],
+   "event_id": "p07-d59a-e1",
+   "msg_id": "p07-d59a"
+  },
+  {
+   "kind": "med",
+   "name": "norethindrone",
+   "body_site": null,
+   "severity": null,
+   "severity_range": null,
+   "date": "2026-08-17",
+   "negated": false,
+   "subject": "self",
+   "reality": "real",
+   "condition": "unattributed",
+   "med_action": "take",
+   "med_as_said": "Aygestin",
+   "dose": null,
+   "triggers": [],
+   "tags": [
+    "brand_generic"
+   ],
+   "quote": "Took my Aygestin this morning.",
+   "span": [
+    96,
+    126
+   ],
+   "event_id": "p07-d59a-e2",
+   "msg_id": "p07-d59a"
+  }
+ ],
+ "note": "Synthetic. The answer key. Check-ins in checkins.jsonl are rendered from these events."
+}

@@ -1,0 +1,5 @@
+{
+  "_note": "USD per million tokens. Fill from Anthropic's official pricing page before trusting cost numbers; left null on purpose so nothing here is guessed.",
+  "claude-haiku-5-5": {"input": null, "output": null},
+  "claude-sonnet-5-5": {"input": null, "output": null}
+}

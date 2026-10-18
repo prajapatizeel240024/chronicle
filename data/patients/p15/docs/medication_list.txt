@@ -1,0 +1,6 @@
+SYNTHETIC DOCUMENT - NOT A REAL RECORD
+Medication list for Eli
+Date: 2026-07-13
+- methotrexate 15 mg
+- hydroxychloroquine 200 mg
+- adalimumab 40 mg
