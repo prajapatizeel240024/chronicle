@@ -125,9 +125,14 @@ def api_ask(body: Ask):
             "disclaimer": NOT_MEDICAL_ADVICE}
 
 
+def bind_address() -> tuple[str, int]:
+    """Where `make demo` listens. A blank CHRONICLE_HOST means localhost, never every interface."""
+    return os.environ.get("CHRONICLE_HOST") or "127.0.0.1", int(os.environ.get("CHRONICLE_PORT") or 8000)
+
+
 if __name__ == "__main__":  # make demo
     import uvicorn
 
     load_env()
-    uvicorn.run(app, host=os.environ.get("CHRONICLE_HOST", "127.0.0.1"),
-                port=int(os.environ.get("CHRONICLE_PORT", "8000")))
+    host, port = bind_address()
+    uvicorn.run(app, host=host, port=port)

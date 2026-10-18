@@ -5,7 +5,7 @@ PY ?= .venv/bin/python
 setup:
 	python3.12 -m venv .venv
 	$(PY) -m pip install -q -e ".[dev]"
-	[ -f .env ] || cp .env.example .env
+	[ -f .env ] || (umask 077 && cp .env.example .env)
 
 data:
 	$(PY) -m chronicle.gen
